@@ -28,10 +28,30 @@ DEFAULT_LITE_MIN_REPO_AGREEMENT = 3
 DEFAULT_HEALTH_TIMEOUT_SECONDS = 6.0
 DEFAULT_HEALTH_MAX_WORKERS = 16
 DEFAULT_HEALTH_ATTEMPTS = 3
+DEFAULT_HEALTH_SEARCH_KEYWORDS = ("斗罗", "仙逆")
+DEFAULT_HEALTH_ADULT_SEARCH_KEYWORDS = ("斗罗", "无码")
 HEALTH_HISTORY_LIMIT = 14
-HEALTH_RESPONSE_BYTES = 65536
 README_HEALTH_START = "<!-- API_HEALTH_REPORT_START -->"
 README_HEALTH_END = "<!-- API_HEALTH_REPORT_END -->"
+HEALTH_REQUEST_HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+        "(KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+    ),
+    "Accept": "application/json",
+}
+HEALTH_VALIDATION_ORDER = {"invalid": 0, "no_results": 1, "valid": 2}
+SEARCH_UNSUPPORTED_PATTERNS = (
+    "暂不支持搜索",
+    "不支持搜索",
+    "搜索功能关闭",
+    "search not support",
+    "not support search",
+)
+PLAYABLE_MEDIA_URL_PATTERN = re.compile(
+    r"https?://[^\"'\s]+(?:\.m3u8|/index\.m3u8|\.mp4|\.flv|\.ts|\.mkv|\.avi)[^\"'\s]*",
+    re.IGNORECASE,
+)
 OUTPUT_FILES = {
     "lite": ("lite.json", "lite.txt"),
     "lite_plus18": ("lite-plus18.json", "lite-plus18.txt"),
@@ -142,8 +162,11 @@ class HealthCheckResult:
     config_type: str
     checked_url: str
     ok: bool
+    validation_status: str
+    matched_keyword: str
     status_code: int | None
     latency_ms: int | None
+    result_count: int
     response_bytes: int
     signature: str
     error: str
@@ -186,6 +209,24 @@ def parse_args() -> argparse.Namespace:
         default=DEFAULT_HEALTH_ATTEMPTS,
         type=int,
         help="Attempts per probe URL during a single health-check round.",
+    )
+    parser.add_argument(
+        "--health-search-keyword",
+        action="append",
+        default=[],
+        help=(
+            "Repeatable MoonTVPlus-style search keyword for regular-source validation. "
+            f"Defaults to: {', '.join(DEFAULT_HEALTH_SEARCH_KEYWORDS)}."
+        ),
+    )
+    parser.add_argument(
+        "--health-adult-search-keyword",
+        action="append",
+        default=[],
+        help=(
+            "Repeatable MoonTVPlus-style search keyword for adult-source validation. "
+            f"Defaults to: {', '.join(DEFAULT_HEALTH_ADULT_SEARCH_KEYWORDS)}."
+        ),
     )
     parser.add_argument(
         "--skip-health-report",
@@ -702,76 +743,126 @@ def load_optional_json(path: Path) -> dict[str, Any]:
     return payload if isinstance(payload, dict) else {}
 
 
-def build_probe_urls(api: str) -> list[str]:
-    parsed = urlsplit(api)
-    params = parse_qsl(parsed.query, keep_blank_values=True)
-    urls: list[str] = []
-    if not any(key.lower() == "ac" for key, _ in params):
-        probe_query = urlencode([*params, ("ac", "list")], doseq=True)
-        urls.append(urlunsplit((parsed.scheme, parsed.netloc, parsed.path, probe_query, "")))
-    urls.append(api)
-
-    unique_urls: list[str] = []
+def normalize_keyword_list(values: list[str], defaults: tuple[str, ...]) -> list[str]:
+    keywords: list[str] = []
     seen: set[str] = set()
-    for url in urls:
+    candidates = values or list(defaults)
+    for value in candidates:
+        for token in re.split(r"[,\n]", value):
+            keyword = token.strip()
+            if not keyword or keyword in seen:
+                continue
+            seen.add(keyword)
+            keywords.append(keyword)
+    return keywords or list(defaults)
+
+
+def build_probe_targets(api: str, keywords: list[str]) -> list[tuple[str, str]]:
+    parsed = urlsplit(api)
+    params = [
+        (key, value)
+        for key, value in parse_qsl(parsed.query, keep_blank_values=True)
+        if key.lower() not in {"ac", "wd", "pg"}
+    ]
+    targets: list[tuple[str, str]] = []
+    seen: set[str] = set()
+    for keyword in keywords:
+        probe_query = urlencode([*params, ("ac", "videolist"), ("wd", keyword)], doseq=True)
+        url = urlunsplit((parsed.scheme, parsed.netloc, parsed.path, probe_query, ""))
         if url in seen:
             continue
         seen.add(url)
-        unique_urls.append(url)
-    return unique_urls
+        targets.append((url, keyword))
+    return targets
 
 
-def classify_response(body: bytes, content_type: str) -> str:
-    if not body:
-        return "empty"
-    text = body[:4096].decode("utf-8", errors="ignore").lower().strip()
-    content_type = content_type.lower()
-    if "json" in content_type or text.startswith("{") or text.startswith("["):
-        return "json"
-    if "xml" in content_type or "<rss" in text or "<?xml" in text or "<list>" in text:
-        return "xml"
-    if "<html" in text or "<!doctype html" in text:
-        return "html"
-    if any(token in text for token in ["vod_name", "type_name", "\"class\"", "\"list\"", "maccms"]):
-        return "api"
-    return "text"
+def build_api_probe_url(api: str, extra_params: list[tuple[str, str]]) -> str:
+    parsed = urlsplit(api)
+    params = [
+        (key, value)
+        for key, value in parse_qsl(parsed.query, keep_blank_values=True)
+        if key.lower() not in {"ac", "wd", "pg", "ids", "t"}
+    ]
+    query = urlencode([*params, *extra_params], doseq=True)
+    return urlunsplit((parsed.scheme, parsed.netloc, parsed.path, query, ""))
 
 
-def probe_url(url: str, timeout_seconds: float) -> dict[str, Any]:
-    request = Request(
-        url,
-        headers={
-            "User-Agent": "Mozilla/5.0 (compatible; MoonTVAggregator/1.0; +https://github.com)",
-            "Accept": "application/json, text/xml, application/xml, */*",
-        },
-    )
+def parse_json_body(body: bytes) -> Any | None:
+    try:
+        return json.loads(body.decode("utf-8-sig", errors="ignore"))
+    except json.JSONDecodeError:
+        return None
+
+
+def extract_json_list(payload: Any) -> list[dict[str, Any]]:
+    if not isinstance(payload, dict):
+        return []
+    items = payload.get("list")
+    if not isinstance(items, list):
+        return []
+    return [item for item in items if isinstance(item, dict)]
+
+
+def extract_class_ids(payload: Any) -> list[str]:
+    if not isinstance(payload, dict):
+        return []
+    classes = payload.get("class")
+    if not isinstance(classes, list):
+        return []
+    class_ids: list[str] = []
+    for item in classes:
+        if not isinstance(item, dict):
+            continue
+        class_id = str(item.get("type_id") or "").strip()
+        if class_id:
+            class_ids.append(class_id)
+    return class_ids
+
+
+def count_playable_urls(item: dict[str, Any]) -> int:
+    play_url = str(item.get("vod_play_url") or "").strip()
+    playable_count = 0
+    if play_url:
+        for group in play_url.split("$$$"):
+            for episode in group.split("#"):
+                chunk = episode.strip()
+                if not chunk:
+                    continue
+                parts = chunk.split("$", 1)
+                url = parts[1].strip() if len(parts) == 2 else parts[0].strip()
+                if url.startswith(("http://", "https://")):
+                    playable_count += 1
+    if playable_count:
+        return playable_count
+    content = str(item.get("vod_content") or "")
+    return len(PLAYABLE_MEDIA_URL_PATTERN.findall(content))
+
+
+def fetch_probe_response(url: str, timeout_seconds: float) -> dict[str, Any]:
+    request = Request(url, headers=HEALTH_REQUEST_HEADERS)
     started_at = perf_counter()
     try:
         with urlopen(request, timeout=timeout_seconds) as response:
-            body = response.read(HEALTH_RESPONSE_BYTES)
+            body = response.read()
             latency_ms = int((perf_counter() - started_at) * 1000)
             status_code = getattr(response, "status", response.getcode())
-            signature = classify_response(body, response.headers.get("Content-Type", ""))
-            ok = 200 <= status_code < 300 and signature not in {"empty", "html"}
             return {
                 "checked_url": url,
-                "ok": ok,
                 "status_code": status_code,
                 "latency_ms": latency_ms,
                 "response_bytes": len(body),
-                "signature": signature,
+                "body": body,
                 "error": "",
             }
     except HTTPError as error:
-        body = error.read(HEALTH_RESPONSE_BYTES)
+        body = error.read()
         latency_ms = int((perf_counter() - started_at) * 1000)
         return {
             "checked_url": url,
-            "ok": False,
             "status_code": error.code,
             "latency_ms": latency_ms,
             "response_bytes": len(body),
-            "signature": classify_response(body, error.headers.get("Content-Type", "") if error.headers else ""),
+            "body": body,
             "error": f"HTTP {error.code}",
         }
     except URLError as error:
@@ -779,52 +870,229 @@ def probe_url(url: str, timeout_seconds: float) -> dict[str, Any]:
         reason = getattr(error, "reason", error)
         return {
             "checked_url": url,
-            "ok": False,
             "status_code": None,
             "latency_ms": latency_ms,
             "response_bytes": 0,
-            "signature": "network-error",
+            "body": b"",
             "error": str(reason),
         }
     except Exception as error:  # noqa: BLE001
         latency_ms = int((perf_counter() - started_at) * 1000)
         return {
             "checked_url": url,
-            "ok": False,
             "status_code": None,
             "latency_ms": latency_ms,
             "response_bytes": 0,
-            "signature": "error",
+            "body": b"",
             "error": str(error),
         }
 
 
-def probe_site(record: SiteRecord, timeout_seconds: float, config_type: str, max_attempts: int) -> HealthCheckResult:
+def evaluate_search_response(body: bytes, keyword: str) -> dict[str, Any]:
+    text = body.decode("utf-8", errors="ignore").strip()
+    lowered = text.lower()
+    if any(pattern in text for pattern in SEARCH_UNSUPPORTED_PATTERNS) or any(
+        pattern in lowered for pattern in SEARCH_UNSUPPORTED_PATTERNS
+    ):
+        return {
+            "ok": False,
+            "validation_status": "invalid",
+            "result_count": 0,
+            "signature": "search-unsupported",
+            "error": "",
+        }
+
+    try:
+        payload = json.loads(body.decode("utf-8-sig", errors="ignore"))
+    except json.JSONDecodeError:
+        return {
+            "ok": False,
+            "validation_status": "invalid",
+            "result_count": 0,
+            "signature": "invalid-json",
+            "error": "",
+        }
+
+    items = payload.get("list") if isinstance(payload, dict) else None
+    if not isinstance(items, list) or not items:
+        return {
+            "ok": False,
+            "validation_status": "no_results",
+            "result_count": len(items) if isinstance(items, list) else 0,
+            "signature": "empty-list",
+            "error": "",
+        }
+
+    keyword_lower = keyword.lower()
+    if any(keyword_lower in str(item.get("vod_name") or "").lower() for item in items if isinstance(item, dict)):
+        return {
+            "ok": True,
+            "validation_status": "valid",
+            "result_count": len(items),
+            "signature": "search-hit",
+            "error": "",
+        }
+
+    return {
+        "ok": False,
+        "validation_status": "no_results",
+        "result_count": len(items),
+        "signature": "title-mismatch",
+        "error": "",
+    }
+
+
+def probe_rank(candidate: dict[str, Any]) -> tuple[int, int, int, int]:
+    return (
+        HEALTH_VALIDATION_ORDER.get(str(candidate.get("validation_status")), -1),
+        1 if candidate.get("status_code") and 200 <= int(candidate["status_code"]) < 300 else 0,
+        int(candidate.get("result_count") or 0),
+        -(candidate.get("latency_ms") or 999999),
+    )
+
+
+def probe_url(url: str, keyword: str, timeout_seconds: float) -> dict[str, Any]:
+    response = fetch_probe_response(url, timeout_seconds)
+    status_code = response["status_code"]
+    if status_code is None or not 200 <= status_code < 300:
+        return {
+            "checked_url": url,
+            "ok": False,
+            "validation_status": "invalid",
+            "matched_keyword": keyword,
+            "status_code": status_code,
+            "latency_ms": response["latency_ms"],
+            "result_count": 0,
+            "response_bytes": response["response_bytes"],
+            "signature": "http-error" if status_code is not None else "network-error",
+            "error": str(response["error"]),
+        }
+    evaluation = evaluate_search_response(response["body"], keyword)
+    return {
+        "checked_url": url,
+        "ok": bool(evaluation["ok"]),
+        "validation_status": str(evaluation["validation_status"]),
+        "matched_keyword": keyword,
+        "status_code": status_code,
+        "latency_ms": response["latency_ms"],
+        "result_count": int(evaluation["result_count"]),
+        "response_bytes": response["response_bytes"],
+        "signature": str(evaluation["signature"]),
+        "error": str(evaluation["error"]),
+    }
+
+
+def resolve_playable_item(api: str, items: list[dict[str, Any]], timeout_seconds: float) -> dict[str, Any] | None:
+    for item in items:
+        playable_count = count_playable_urls(item)
+        if playable_count > 0:
+            return {
+                "checked_url": "",
+                "ok": True,
+                "validation_status": "valid",
+                "matched_keyword": "",
+                "status_code": 200,
+                "latency_ms": 0,
+                "result_count": playable_count,
+                "response_bytes": 0,
+                "signature": "playable-fallback-list",
+                "error": "",
+            }
+
+    for item in items:
+        vod_id = str(item.get("vod_id") or "").strip()
+        if not vod_id:
+            continue
+        detail_url = build_api_probe_url(api, [("ac", "videolist"), ("ids", vod_id)])
+        detail_response = fetch_probe_response(detail_url, timeout_seconds)
+        status_code = detail_response["status_code"]
+        if status_code is None or not 200 <= status_code < 300:
+            continue
+        payload = parse_json_body(detail_response["body"])
+        detail_items = extract_json_list(payload)
+        if not detail_items:
+            continue
+        playable_count = count_playable_urls(detail_items[0])
+        if playable_count <= 0:
+            continue
+        return {
+            "checked_url": detail_url,
+            "ok": True,
+            "validation_status": "valid",
+            "matched_keyword": "",
+            "status_code": status_code,
+            "latency_ms": detail_response["latency_ms"],
+            "result_count": playable_count,
+            "response_bytes": detail_response["response_bytes"],
+            "signature": "playable-fallback-detail",
+            "error": "",
+        }
+
+    return None
+
+
+def probe_playable_fallback(api: str, timeout_seconds: float) -> dict[str, Any] | None:
+    fallback_url = build_api_probe_url(api, [("ac", "videolist"), ("pg", "1")])
+    fallback_response = fetch_probe_response(fallback_url, timeout_seconds)
+    status_code = fallback_response["status_code"]
+    if status_code is not None and 200 <= status_code < 300:
+        payload = parse_json_body(fallback_response["body"])
+        items = extract_json_list(payload)
+        resolved = resolve_playable_item(api, items, timeout_seconds)
+        if resolved:
+            resolved["checked_url"] = resolved["checked_url"] or fallback_url
+            resolved["latency_ms"] = (resolved["latency_ms"] or 0) + (fallback_response["latency_ms"] or 0)
+            resolved["response_bytes"] = max(int(resolved["response_bytes"]), fallback_response["response_bytes"])
+            return resolved
+
+    class_url = build_api_probe_url(api, [("ac", "list")])
+    class_response = fetch_probe_response(class_url, timeout_seconds)
+    status_code = class_response["status_code"]
+    if status_code is None or not 200 <= status_code < 300:
+        return None
+    payload = parse_json_body(class_response["body"])
+    class_ids = extract_class_ids(payload)
+    for class_id in class_ids[:3]:
+        category_url = build_api_probe_url(api, [("ac", "videolist"), ("t", class_id), ("pg", "1")])
+        category_response = fetch_probe_response(category_url, timeout_seconds)
+        status_code = category_response["status_code"]
+        if status_code is None or not 200 <= status_code < 300:
+            continue
+        payload = parse_json_body(category_response["body"])
+        items = extract_json_list(payload)
+        resolved = resolve_playable_item(api, items, timeout_seconds)
+        if resolved:
+            resolved["checked_url"] = resolved["checked_url"] or category_url
+            resolved["latency_ms"] = (resolved["latency_ms"] or 0) + (category_response["latency_ms"] or 0)
+            resolved["response_bytes"] = max(int(resolved["response_bytes"]), category_response["response_bytes"])
+            return resolved
+    return None
+
+
+def probe_site(
+    record: SiteRecord,
+    timeout_seconds: float,
+    config_type: str,
+    max_attempts: int,
+    search_keywords: list[str],
+    adult_search_keywords: list[str],
+) -> HealthCheckResult:
+    keywords = adult_search_keywords if record.adult else search_keywords
     best_result: dict[str, Any] | None = None
-    for url in build_probe_urls(record.api):
+    for url, keyword in build_probe_targets(record.api, keywords):
         for _ in range(max(1, max_attempts)):
-            candidate = probe_url(url, timeout_seconds)
-            if best_result is None:
+            candidate = probe_url(url, keyword, timeout_seconds)
+            if best_result is None or probe_rank(candidate) > probe_rank(best_result):
                 best_result = candidate
-            else:
-                current_rank = (
-                    1 if candidate["ok"] else 0,
-                    candidate["status_code"] or 0,
-                    -len(candidate["error"]),
-                    -(candidate["latency_ms"] or 999999),
-                )
-                best_rank = (
-                    1 if best_result["ok"] else 0,
-                    best_result["status_code"] or 0,
-                    -len(best_result["error"]),
-                    -(best_result["latency_ms"] or 999999),
-                )
-                if current_rank > best_rank:
-                    best_result = candidate
             if candidate["ok"]:
                 break
         if best_result and best_result["ok"]:
             break
+
+    if best_result is None or not best_result["ok"]:
+        fallback_candidate = probe_playable_fallback(record.api, timeout_seconds)
+        if fallback_candidate and (best_result is None or probe_rank(fallback_candidate) > probe_rank(best_result)):
+            best_result = fallback_candidate
 
     assert best_result is not None
     return HealthCheckResult(
@@ -835,8 +1103,11 @@ def probe_site(record: SiteRecord, timeout_seconds: float, config_type: str, max
         config_type=config_type,
         checked_url=best_result["checked_url"],
         ok=bool(best_result["ok"]),
+        validation_status=str(best_result["validation_status"]),
+        matched_keyword=str(best_result["matched_keyword"]),
         status_code=best_result["status_code"],
         latency_ms=best_result["latency_ms"],
+        result_count=int(best_result["result_count"]),
         response_bytes=int(best_result["response_bytes"]),
         signature=str(best_result["signature"]),
         error=str(best_result["error"]),
@@ -849,6 +1120,8 @@ def run_health_checks(
     max_workers: int,
     lite_min_repo_agreement: int,
     max_attempts: int,
+    search_keywords: list[str],
+    adult_search_keywords: list[str],
 ) -> list[HealthCheckResult]:
     if not records:
         return []
@@ -863,6 +1136,8 @@ def run_health_checks(
                 timeout_seconds,
                 classify_config_type(record, lite_min_repo_agreement),
                 max_attempts,
+                search_keywords,
+                adult_search_keywords,
             ): record.api
             for record in records
         }
@@ -892,8 +1167,11 @@ def update_health_history(history_path: Path, results: list[HealthCheckResult], 
             {
                 "timestamp": generated_at,
                 "ok": result.ok,
+                "validation_status": result.validation_status,
                 "status_code": result.status_code,
                 "latency_ms": result.latency_ms,
+                "matched_keyword": result.matched_keyword,
+                "result_count": result.result_count,
                 "response_bytes": result.response_bytes,
                 "signature": result.signature,
                 "error": result.error,
@@ -996,6 +1274,23 @@ def summarize_history(history_payload: dict[str, Any], results: list[HealthCheck
         if evaluation["output_enabled"]:
             enabled_count += 1
 
+        if current.signature in {"playable-fallback-list", "playable-fallback-detail"}:
+            result_text = f"{current.status_code or 200} / {current.signature} / {current.result_count} playable links"
+        elif current.validation_status == "valid":
+            result_text = f"{current.status_code or 200} / valid / wd={current.matched_keyword} / {current.result_count} results"
+        elif current.validation_status == "no_results":
+            result_text = (
+                f"{current.status_code or 200} / {current.signature} / "
+                f"wd={current.matched_keyword} / {current.result_count} results"
+            )
+        elif current.status_code is not None:
+            if current.status_code >= 400:
+                result_text = f"HTTP {current.status_code} / wd={current.matched_keyword}"
+            else:
+                result_text = f"{current.status_code} / {current.signature} / wd={current.matched_keyword}"
+        else:
+            result_text = current.error or current.signature
+
         rows.append(
             {
                 "status": evaluation["status"],
@@ -1004,11 +1299,11 @@ def summarize_history(history_payload: dict[str, Any], results: list[HealthCheck
                 "type": str(entry.get("config_type", current.config_type)),
                 "name": entry.get("name", current.name),
                 "api": api,
-                "result": (
-                    f"{current.status_code} / {current.signature}"
-                    if current.status_code is not None
-                    else (current.error or current.signature)
-                ),
+                "checked_url": current.checked_url,
+                "validation_status": current.validation_status,
+                "matched_keyword": current.matched_keyword,
+                "result_count": current.result_count,
+                "result": result_text,
                 "latency_ms": current.latency_ms,
                 "success_count": evaluation["success_count"],
                 "failure_count": evaluation["failure_count"],
@@ -1049,13 +1344,18 @@ def summarize_history(history_payload: dict[str, Any], results: list[HealthCheck
 
 def render_health_report_markdown_localized(summary: dict[str, Any], rows: list[dict[str, Any]], language: str) -> str:
     is_zh = language.lower().startswith("zh")
+    search_keywords = " / ".join(summary.get("search_keywords", [])) or "—"
+    adult_search_keywords = " / ".join(summary.get("adult_search_keywords", [])) or "—"
     if is_zh:
         lines = [
             f"### API 状态（最近更新：{format_report_timestamp(summary['generated_at'])}）",
             "",
             "- 检测范围：全部聚合源",
             "- 输出规则：连续三轮检测失败的源会从所有输出文件中剔除",
-            "- 检测方式：单轮内会多次探测，避免因瞬时网络问题误杀",
+            "- 检测方式：优先采用 MoonTVPlus 同款搜索校验（`ac=videolist&wd=关键词`），若源不支持搜索但默认列表/详情可提取播放地址，仍视为有效",
+            f"- 普通源关键词：{search_keywords}",
+            f"- 成人源关键词：{adult_search_keywords}",
+            "- 重试策略：按关键词顺序尝试，单个关键词可重试多次，降低瞬时误判",
             f"- API 数量：{summary['enabled_apis']}/{summary['total_apis']}",
             "",
             "<details>",
@@ -1070,7 +1370,10 @@ def render_health_report_markdown_localized(summary: dict[str, Any], rows: list[
             "",
             "- Scope: all aggregated APIs",
             "- Output rule: sources failing 3 consecutive rounds are removed from all output files",
-            "- Probe mode: each round retries multiple times to reduce false negatives from transient network issues",
+            "- Validation mode: MoonTVPlus-style search checks run first, but search-disabled sources are still kept when listing/detail endpoints expose playable URLs",
+            f"- Safe-source keywords: {search_keywords}",
+            f"- Adult-source keywords: {adult_search_keywords}",
+            "- Retry mode: keywords are tried in order and each request may be retried to reduce transient false negatives",
             f"- API Count: {summary['enabled_apis']}/{summary['total_apis']}",
             "",
             "<details>",
@@ -1154,6 +1457,14 @@ def main() -> int:
     if not sources:
         print("No sources configured.", file=sys.stderr)
         return 1
+    health_search_keywords = normalize_keyword_list(
+        list(args.health_search_keyword),
+        DEFAULT_HEALTH_SEARCH_KEYWORDS,
+    )
+    health_adult_search_keywords = normalize_keyword_list(
+        list(args.health_adult_search_keyword),
+        DEFAULT_HEALTH_ADULT_SEARCH_KEYWORDS,
+    )
 
     selected_sources: list[SelectedSource] = []
     errors: list[dict[str, str]] = []
@@ -1185,11 +1496,16 @@ def main() -> int:
             max_workers=max(1, args.health_workers),
             lite_min_repo_agreement=lite_min_repo_agreement,
             max_attempts=max(1, args.health_attempts),
+            search_keywords=health_search_keywords,
+            adult_search_keywords=health_adult_search_keywords,
         )
         generated_at = datetime.now(timezone.utc).isoformat()
         history_payload = update_health_history(health_history_path, health_results, generated_at)
         health_policy = build_health_policy(history_payload)
         health_summary, health_rows = summarize_history(history_payload, health_results)
+        health_summary["validation_mode"] = "moontvplus-search"
+        health_summary["search_keywords"] = health_search_keywords
+        health_summary["adult_search_keywords"] = health_adult_search_keywords
         health_report_payload = {
             "generated_at": generated_at,
             "summary": health_summary,

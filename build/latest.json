@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-06T04:38:56.307919+00:00",
+  "generated_at": "2026-03-06T10:10:33.890110+00:00",
   "summary": {
     "source_repositories": 5,
     "unique_api_sites": 145,
@@ -804,15 +804,24 @@
   ],
   "errors": [],
   "health": {
-    "generated_at": "2026-03-06T04:38:55.611143+00:00",
+    "generated_at": "2026-03-06T10:10:33.204701+00:00",
     "target_file": "full-plus18.json",
     "total_apis": 145,
-    "current_success": 123,
-    "current_failure": 22,
+    "current_success": 113,
+    "current_failure": 32,
     "enabled_apis": 124,
-    "healthy_apis": 110,
-    "subhealthy_apis": 14,
+    "healthy_apis": 77,
+    "subhealthy_apis": 47,
     "unhealthy_apis": 21,
-    "average_availability_rate": 0.8267241379310345
+    "average_availability_rate": 0.800689655172414,
+    "validation_mode": "moontvplus-search",
+    "search_keywords": [
+      "斗罗",
+      "仙逆"
+    ],
+    "adult_search_keywords": [
+      "斗罗",
+      "无码"
+    ]
   }
 }
