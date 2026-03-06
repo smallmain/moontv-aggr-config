@@ -58,8 +58,10 @@ jobs:
         env:
           DEPLOY_PROTOCOL_VAR: ${{ vars.DEPLOY_PROTOCOL }}
           DEPLOY_PROTOCOL_SECRET: ${{ secrets.DEPLOY_PROTOCOL }}
-          DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
-          DEPLOY_PORT: ${{ secrets.DEPLOY_PORT }}
+          DEPLOY_HOST_VAR: ${{ vars.DEPLOY_HOST }}
+          DEPLOY_HOST_SECRET: ${{ secrets.DEPLOY_HOST }}
+          DEPLOY_PORT_VAR: ${{ vars.DEPLOY_PORT }}
+          DEPLOY_PORT_SECRET: ${{ secrets.DEPLOY_PORT }}
         run: |
           set -eu
           protocol="${DEPLOY_PROTOCOL_VAR:-${DEPLOY_PROTOCOL_SECRET:-sftp}}"
@@ -67,8 +69,9 @@ jobs:
           if [ "$protocol" != "sftp" ]; then
             exit 0
           fi
-          host="${DEPLOY_HOST:?DEPLOY_HOST is required}"
-          port="${DEPLOY_PORT:-22}"
+          host="${DEPLOY_HOST_VAR:-${DEPLOY_HOST_SECRET:-}}"
+          port="${DEPLOY_PORT_VAR:-${DEPLOY_PORT_SECRET:-22}}"
+          : "${host:?DEPLOY_HOST is required}"
           ssh-keyscan -p "$port" "$host" >> ~/.ssh/known_hosts
           chmod 644 ~/.ssh/known_hosts
 
@@ -76,22 +79,30 @@ jobs:
         env:
           DEPLOY_PROTOCOL_VAR: ${{ vars.DEPLOY_PROTOCOL }}
           DEPLOY_PROTOCOL_SECRET: ${{ secrets.DEPLOY_PROTOCOL }}
-          DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
-          DEPLOY_PORT: ${{ secrets.DEPLOY_PORT }}
-          DEPLOY_USERNAME: ${{ secrets.DEPLOY_USERNAME }}
+          DEPLOY_HOST_VAR: ${{ vars.DEPLOY_HOST }}
+          DEPLOY_HOST_SECRET: ${{ secrets.DEPLOY_HOST }}
+          DEPLOY_PORT_VAR: ${{ vars.DEPLOY_PORT }}
+          DEPLOY_PORT_SECRET: ${{ secrets.DEPLOY_PORT }}
+          DEPLOY_USERNAME_VAR: ${{ vars.DEPLOY_USERNAME }}
+          DEPLOY_USERNAME_SECRET: ${{ secrets.DEPLOY_USERNAME }}
           DEPLOY_PASSWORD: ${{ secrets.DEPLOY_PASSWORD }}
           DEPLOY_PRIVATE_KEY: ${{ secrets.DEPLOY_PRIVATE_KEY }}
-          DEPLOY_REMOTE_DIR: ${{ secrets.DEPLOY_REMOTE_DIR }}
+          DEPLOY_REMOTE_DIR_VAR: ${{ vars.DEPLOY_REMOTE_DIR }}
+          DEPLOY_REMOTE_DIR_SECRET: ${{ secrets.DEPLOY_REMOTE_DIR }}
         run: |
           set -eu
           protocol="${DEPLOY_PROTOCOL_VAR:-${DEPLOY_PROTOCOL_SECRET:-sftp}}"
           protocol="${protocol,,}"
-          host="${DEPLOY_HOST:?DEPLOY_HOST is required}"
-          port="${DEPLOY_PORT:-}"
-          username="${DEPLOY_USERNAME:?DEPLOY_USERNAME is required}"
+          host="${DEPLOY_HOST_VAR:-${DEPLOY_HOST_SECRET:-}}"
+          port="${DEPLOY_PORT_VAR:-${DEPLOY_PORT_SECRET:-}}"
+          username="${DEPLOY_USERNAME_VAR:-${DEPLOY_USERNAME_SECRET:-}}"
           password="${DEPLOY_PASSWORD:-}"
           private_key="${DEPLOY_PRIVATE_KEY:-}"
-          remote_dir="${DEPLOY_REMOTE_DIR:?DEPLOY_REMOTE_DIR is required}"
+          remote_dir="${DEPLOY_REMOTE_DIR_VAR:-${DEPLOY_REMOTE_DIR_SECRET:-}}"
+
+          : "${host:?DEPLOY_HOST is required}"
+          : "${username:?DEPLOY_USERNAME is required}"
+          : "${remote_dir:?DEPLOY_REMOTE_DIR is required}"
 
           case "$protocol" in
             sftp|ftps|ftp)

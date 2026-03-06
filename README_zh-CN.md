@@ -109,15 +109,17 @@ python3 scripts/aggregate_configs.py --skip-health-report
 推荐配置仓库变量：
 
 - `DEPLOY_PROTOCOL`：`sftp`、`ftps` 或 `ftp`，默认是 `sftp`
-
-需要配置这些 GitHub Secrets：
-
 - `DEPLOY_HOST`
 - `DEPLOY_PORT`
 - `DEPLOY_USERNAME`
 - `DEPLOY_REMOTE_DIR`
+
+需要配置这些 GitHub Secrets：
+
 - `DEPLOY_PASSWORD`：用于密码登录的 `sftp`、`ftps`、`ftp`
 - `DEPLOY_PRIVATE_KEY`：用于基于密钥的 `sftp`
+
+`DEPLOY_HOST`、`DEPLOY_PORT`、`DEPLOY_USERNAME`、`DEPLOY_REMOTE_DIR` 可以放在仓库变量或 Secrets 中。
 
 ## 订阅链接
 

@@ -109,15 +109,17 @@ Two workflows are included:
 Recommended repository variable:
 
 - `DEPLOY_PROTOCOL`: `sftp`, `ftps`, or `ftp` (defaults to `sftp`)
-
-Required GitHub secrets:
-
 - `DEPLOY_HOST`
 - `DEPLOY_PORT`
 - `DEPLOY_USERNAME`
 - `DEPLOY_REMOTE_DIR`
+
+Required GitHub secrets:
+
 - `DEPLOY_PASSWORD` for password-based `sftp`, `ftps`, or `ftp`
 - `DEPLOY_PRIVATE_KEY` for key-based `sftp`
+
+`DEPLOY_HOST`, `DEPLOY_PORT`, `DEPLOY_USERNAME`, and `DEPLOY_REMOTE_DIR` can be configured in either repository variables or secrets.
 
 ## Subscription URLs
 
