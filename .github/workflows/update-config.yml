@@ -33,18 +33,18 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add \
+            README.md \
+            README_zh-CN.md \
             build/latest.json \
+            build/health-history.json \
+            build/health-report.json \
             lite.json lite.txt \
             lite-plus18.json lite-plus18.txt \
             full.json full.txt \
-            full-plus18.json full-plus18.txt \
-            jin18.json jin18.txt \
-            jingjian.json jingjian.txt \
-            LunaTV-config.json LunaTV-config.txt
+            full-plus18.json full-plus18.txt
           if git diff --cached --quiet; then
             echo "No config changes detected."
             exit 0
           fi
           git commit -m "chore: refresh aggregated configs"
           git push
-

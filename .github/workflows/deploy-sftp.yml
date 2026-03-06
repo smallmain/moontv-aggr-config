@@ -15,12 +15,6 @@ on:
       - "full.txt"
       - "full-plus18.json"
       - "full-plus18.txt"
-      - "jin18.json"
-      - "jin18.txt"
-      - "jingjian.json"
-      - "jingjian.txt"
-      - "LunaTV-config.json"
-      - "LunaTV-config.txt"
 
 permissions:
   contents: read
@@ -98,10 +92,7 @@ jobs:
             lite.json lite.txt \
             lite-plus18.json lite-plus18.txt \
             full.json full.txt \
-            full-plus18.json full-plus18.txt \
-            jin18.json jin18.txt \
-            jingjian.json jingjian.txt \
-            LunaTV-config.json LunaTV-config.txt; do
+            full-plus18.json full-plus18.txt; do
             printf -- "put %s %s/%s\n" "$file" "$remote_dir" "$(basename "$file")" >> "$batch_file"
           done
 

@@ -2,42 +2,42 @@
 
 # MoonTV Aggregator Config
 
-Automatically aggregates multiple MoonTV/LunaTV config repositories into one continuously updated config set.
+自动聚合多个 MoonTV/LunaTV 配置仓库，生成一套持续更新的统一配置。
 
-This repository does more than mirror upstream files:
+这个仓库不只是简单转存上游文件，还会做这些事：
 
-- clones and scans multiple upstream repositories
-- detects the most likely primary config file instead of assuming one fixed path
-- normalizes `api`, `name`, and `detail`
-- unwraps proxy-style URLs such as `?url=...` back to the real API endpoint
-- deduplicates and ranks entries by cross-repo consensus
-- outputs four config variants
-- runs API health checks and writes the latest report back into both README files
+- 自动克隆并扫描多个上游仓库
+- 自动识别最可能的主配置文件，而不是假设固定路径
+- 统一清洗 `api`、`name`、`detail`
+- 将 `?url=...` 这类代理包装地址还原为真实 API
+- 按跨仓库共识度去重并排序
+- 输出四种配置变体
+- 自动执行 API 健康检测，并把最新报告写回两份 README
 
-## Output Files
+## 输出文件
 
-Each build generates:
+每次构建会生成：
 
 - `lite.json` / `lite.txt`
-  Safe-only sources with a higher cross-repo consensus threshold.
+  仅普通源，且采用更高的跨仓库共识阈值。
 - `lite-plus18.json` / `lite-plus18.txt`
-  Lite set including adult sources.
+  精简版，包含成人源。
 - `full.json` / `full.txt`
-  Full safe-only set.
+  完整版，仅普通源。
 - `full-plus18.json` / `full-plus18.txt`
-  Full set including adult sources.
+  完整版，包含成人源。
 
-`*.txt` files are Base58-encoded versions of the corresponding JSON payloads.
+`*.txt` 文件是对应 JSON 的 Base58 编码版本。
 
-Build metadata is written to [latest.json](/Users/smallmain/Documents/Work/moontv-aggr-config/build/latest.json), and API health data is written to [health-report.json](/Users/smallmain/Documents/Work/moontv-aggr-config/build/health-report.json) and [health-history.json](/Users/smallmain/Documents/Work/moontv-aggr-config/build/health-history.json).
+构建元数据会写入 [latest.json](/Users/smallmain/Documents/Work/moontv-aggr-config/build/latest.json)，API 健康数据会写入 [health-report.json](/Users/smallmain/Documents/Work/moontv-aggr-config/build/health-report.json) 和 [health-history.json](/Users/smallmain/Documents/Work/moontv-aggr-config/build/health-history.json)。
 
-## Local Usage
+## 本地使用
 
 ```bash
 python3 scripts/aggregate_configs.py
 ```
 
-Useful options:
+常用参数：
 
 ```bash
 python3 scripts/aggregate_configs.py \
@@ -45,23 +45,23 @@ python3 scripts/aggregate_configs.py \
   --report-path build/latest.json
 ```
 
-Skip API health checks and only rebuild config files:
+如果只想重建配置，不跑 API 健康检测：
 
 ```bash
 python3 scripts/aggregate_configs.py --skip-health-report
 ```
 
-## Upstream Sources
+## 上游仓库配置
 
-Edit [sources.json](/Users/smallmain/Documents/Work/moontv-aggr-config/config/sources.json) to change upstream repositories.
+编辑 [sources.json](/Users/smallmain/Documents/Work/moontv-aggr-config/config/sources.json) 即可调整上游仓库。
 
-Supported fields:
+支持的字段：
 
-- `repo`: `https://github.com/owner/repo`, `https://github.com/owner/repo.git`, or a local directory path
-- `ref`: optional branch or tag
-- `preferred_files`: optional hints for unusual repository layouts
+- `repo`：`https://github.com/owner/repo`、`https://github.com/owner/repo.git`，或本地目录路径
+- `ref`：可选，指定分支或标签
+- `preferred_files`：可选，用于处理特殊仓库结构的优先文件提示
 
-The current default upstream set is:
+当前默认上游为：
 
 - `hafrey1/LunaTV-config`
 - `qianqikun/LunaTV-config`
@@ -69,44 +69,44 @@ The current default upstream set is:
 - `oooopera/moontv_config`
 - `heardic/shipinyuan`
 
-## How It Works
+## 工作原理
 
-The aggregator follows this pipeline:
+聚合流程如下：
 
-1. Scan `.json` and Base58 `.txt` files in each upstream repository.
-2. Detect candidate files that contain `api_site`.
-3. Score candidates by filename, depth, and site count.
-4. Select the most likely primary config file.
-5. Normalize API URLs by removing proxy wrappers, trimming noisy suffixes, and fixing obvious `/provide` endpoints.
-6. Merge entries by normalized API identity.
-7. Detect adult sources from naming patterns.
-8. Generate the four output variants.
+1. 扫描每个上游仓库里的 `.json` 和 Base58 `.txt` 文件。
+2. 找出包含 `api_site` 的候选配置。
+3. 按文件名、层级深度和站点数量打分。
+4. 选择最像主配置的文件。
+5. 归一化 API 地址，移除代理包装、清洗噪声后缀，并修正明显缺失的 `/provide` 端点。
+6. 按归一化后的 API 身份合并条目。
+7. 基于命名模式识别成人源。
+8. 生成四种输出版本。
 
-The `lite` variant is not copied from any single upstream repository. It is built from APIs that appear across multiple upstream sources, which makes it more stable as upstream projects change.
+`lite` 版本不是照搬某个单独的上游仓库，而是从多个上游都出现的 API 中构建出来，因此面对上游变化更稳。
 
 ## GitHub Actions
 
-Two workflows are included:
+仓库内包含两个工作流：
 
-### 1. Daily Config Refresh
+### 1. 每日配置更新
 
 [update-config.yml](/Users/smallmain/Documents/Work/moontv-aggr-config/.github/workflows/update-config.yml)
 
-- runs on a daily schedule
-- supports manual dispatch
-- rebuilds configs
-- refreshes the API health report in both README files
-- commits and pushes changes back to this repository when needed
+- 每日定时运行
+- 支持手动触发
+- 自动重建配置
+- 自动刷新两份 README 中的 API 健康报告
+- 如有变化则自动提交并推送回当前仓库
 
-### 2. SFTP Deployment
+### 2. SFTP 发布
 
 [deploy-sftp.yml](/Users/smallmain/Documents/Work/moontv-aggr-config/.github/workflows/deploy-sftp.yml)
 
-- runs after config files change on `main`
-- supports manual dispatch
-- uploads build artifacts to a remote server via native `sftp`
+- `main` 分支配置文件变更后自动运行
+- 支持手动触发
+- 使用原生 `sftp` 将产物上传到远程服务器
 
-Required GitHub secrets:
+需要配置这些 GitHub Secrets：
 
 - `SFTP_HOST`
 - `SFTP_PORT`
@@ -114,31 +114,31 @@ Required GitHub secrets:
 - `SFTP_PRIVATE_KEY`
 - `SFTP_REMOTE_DIR`
 
-## Subscription URLs
+## 订阅链接
 
-After pushing to GitHub, raw files can be used directly:
+推送到 GitHub 后，可以直接使用 Raw 文件地址：
 
 ```text
 https://raw.githubusercontent.com/<owner>/<repo>/main/full-plus18.txt
 https://raw.githubusercontent.com/<owner>/<repo>/main/lite.txt
 ```
 
-## API Health Report
+## API 健康报告
 
-The data below is generated automatically by GitHub Actions and tracks all aggregated APIs before publishing.
+以下数据由 GitHub Actions 自动生成，会在发布前跟踪全部聚合 API 的健康状态。
 
 <!-- API_HEALTH_REPORT_START -->
-### API Status (Last Updated: 2026-03-06 04:38:55 UTC)
+### API 状态（最近更新：2026-03-06 04:38:55 UTC）
 
-- Scope: all aggregated APIs
-- Output rule: sources failing 3 consecutive rounds are removed from all output files
-- Probe mode: each round retries multiple times to reduce false negatives from transient network issues
-- API Count: 124/145
+- 检测范围：全部聚合源
+- 输出规则：连续三轮检测失败的源会从所有输出文件中剔除
+- 检测方式：单轮内会多次探测，避免因瞬时网络问题误杀
+- API 数量：124/145
 
 <details>
-<summary>Expand full API details</summary>
+<summary>展开查看全部 API 明细</summary>
 
-| Status | Type | API Name | API URL | Result | Availability | Last 7 Samples |
+| 状态 | 类型 | API 名称 | API 地址 | 结果 | 可用率 | 最近7次趋势 |
 | --- | --- | --- | --- | --- | ---: | --- |
 | ✅ | lite | 🎬360 资源 | `https://360zyzz.com/api.php/provide/vod` | 200 / json | 100.0% | ✅✅✅✅✅✅✅ |
 | ✅ | lite | 🎬360资源 | `https://360zy.com/api.php/provide/vod` | 200 / json | 100.0% | ✅✅✅✅✅✅✅ |
@@ -289,9 +289,9 @@ The data below is generated automatically by GitHub Actions and tracks all aggre
 </details>
 <!-- API_HEALTH_REPORT_END -->
 
-## References
+## 参考来源
 
-This project is informed by the structure and output style of:
+这个项目参考了以下仓库的结构和输出方式：
 
 - <https://github.com/hafrey1/LunaTV-config>
 - <https://github.com/qianqikun/LunaTV-config>

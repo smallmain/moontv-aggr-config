@@ -1,11 +1,10 @@
 {
-  "generated_at": "2026-03-06T03:40:15.975748+00:00",
+  "generated_at": "2026-03-06T04:38:56.307919+00:00",
   "summary": {
     "source_repositories": 5,
     "unique_api_sites": 145,
     "safe_api_sites": 98,
     "adult_api_sites": 47,
-    "custom_categories": 38,
     "failed_sources": 0
   },
   "sources": [
@@ -13,452 +12,65 @@
       "name": "hafrey1/LunaTV-config",
       "repo": "https://github.com/hafrey1/LunaTV-config",
       "ref": null,
-      "selected_file": "LunaTV-config.json",
       "parser": "json",
       "api_count": 75,
-      "category_count": 0,
-      "score": 775,
-      "top_candidates": [
-        {
-          "file": "LunaTV-config.json",
-          "parser": "json",
-          "api_count": 75,
-          "category_count": 0,
-          "score": 775
-        },
-        {
-          "file": "LunaTV-config.txt",
-          "parser": "base58-json",
-          "api_count": 75,
-          "category_count": 0,
-          "score": 580
-        },
-        {
-          "file": "jingjian.json",
-          "parser": "json",
-          "api_count": 52,
-          "category_count": 0,
-          "score": 103
-        },
-        {
-          "file": "jingjian.txt",
-          "parser": "base58-json",
-          "api_count": 52,
-          "category_count": 0,
-          "score": 88
-        },
-        {
-          "file": "jin18.json",
-          "parser": "json",
-          "api_count": 28,
-          "category_count": 0,
-          "score": 7
-        }
-      ]
+      "score": 775
     },
     {
       "name": "qianqikun/LunaTV-config",
       "repo": "https://github.com/qianqikun/LunaTV-config",
       "ref": null,
-      "selected_file": "LunaTV-config.json",
       "parser": "json",
       "api_count": 78,
-      "category_count": 0,
-      "score": 787,
-      "top_candidates": [
-        {
-          "file": "LunaTV-config.json",
-          "parser": "json",
-          "api_count": 78,
-          "category_count": 0,
-          "score": 787
-        },
-        {
-          "file": "LunaTV-config.txt",
-          "parser": "base58-json",
-          "api_count": 78,
-          "category_count": 0,
-          "score": 592
-        },
-        {
-          "file": "jingjian.json",
-          "parser": "json",
-          "api_count": 78,
-          "category_count": 0,
-          "score": 207
-        },
-        {
-          "file": "jingjian.txt",
-          "parser": "base58-json",
-          "api_count": 78,
-          "category_count": 0,
-          "score": 192
-        },
-        {
-          "file": "jin18.json",
-          "parser": "json",
-          "api_count": 44,
-          "category_count": 0,
-          "score": 71
-        }
-      ]
+      "score": 787
     },
     {
       "name": "vodtv/api",
       "repo": "https://github.com/vodtv/api",
       "ref": null,
-      "selected_file": "LunaTV-config.json",
       "parser": "json",
       "api_count": 77,
-      "category_count": 0,
-      "score": 783,
-      "top_candidates": [
-        {
-          "file": "LunaTV-config.json",
-          "parser": "json",
-          "api_count": 77,
-          "category_count": 0,
-          "score": 783
-        },
-        {
-          "file": "LunaTV-config.txt",
-          "parser": "base58-json",
-          "api_count": 77,
-          "category_count": 0,
-          "score": 588
-        },
-        {
-          "file": "jingjian.json",
-          "parser": "json",
-          "api_count": 53,
-          "category_count": 0,
-          "score": 107
-        },
-        {
-          "file": "jingjian.txt",
-          "parser": "base58-json",
-          "api_count": 53,
-          "category_count": 0,
-          "score": 92
-        },
-        {
-          "file": "jin18.json",
-          "parser": "json",
-          "api_count": 28,
-          "category_count": 0,
-          "score": 7
-        }
-      ]
+      "score": 783
     },
     {
       "name": "oooopera/moontv_config",
       "repo": "https://github.com/oooopera/moontv_config",
       "ref": null,
-      "selected_file": "input.json",
       "parser": "json",
       "api_count": 112,
-      "category_count": 38,
-      "score": 1239,
-      "top_candidates": [
-        {
-          "file": "input.json",
-          "parser": "json",
-          "api_count": 112,
-          "category_count": 38,
-          "score": 1239
-        },
-        {
-          "file": "output_base58.txt",
-          "parser": "base58-json",
-          "api_count": 112,
-          "category_count": 38,
-          "score": 644
-        },
-        {
-          "file": "config初始.json",
-          "parser": "json",
-          "api_count": 549,
-          "category_count": 28,
-          "score": 461
-        }
-      ]
+      "score": 1143
     },
     {
       "name": "heardic/shipinyuan",
       "repo": "https://github.com/heardic/shipinyuan",
       "ref": null,
-      "selected_file": "config.json",
       "parser": "json",
       "api_count": 101,
-      "category_count": 0,
-      "score": 719,
-      "top_candidates": [
-        {
-          "file": "config.json",
-          "parser": "json",
-          "api_count": 101,
-          "category_count": 0,
-          "score": 719
-        }
-      ]
+      "score": 719
     }
   ],
   "outputs": {
     "lite": {
       "json": "lite.json",
       "txt": "lite.txt",
-      "api_count": 44,
-      "category_count": 35
+      "api_count": 44
     },
     "lite_plus18": {
       "json": "lite-plus18.json",
       "txt": "lite-plus18.txt",
-      "api_count": 74,
-      "category_count": 38
+      "api_count": 73
     },
     "full": {
       "json": "full.json",
       "txt": "full.txt",
-      "api_count": 98,
-      "category_count": 35
+      "api_count": 83
     },
     "full_plus18": {
       "json": "full-plus18.json",
       "txt": "full-plus18.txt",
-      "api_count": 145,
-      "category_count": 38
+      "api_count": 124
     }
   },
-  "categories": [
-    {
-      "name": "热门",
-      "type": "movie",
-      "query": "热门",
-      "adult": false
-    },
-    {
-      "name": "最新",
-      "type": "movie",
-      "query": "最新",
-      "adult": false
-    },
-    {
-      "name": "经典",
-      "type": "movie",
-      "query": "经典",
-      "adult": false
-    },
-    {
-      "name": "豆瓣高分",
-      "type": "movie",
-      "query": "豆瓣高分",
-      "adult": false
-    },
-    {
-      "name": "冷门佳片",
-      "type": "movie",
-      "query": "冷门佳片",
-      "adult": false
-    },
-    {
-      "name": "华语",
-      "type": "movie",
-      "query": "华语",
-      "adult": false
-    },
-    {
-      "name": "欧美",
-      "type": "movie",
-      "query": "欧美",
-      "adult": false
-    },
-    {
-      "name": "韩国",
-      "type": "movie",
-      "query": "韩国",
-      "adult": false
-    },
-    {
-      "name": "日本",
-      "type": "movie",
-      "query": "日本",
-      "adult": false
-    },
-    {
-      "name": "动作",
-      "type": "movie",
-      "query": "动作",
-      "adult": false
-    },
-    {
-      "name": "喜剧",
-      "type": "movie",
-      "query": "喜剧",
-      "adult": false
-    },
-    {
-      "name": "爱情",
-      "type": "movie",
-      "query": "爱情",
-      "adult": false
-    },
-    {
-      "name": "科幻",
-      "type": "movie",
-      "query": "科幻",
-      "adult": false
-    },
-    {
-      "name": "悬疑",
-      "type": "movie",
-      "query": "悬疑",
-      "adult": false
-    },
-    {
-      "name": "恐怖",
-      "type": "movie",
-      "query": "恐怖",
-      "adult": false
-    },
-    {
-      "name": "治愈",
-      "type": "movie",
-      "query": "治愈",
-      "adult": false
-    },
-    {
-      "name": "犯罪",
-      "type": "movie",
-      "query": "犯罪",
-      "adult": false
-    },
-    {
-      "name": "战争",
-      "type": "movie",
-      "query": "战争",
-      "adult": false
-    },
-    {
-      "name": "西部",
-      "type": "movie",
-      "query": "西部",
-      "adult": false
-    },
-    {
-      "name": "奇幻",
-      "type": "movie",
-      "query": "奇幻",
-      "adult": false
-    },
-    {
-      "name": "惊悚",
-      "type": "movie",
-      "query": "惊悚",
-      "adult": false
-    },
-    {
-      "name": "灾难",
-      "type": "movie",
-      "query": "灾难",
-      "adult": false
-    },
-    {
-      "name": "R级",
-      "type": "movie",
-      "query": "R级",
-      "adult": true
-    },
-    {
-      "name": "三级",
-      "type": "movie",
-      "query": "三级",
-      "adult": true
-    },
-    {
-      "name": "情色",
-      "type": "movie",
-      "query": "情色",
-      "adult": true
-    },
-    {
-      "name": "热门",
-      "type": "tv",
-      "query": "热门",
-      "adult": false
-    },
-    {
-      "name": "美剧",
-      "type": "tv",
-      "query": "美剧",
-      "adult": false
-    },
-    {
-      "name": "英剧",
-      "type": "tv",
-      "query": "英剧",
-      "adult": false
-    },
-    {
-      "name": "韩剧",
-      "type": "tv",
-      "query": "韩剧",
-      "adult": false
-    },
-    {
-      "name": "日剧",
-      "type": "tv",
-      "query": "日剧",
-      "adult": false
-    },
-    {
-      "name": "国产剧",
-      "type": "tv",
-      "query": "国产剧",
-      "adult": false
-    },
-    {
-      "name": "港剧",
-      "type": "tv",
-      "query": "港剧",
-      "adult": false
-    },
-    {
-      "name": "日本动画",
-      "type": "tv",
-      "query": "日本动画",
-      "adult": false
-    },
-    {
-      "name": "动漫",
-      "type": "tv",
-      "query": "日本动画",
-      "adult": false
-    },
-    {
-      "name": "综艺",
-      "type": "tv",
-      "query": "综艺",
-      "adult": false
-    },
-    {
-      "name": "纪录片",
-      "type": "tv",
-      "query": "纪录片",
-      "adult": false
-    },
-    {
-      "name": "纪录",
-      "type": "tv",
-      "query": "纪录片",
-      "adult": false
-    },
-    {
-      "name": "国产",
-      "type": "tv",
-      "query": "国产剧",
-      "adult": false
-    }
-  ],
   "top_sites": [
     {
       "name": "🎬U酷影视",
@@ -1190,5 +802,17 @@
       ]
     }
   ],
-  "errors": []
+  "errors": [],
+  "health": {
+    "generated_at": "2026-03-06T04:38:55.611143+00:00",
+    "target_file": "full-plus18.json",
+    "total_apis": 145,
+    "current_success": 123,
+    "current_failure": 22,
+    "enabled_apis": 124,
+    "healthy_apis": 110,
+    "subhealthy_apis": 14,
+    "unhealthy_apis": 21,
+    "average_availability_rate": 0.8267241379310345
+  }
 }

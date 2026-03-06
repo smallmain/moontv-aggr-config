@@ -231,11 +231,6 @@
       "api": "https://api.wujinapi.cc/api.php/provide/vod",
       "detail": "https://api.wujinapi.cc"
     },
-    "www_qiqidys_com_provide_vod": {
-      "name": "🎬七七影视",
-      "api": "https://www.qiqidys.com/api.php/provide/vod",
-      "detail": "https://www.qiqidys.com"
-    },
     "api_yzzy_api_com_provide_vod": {
       "name": "🎬优质资源库1080zyk6.com高清",
       "api": "https://api.yzzy-api.com/inc/ldg_api_all.php/provide/vod",
@@ -245,11 +240,6 @@
       "name": "🎬卧龙资源",
       "api": "https://collect.wolongzy.cc/api.php/provide/vod",
       "detail": "https://collect.wolongzy.cc"
-    },
-    "zy_xmm_hk_provide_vod": {
-      "name": "🎬小猫咪资源",
-      "api": "https://zy.xmm.hk/api.php/provide/vod",
-      "detail": "https://zy.xmm.hk"
     },
     "api_wujinapi_net_provide_vod": {
       "name": "🎬无尽资源",
@@ -311,11 +301,6 @@
       "api": "https://cj.ffzyapi.com/api.php/provide/vod",
       "detail": "https://cj.ffzyapi.com"
     },
-    "mozhuazy_com_provide_vod": {
-      "name": "🎬魔爪资源",
-      "api": "https://mozhuazy.com/api.php/provide/vod",
-      "detail": "https://mozhuazy.com"
-    },
     "api_1080zyku_com_provide_vod": {
       "name": "🎬1080源",
       "api": "https://api.1080zyku.com/api.php/provide/vod",
@@ -336,20 +321,10 @@
       "api": "https://ikunzyapi.com/api.php/provide/vod/at/json",
       "detail": "https://ikunzyapi.com"
     },
-    "www_iqiyizyapi_com_provide_vod": {
-      "name": "🎬iqiyi资源",
-      "api": "https://www.iqiyizyapi.com/api.php/provide/vod",
-      "detail": "https://www.iqiyizyapi.com"
-    },
     "api_yzzy_api_com_inc_api_mac10_all_php": {
       "name": "🎬优质资源库",
       "api": "https://api.yzzy-api.com/inc/api_mac10_all.php",
       "detail": "https://api.yzzy-api.com"
-    },
-    "huawei8_live_provide_vod": {
-      "name": "🎬华为吧资源",
-      "api": "https://huawei8.live/api.php/provide/vod",
-      "detail": "https://huawei8.live"
     },
     "dadiapi_com_provide_vod": {
       "name": "🎬大地资源网络",
@@ -361,20 +336,10 @@
       "api": "https://tyyszyapi.com/api.php/provide/vod",
       "detail": "https://tyyszyapi.com"
     },
-    "zy_sh0o_cn_provide_vod": {
-      "name": "🎬山海资源",
-      "api": "https://zy.sh0o.cn/api.php/provide/vod",
-      "detail": "https://zy.sh0o.cn"
-    },
     "154_219_117_232_provide_vod": {
       "name": "🎬建安资源站",
       "api": "http://154.219.117.232:9981/jacloudapi.php/provide/vod",
       "detail": "http://154.219.117.232:9981"
-    },
-    "gayapi_com_provide_vod": {
-      "name": "🎬快播资源网站",
-      "api": "https://gayapi.com/api.php/provide/vod",
-      "detail": "https://gayapi.com"
     },
     "api_xinlangapi_com_vod_josn": {
       "name": "🎬新浪",
@@ -396,25 +361,10 @@
       "api": "https://api.yparse.com/api/json",
       "detail": "https://api.yparse.com"
     },
-    "taopianapi_com_sda_vod": {
-      "name": "🎬淘片资源",
-      "api": "https://taopianapi.com/cjapi/sda/vod",
-      "detail": "https://taopianapi.com"
-    },
-    "www_aiduanju_cc": {
-      "name": "🎬爱短剧.cc",
-      "api": "https://www.aiduanju.cc/",
-      "detail": "https://www.aiduanju.cc"
-    },
     "api_maoyanapi_top_at_json": {
       "name": "🎬猫眼资源",
       "api": "https://api.maoyanapi.top/api.php/provide/vod/at/json",
       "detail": "https://api.maoyanapi.top"
-    },
-    "api_fqzy_cc_provide_vod": {
-      "name": "🎬番茄资源",
-      "api": "https://api.fqzy.cc/api.php/provide/vod",
-      "detail": "https://api.fqzy.cc"
     },
     "www_suoniapi_com_provide_vod": {
       "name": "🎬索尼资源",
@@ -436,20 +386,10 @@
       "api": "https://www.huyaapi.com/api.php/provide/vod/from/hym3u8",
       "detail": "https://www.huyaapi.com"
     },
-    "api_fczy888_me_provide_vod": {
-      "name": "🎬蜂巢片库",
-      "api": "https://api.fczy888.me/api.php/provide/vod",
-      "detail": "https://api.fczy888.me"
-    },
     "subocj_com_provide_vod": {
       "name": "🎬速播资源",
       "api": "https://subocj.com/api.php/provide/vod",
       "detail": "https://subocj.com"
-    },
-    "api_jmzy_com_provide_vod": {
-      "name": "🎬金马资源网",
-      "api": "https://api.jmzy.com/api.php/provide/vod",
-      "detail": "https://api.jmzy.com"
     },
     "jyzyapi_com_at_json_7fe19a": {
       "name": "🎬金鹰资源",
@@ -466,11 +406,6 @@
       "api": "http://ffzy5.tv/api.php/provide/vod",
       "detail": "http://ffzy5.tv"
     },
-    "www_fantuan_tv_provide_vod": {
-      "name": "🎬饭团影视",
-      "api": "https://www.fantuan.tv/api.php/provide/vod",
-      "detail": "https://www.fantuan.tv"
-    },
     "www_qilinzyz_com_provide_vod": {
       "name": "🎬麒麟资源站全站采集接口",
       "api": "https://www.qilinzyz.com/api.php/provide/vod",
@@ -480,193 +415,6 @@
       "name": "🎬黄色资源啊啊",
       "api": "https://hsckzy888.com/api.php/provide/vod",
       "detail": "https://hsckzy888.com"
-    },
-    "json_heimuer_xyz_provide_vod": {
-      "name": "🎬黑木耳",
-      "api": "https://json.heimuer.xyz/api.php/provide/vod",
-      "detail": "https://json.heimuer.xyz"
-    },
-    "json02_heimuer_xyz_provide_vod": {
-      "name": "🎬黑木耳点播",
-      "api": "https://json02.heimuer.xyz/api.php/provide/vod",
-      "detail": "https://json02.heimuer.xyz"
     }
-  },
-  "custom_category": [
-    {
-      "name": "热门",
-      "type": "movie",
-      "query": "热门"
-    },
-    {
-      "name": "最新",
-      "type": "movie",
-      "query": "最新"
-    },
-    {
-      "name": "经典",
-      "type": "movie",
-      "query": "经典"
-    },
-    {
-      "name": "豆瓣高分",
-      "type": "movie",
-      "query": "豆瓣高分"
-    },
-    {
-      "name": "冷门佳片",
-      "type": "movie",
-      "query": "冷门佳片"
-    },
-    {
-      "name": "华语",
-      "type": "movie",
-      "query": "华语"
-    },
-    {
-      "name": "欧美",
-      "type": "movie",
-      "query": "欧美"
-    },
-    {
-      "name": "韩国",
-      "type": "movie",
-      "query": "韩国"
-    },
-    {
-      "name": "日本",
-      "type": "movie",
-      "query": "日本"
-    },
-    {
-      "name": "动作",
-      "type": "movie",
-      "query": "动作"
-    },
-    {
-      "name": "喜剧",
-      "type": "movie",
-      "query": "喜剧"
-    },
-    {
-      "name": "爱情",
-      "type": "movie",
-      "query": "爱情"
-    },
-    {
-      "name": "科幻",
-      "type": "movie",
-      "query": "科幻"
-    },
-    {
-      "name": "悬疑",
-      "type": "movie",
-      "query": "悬疑"
-    },
-    {
-      "name": "恐怖",
-      "type": "movie",
-      "query": "恐怖"
-    },
-    {
-      "name": "治愈",
-      "type": "movie",
-      "query": "治愈"
-    },
-    {
-      "name": "犯罪",
-      "type": "movie",
-      "query": "犯罪"
-    },
-    {
-      "name": "战争",
-      "type": "movie",
-      "query": "战争"
-    },
-    {
-      "name": "西部",
-      "type": "movie",
-      "query": "西部"
-    },
-    {
-      "name": "奇幻",
-      "type": "movie",
-      "query": "奇幻"
-    },
-    {
-      "name": "惊悚",
-      "type": "movie",
-      "query": "惊悚"
-    },
-    {
-      "name": "灾难",
-      "type": "movie",
-      "query": "灾难"
-    },
-    {
-      "name": "热门",
-      "type": "tv",
-      "query": "热门"
-    },
-    {
-      "name": "美剧",
-      "type": "tv",
-      "query": "美剧"
-    },
-    {
-      "name": "英剧",
-      "type": "tv",
-      "query": "英剧"
-    },
-    {
-      "name": "韩剧",
-      "type": "tv",
-      "query": "韩剧"
-    },
-    {
-      "name": "日剧",
-      "type": "tv",
-      "query": "日剧"
-    },
-    {
-      "name": "国产剧",
-      "type": "tv",
-      "query": "国产剧"
-    },
-    {
-      "name": "港剧",
-      "type": "tv",
-      "query": "港剧"
-    },
-    {
-      "name": "日本动画",
-      "type": "tv",
-      "query": "日本动画"
-    },
-    {
-      "name": "动漫",
-      "type": "tv",
-      "query": "日本动画"
-    },
-    {
-      "name": "综艺",
-      "type": "tv",
-      "query": "综艺"
-    },
-    {
-      "name": "纪录片",
-      "type": "tv",
-      "query": "纪录片"
-    },
-    {
-      "name": "纪录",
-      "type": "tv",
-      "query": "纪录片"
-    },
-    {
-      "name": "国产",
-      "type": "tv",
-      "query": "国产剧"
-    }
-  ]
+  }
 }
