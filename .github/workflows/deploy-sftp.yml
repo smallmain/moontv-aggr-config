@@ -1,0 +1,113 @@
+name: Deploy Configs via SFTP
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "build/latest.json"
+      - "lite.json"
+      - "lite.txt"
+      - "lite-plus18.json"
+      - "lite-plus18.txt"
+      - "full.json"
+      - "full.txt"
+      - "full-plus18.json"
+      - "full-plus18.txt"
+      - "jin18.json"
+      - "jin18.txt"
+      - "jingjian.json"
+      - "jingjian.txt"
+      - "LunaTV-config.json"
+      - "LunaTV-config.txt"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: deploy-configs-sftp
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configure SSH
+        env:
+          SFTP_PRIVATE_KEY: ${{ secrets.SFTP_PRIVATE_KEY }}
+        run: |
+          mkdir -p ~/.ssh
+          chmod 700 ~/.ssh
+          printf '%s\n' "$SFTP_PRIVATE_KEY" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+
+      - name: Trust remote host
+        env:
+          SFTP_HOST: ${{ secrets.SFTP_HOST }}
+          SFTP_PORT: ${{ secrets.SFTP_PORT }}
+        run: |
+          ssh-keyscan -p "${SFTP_PORT:-22}" "$SFTP_HOST" >> ~/.ssh/known_hosts
+          chmod 644 ~/.ssh/known_hosts
+
+      - name: Upload config files
+        env:
+          SFTP_HOST: ${{ secrets.SFTP_HOST }}
+          SFTP_PORT: ${{ secrets.SFTP_PORT }}
+          SFTP_USERNAME: ${{ secrets.SFTP_USERNAME }}
+          SFTP_REMOTE_DIR: ${{ secrets.SFTP_REMOTE_DIR }}
+        run: |
+          set -eu
+          : "${SFTP_HOST:?SFTP_HOST is required}"
+          : "${SFTP_USERNAME:?SFTP_USERNAME is required}"
+          : "${SFTP_REMOTE_DIR:?SFTP_REMOTE_DIR is required}"
+
+          remote_dir="${SFTP_REMOTE_DIR%/}"
+          if [ -z "$remote_dir" ]; then
+            remote_dir="/"
+          fi
+          batch_file="$(mktemp)"
+
+          current=""
+          if [ "${remote_dir#"/"}" != "$remote_dir" ]; then
+            current="/"
+          fi
+
+          OLDIFS=$IFS
+          IFS='/'
+          for part in ${remote_dir#/}; do
+            [ -z "$part" ] && continue
+            if [ "$current" = "/" ]; then
+              current="/$part"
+            elif [ -n "$current" ]; then
+              current="$current/$part"
+            else
+              current="$part"
+            fi
+            printf -- "-mkdir %s\n" "$current" >> "$batch_file"
+          done
+          IFS=$OLDIFS
+
+          for file in \
+            build/latest.json \
+            lite.json lite.txt \
+            lite-plus18.json lite-plus18.txt \
+            full.json full.txt \
+            full-plus18.json full-plus18.txt \
+            jin18.json jin18.txt \
+            jingjian.json jingjian.txt \
+            LunaTV-config.json LunaTV-config.txt; do
+            printf -- "put %s %s/%s\n" "$file" "$remote_dir" "$(basename "$file")" >> "$batch_file"
+          done
+
+          sftp \
+            -i ~/.ssh/id_ed25519 \
+            -P "${SFTP_PORT:-22}" \
+            -o StrictHostKeyChecking=yes \
+            -b "$batch_file" \
+            "${SFTP_USERNAME}@${SFTP_HOST}"

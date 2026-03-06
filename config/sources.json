@@ -1,0 +1,27 @@
+{
+  "cache_time": 7200,
+  "lite_min_repo_agreement": 3,
+  "sources": [
+    {
+      "name": "hafrey1/LunaTV-config",
+      "repo": "https://github.com/hafrey1/LunaTV-config"
+    },
+    {
+      "name": "qianqikun/LunaTV-config",
+      "repo": "https://github.com/qianqikun/LunaTV-config"
+    },
+    {
+      "name": "vodtv/api",
+      "repo": "https://github.com/vodtv/api"
+    },
+    {
+      "name": "oooopera/moontv_config",
+      "repo": "https://github.com/oooopera/moontv_config",
+      "preferred_files": ["input.json"]
+    },
+    {
+      "name": "heardic/shipinyuan",
+      "repo": "https://github.com/heardic/shipinyuan"
+    }
+  ]
+}

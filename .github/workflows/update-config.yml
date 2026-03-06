@@ -1,0 +1,50 @@
+name: Update Aggregated Config
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "15 3 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-aggregated-config
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Generate aggregated configs
+        run: python3 scripts/aggregate_configs.py
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add \
+            build/latest.json \
+            lite.json lite.txt \
+            lite-plus18.json lite-plus18.txt \
+            full.json full.txt \
+            full-plus18.json full-plus18.txt \
+            jin18.json jin18.txt \
+            jingjian.json jingjian.txt \
+            LunaTV-config.json LunaTV-config.txt
+          if git diff --cached --quiet; then
+            echo "No config changes detected."
+            exit 0
+          fi
+          git commit -m "chore: refresh aggregated configs"
+          git push
+
