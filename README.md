@@ -98,21 +98,26 @@ Two workflows are included:
 - refreshes the API health report in both README files
 - commits and pushes changes back to this repository when needed
 
-### 2. SFTP Deployment
+### 2. Remote Deployment
 
-[deploy-sftp.yml](/Users/smallmain/Documents/Work/moontv-aggr-config/.github/workflows/deploy-sftp.yml)
+[deploy-remote.yml](/Users/smallmain/Documents/Work/moontv-aggr-config/.github/workflows/deploy-remote.yml)
 
 - runs after config files change on `main`
 - supports manual dispatch
-- uploads build artifacts to a remote server via native `sftp`
+- uploads build artifacts to a remote server via `sftp`, `ftps`, or `ftp`
+
+Recommended repository variable:
+
+- `DEPLOY_PROTOCOL`: `sftp`, `ftps`, or `ftp` (defaults to `sftp`)
 
 Required GitHub secrets:
 
-- `SFTP_HOST`
-- `SFTP_PORT`
-- `SFTP_USERNAME`
-- `SFTP_PRIVATE_KEY`
-- `SFTP_REMOTE_DIR`
+- `DEPLOY_HOST`
+- `DEPLOY_PORT`
+- `DEPLOY_USERNAME`
+- `DEPLOY_REMOTE_DIR`
+- `DEPLOY_PASSWORD` for password-based `sftp`, `ftps`, or `ftp`
+- `DEPLOY_PRIVATE_KEY` for key-based `sftp`
 
 ## Subscription URLs
 

@@ -1,0 +1,195 @@
+name: Deploy Configs
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "build/latest.json"
+      - "lite.json"
+      - "lite.txt"
+      - "lite-plus18.json"
+      - "lite-plus18.txt"
+      - "full.json"
+      - "full.txt"
+      - "full-plus18.json"
+      - "full-plus18.txt"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: deploy-configs
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install deployment clients
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y lftp sshpass
+
+      - name: Prepare SSH directory
+        run: |
+          mkdir -p ~/.ssh
+          chmod 700 ~/.ssh
+
+      - name: Configure SSH key
+        env:
+          DEPLOY_PRIVATE_KEY: ${{ secrets.DEPLOY_PRIVATE_KEY }}
+        run: |
+          set -eu
+          private_key="${DEPLOY_PRIVATE_KEY:-}"
+          if [ -z "$private_key" ]; then
+            exit 0
+          fi
+          printf '%s\n' "$private_key" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+
+      - name: Trust remote host
+        env:
+          DEPLOY_PROTOCOL_VAR: ${{ vars.DEPLOY_PROTOCOL }}
+          DEPLOY_PROTOCOL_SECRET: ${{ secrets.DEPLOY_PROTOCOL }}
+          DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
+          DEPLOY_PORT: ${{ secrets.DEPLOY_PORT }}
+        run: |
+          set -eu
+          protocol="${DEPLOY_PROTOCOL_VAR:-${DEPLOY_PROTOCOL_SECRET:-sftp}}"
+          protocol="${protocol,,}"
+          if [ "$protocol" != "sftp" ]; then
+            exit 0
+          fi
+          host="${DEPLOY_HOST:?DEPLOY_HOST is required}"
+          port="${DEPLOY_PORT:-22}"
+          ssh-keyscan -p "$port" "$host" >> ~/.ssh/known_hosts
+          chmod 644 ~/.ssh/known_hosts
+
+      - name: Upload config files
+        env:
+          DEPLOY_PROTOCOL_VAR: ${{ vars.DEPLOY_PROTOCOL }}
+          DEPLOY_PROTOCOL_SECRET: ${{ secrets.DEPLOY_PROTOCOL }}
+          DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
+          DEPLOY_PORT: ${{ secrets.DEPLOY_PORT }}
+          DEPLOY_USERNAME: ${{ secrets.DEPLOY_USERNAME }}
+          DEPLOY_PASSWORD: ${{ secrets.DEPLOY_PASSWORD }}
+          DEPLOY_PRIVATE_KEY: ${{ secrets.DEPLOY_PRIVATE_KEY }}
+          DEPLOY_REMOTE_DIR: ${{ secrets.DEPLOY_REMOTE_DIR }}
+        run: |
+          set -eu
+          protocol="${DEPLOY_PROTOCOL_VAR:-${DEPLOY_PROTOCOL_SECRET:-sftp}}"
+          protocol="${protocol,,}"
+          host="${DEPLOY_HOST:?DEPLOY_HOST is required}"
+          port="${DEPLOY_PORT:-}"
+          username="${DEPLOY_USERNAME:?DEPLOY_USERNAME is required}"
+          password="${DEPLOY_PASSWORD:-}"
+          private_key="${DEPLOY_PRIVATE_KEY:-}"
+          remote_dir="${DEPLOY_REMOTE_DIR:?DEPLOY_REMOTE_DIR is required}"
+
+          case "$protocol" in
+            sftp|ftps|ftp)
+              ;;
+            *)
+              echo "DEPLOY_PROTOCOL must be one of: sftp, ftps, ftp"
+              exit 1
+              ;;
+          esac
+
+          remote_dir="${remote_dir%/}"
+          if [ -z "$remote_dir" ]; then
+            remote_dir="/"
+          fi
+
+          if [ "$protocol" = "sftp" ]; then
+            if [ -z "$password" ] && [ -z "$private_key" ]; then
+              echo "DEPLOY_PASSWORD or DEPLOY_PRIVATE_KEY is required for SFTP."
+              exit 1
+            fi
+
+            batch_file="$(mktemp)"
+            current=""
+            if [ "${remote_dir#"/"}" != "$remote_dir" ]; then
+              current="/"
+            fi
+
+            OLDIFS=$IFS
+            IFS='/'
+            for part in ${remote_dir#/}; do
+              [ -z "$part" ] && continue
+              if [ "$current" = "/" ]; then
+                current="/$part"
+              elif [ -n "$current" ]; then
+                current="$current/$part"
+              else
+                current="$part"
+              fi
+              printf -- "-mkdir %s\n" "$current" >> "$batch_file"
+            done
+            IFS=$OLDIFS
+
+            for file in \
+              build/latest.json \
+              lite.json lite.txt \
+              lite-plus18.json lite-plus18.txt \
+              full.json full.txt \
+              full-plus18.json full-plus18.txt; do
+              printf -- "put %s %s/%s\n" "$file" "$remote_dir" "$(basename "$file")" >> "$batch_file"
+            done
+
+            if [ -n "$private_key" ]; then
+              sftp \
+                -i ~/.ssh/id_ed25519 \
+                -o BatchMode=yes \
+                -P "${port:-22}" \
+                -o StrictHostKeyChecking=yes \
+                -b "$batch_file" \
+                "${username}@${host}"
+            else
+              SSHPASS="$password" sshpass -e sftp \
+                -o BatchMode=no \
+                -P "${port:-22}" \
+                -o StrictHostKeyChecking=yes \
+                -b "$batch_file" \
+                "${username}@${host}"
+            fi
+            exit 0
+          fi
+
+          : "${password:?DEPLOY_PASSWORD is required for FTP/FTPS}"
+
+          batch_file="$(mktemp)"
+          {
+            printf '%s\n' 'set cmd:fail-exit true'
+            printf '%s\n' 'set net:max-retries 2'
+            printf '%s\n' 'set net:timeout 20'
+            if [ "$protocol" = "ftps" ]; then
+              printf '%s\n' 'set ftp:ssl-allow true'
+              printf '%s\n' 'set ftp:ssl-force true'
+              printf '%s\n' 'set ftp:ssl-protect-data true'
+            else
+              printf '%s\n' 'set ftp:ssl-allow false'
+            fi
+            printf 'open -u "%s","%s" "%s://%s:%s"\n' \
+              "$username" "$password" "$protocol" "$host" "${port:-21}"
+            if [ "$remote_dir" != "/" ]; then
+              printf 'mkdir -p "%s"\n' "$remote_dir"
+            fi
+            for file in \
+              build/latest.json \
+              lite.json lite.txt \
+              lite-plus18.json lite-plus18.txt \
+              full.json full.txt \
+              full-plus18.json full-plus18.txt; do
+              printf 'put -O "%s" "%s"\n' "$remote_dir" "$file"
+            done
+            printf '%s\n' 'bye'
+          } > "$batch_file"
+
+          lftp -f "$batch_file"

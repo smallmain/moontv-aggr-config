@@ -98,21 +98,26 @@ python3 scripts/aggregate_configs.py --skip-health-report
 - 自动刷新两份 README 中的 API 健康报告
 - 如有变化则自动提交并推送回当前仓库
 
-### 2. SFTP 发布
+### 2. 远程发布
 
-[deploy-sftp.yml](/Users/smallmain/Documents/Work/moontv-aggr-config/.github/workflows/deploy-sftp.yml)
+[deploy-remote.yml](/Users/smallmain/Documents/Work/moontv-aggr-config/.github/workflows/deploy-remote.yml)
 
 - `main` 分支配置文件变更后自动运行
 - 支持手动触发
-- 使用原生 `sftp` 将产物上传到远程服务器
+- 支持通过 `sftp`、`ftps` 或 `ftp` 将产物上传到远程服务器
+
+推荐配置仓库变量：
+
+- `DEPLOY_PROTOCOL`：`sftp`、`ftps` 或 `ftp`，默认是 `sftp`
 
 需要配置这些 GitHub Secrets：
 
-- `SFTP_HOST`
-- `SFTP_PORT`
-- `SFTP_USERNAME`
-- `SFTP_PRIVATE_KEY`
-- `SFTP_REMOTE_DIR`
+- `DEPLOY_HOST`
+- `DEPLOY_PORT`
+- `DEPLOY_USERNAME`
+- `DEPLOY_REMOTE_DIR`
+- `DEPLOY_PASSWORD`：用于密码登录的 `sftp`、`ftps`、`ftp`
+- `DEPLOY_PRIVATE_KEY`：用于基于密钥的 `sftp`
 
 ## 订阅链接
 
