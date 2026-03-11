@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-10T04:52:19.534059+00:00",
+  "generated_at": "2026-03-11T04:53:29.488326+00:00",
   "summary": {
     "source_repositories": 5,
     "unique_api_sites": 148,
@@ -812,7 +812,7 @@
   ],
   "errors": [],
   "health": {
-    "generated_at": "2026-03-10T04:52:18.743687+00:00",
+    "generated_at": "2026-03-11T04:53:28.690780+00:00",
     "target_file": "full-plus18.json",
     "total_apis": 148,
     "current_success": 115,
@@ -821,7 +821,7 @@
     "healthy_apis": 75,
     "subhealthy_apis": 40,
     "unhealthy_apis": 33,
-    "average_availability_rate": 0.7852316602316605,
+    "average_availability_rate": 0.7818532818532822,
     "validation_mode": "moontvplus-search",
     "search_keywords": [
       "斗罗",
