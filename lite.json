@@ -1,6 +1,11 @@
 {
   "cache_time": 7200,
   "api_site": {
+    "api_ukuapi88_com_provide_vod": {
+      "name": "🎬U酷影视",
+      "api": "https://api.ukuapi88.com/api.php/provide/vod",
+      "detail": "https://www.ukuzy.com"
+    },
     "ikunzyapi_com_provide_vod": {
       "name": "🎬iKun资源",
       "api": "https://ikunzyapi.com/api.php/provide/vod",
@@ -51,16 +56,6 @@
       "api": "https://bfzyapi.com/api.php/provide/vod",
       "detail": "https://bfzy.tv"
     },
-    "zuidazy_me_provide_vod": {
-      "name": "🎬最大点播",
-      "api": "https://zuidazy.me/api.php/provide/vod",
-      "detail": "https://zuidazy.co"
-    },
-    "api_zuidapi_com_provide_vod": {
-      "name": "🎬最大资源",
-      "api": "https://api.zuidapi.com/api.php/provide/vod",
-      "detail": "https://zuida.xyz"
-    },
     "m3u8_apiyhzy_com_provide_vod": {
       "name": "🎬樱花资源",
       "api": "https://m3u8.apiyhzy.com/api.php/provide/vod",
@@ -101,11 +96,6 @@
       "api": "https://jinyingzy.com/api.php/provide/vod",
       "detail": "https://jinyingzy.com"
     },
-    "xsd_sdzyapi_com_provide_vod": {
-      "name": "🎬闪电资源",
-      "api": "https://xsd.sdzyapi.com/api.php/provide/vod",
-      "detail": "https://shandianzy.com"
-    },
     "p2100_net_provide_vod": {
       "name": "🎬飘零资源",
       "api": "https://p2100.net/api.php/provide/vod",
@@ -121,11 +111,6 @@
       "api": "https://www.mdzyapi.com/api.php/provide/vod",
       "detail": "https://www.moduzy.net"
     },
-    "api_ukuapi88_com_provide_vod": {
-      "name": "🎬U酷影视",
-      "api": "https://api.ukuapi88.com/api.php/provide/vod",
-      "detail": "https://www.ukuzy.com"
-    },
     "api_yzzy_api_com_inc_apijson_php": {
       "name": "🎬优质资源",
       "api": "https://api.yzzy-api.com/inc/apijson.php",
@@ -135,6 +120,16 @@
       "name": "🎬光速资源",
       "api": "https://api.guangsuapi.com/api.php/provide/vod",
       "detail": "https://api.guangsuapi.com"
+    },
+    "zuidazy_me_provide_vod": {
+      "name": "🎬最大点播",
+      "api": "https://zuidazy.me/api.php/provide/vod",
+      "detail": "https://zuidazy.co"
+    },
+    "api_zuidapi_com_provide_vod": {
+      "name": "🎬最大资源",
+      "api": "https://api.zuidapi.com/api.php/provide/vod",
+      "detail": "https://zuida.xyz"
     },
     "jszyapi_com_provide_vod": {
       "name": "🎬极速资源",
@@ -176,25 +171,25 @@
       "api": "https://cj.lzcaiji.com/api.php/provide/vod",
       "detail": "https://cj.lzcaiji.com"
     },
+    "xsd_sdzyapi_com_provide_vod": {
+      "name": "🎬闪电资源",
+      "api": "https://xsd.sdzyapi.com/api.php/provide/vod",
+      "detail": "https://shandianzy.com"
+    },
     "api_ffzyapi_com_provide_vod": {
       "name": "🎬非凡资源",
       "api": "https://api.ffzyapi.com/api.php/provide/vod",
       "detail": "https://cj.ffzyapi.com"
-    },
-    "cj_yayazy_net_provide_vod": {
-      "name": "🎬鸭鸭资源",
-      "api": "https://cj.yayazy.net/api.php/provide/vod",
-      "detail": "https://yayazy3.com"
     },
     "360zyzz_com_provide_vod": {
       "name": "🎬360 资源",
       "api": "https://360zyzz.com/api.php/provide/vod",
       "detail": "https://360zy.com"
     },
-    "360zy_com_provide_vod": {
-      "name": "🎬360资源",
-      "api": "https://360zy.com/api.php/provide/vod",
-      "detail": "https://360zy.com"
+    "api_ukuapi_com_provide_vod": {
+      "name": "🎬U酷资源",
+      "api": "https://api.ukuapi.com/api.php/provide/vod",
+      "detail": "https://api.ukuapi.com"
     },
     "collect_wolongzyw_com_provide_vod": {
       "name": "🎬卧龙点播",
@@ -215,6 +210,11 @@
       "name": "🎬金蝉影视",
       "api": "https://zy.jinchancaiji.com/api.php/provide/vod",
       "detail": "https://zy.jinchancaiji.com"
+    },
+    "cj_yayazy_net_provide_vod": {
+      "name": "🎬鸭鸭资源",
+      "api": "https://cj.yayazy.net/api.php/provide/vod",
+      "detail": "https://yayazy3.com"
     }
   }
 }
