@@ -15,6 +15,13 @@ on:
       - "full.txt"
       - "full-plus18.json"
       - "full-plus18.txt"
+  workflow_run:
+    workflows:
+      - "Update Aggregated Config"
+    types:
+      - completed
+    branches:
+      - main
 
 permissions:
   contents: read
@@ -26,7 +33,11 @@ concurrency:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main'
+    if: >
+      (github.event_name == 'workflow_run' &&
+       github.event.workflow_run.conclusion == 'success' &&
+       github.event.workflow_run.head_branch == 'main') ||
+      (github.event_name != 'workflow_run' && github.ref == 'refs/heads/main')
 
     steps:
       - name: Checkout
