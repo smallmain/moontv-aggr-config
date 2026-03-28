@@ -56,6 +56,16 @@
       "api": "https://bfzyapi.com/api.php/provide/vod",
       "detail": "https://bfzy.tv"
     },
+    "zuidazy_me_provide_vod": {
+      "name": "🎬最大点播",
+      "api": "https://zuidazy.me/api.php/provide/vod",
+      "detail": "https://zuidazy.co"
+    },
+    "api_zuidapi_com_provide_vod": {
+      "name": "🎬最大资源",
+      "api": "https://api.zuidapi.com/api.php/provide/vod",
+      "detail": "https://zuida.xyz"
+    },
     "m3u8_apiyhzy_com_provide_vod": {
       "name": "🎬樱花资源",
       "api": "https://m3u8.apiyhzy.com/api.php/provide/vod",
@@ -126,16 +136,6 @@
       "api": "https://api.guangsuapi.com/api.php/provide/vod",
       "detail": "https://api.guangsuapi.com"
     },
-    "zuidazy_me_provide_vod": {
-      "name": "🎬最大点播",
-      "api": "https://zuidazy.me/api.php/provide/vod",
-      "detail": "https://zuidazy.co"
-    },
-    "api_zuidapi_com_provide_vod": {
-      "name": "🎬最大资源",
-      "api": "https://api.zuidapi.com/api.php/provide/vod",
-      "detail": "https://zuida.xyz"
-    },
     "jszyapi_com_provide_vod": {
       "name": "🎬极速资源",
       "api": "https://jszyapi.com/api.php/provide/vod",
@@ -145,6 +145,11 @@
       "name": "🎬爱奇艺",
       "api": "https://iqiyizyapi.com/api.php/provide/vod",
       "detail": "https://iqiyizyapi.com"
+    },
+    "api_maoyanapi_top_provide_vod": {
+      "name": "🎬猫眼资源",
+      "api": "https://api.maoyanapi.top/api.php/provide/vod",
+      "detail": "https://www.maoyanzy.com"
     },
     "caiji_dyttzyapi_com_provide_vod": {
       "name": "🎬电影天堂",
@@ -205,11 +210,6 @@
       "name": "🎬天涯资源",
       "api": "https://tyyszy.com/api.php/provide/vod",
       "detail": "https://tyyszy.com"
-    },
-    "api_maoyanapi_top_provide_vod": {
-      "name": "🎬猫眼资源",
-      "api": "https://api.maoyanapi.top/api.php/provide/vod",
-      "detail": "https://www.maoyanzy.com"
     },
     "lovedan_net_provide_vod": {
       "name": "🎬艾旦影视",
