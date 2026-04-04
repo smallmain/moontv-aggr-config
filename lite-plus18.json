@@ -136,11 +136,6 @@
       "api": "https://jszyapi.com/api.php/provide/vod",
       "detail": "https://jszyapi.com"
     },
-    "iqiyizyapi_com_provide_vod": {
-      "name": "🎬爱奇艺",
-      "api": "https://iqiyizyapi.com/api.php/provide/vod",
-      "detail": "https://iqiyizyapi.com"
-    },
     "api_maoyanapi_top_provide_vod": {
       "name": "🎬猫眼资源",
       "api": "https://api.maoyanapi.top/api.php/provide/vod",
@@ -206,6 +201,11 @@
       "api": "https://tyyszy.com/api.php/provide/vod",
       "detail": "https://tyyszy.com"
     },
+    "iqiyizyapi_com_provide_vod": {
+      "name": "🎬爱奇艺",
+      "api": "https://iqiyizyapi.com/api.php/provide/vod",
+      "detail": "https://iqiyizyapi.com"
+    },
     "api_apibdzy_com_provide_vod": {
       "name": "🎬百度云zy",
       "api": "https://api.apibdzy.com/api.php/provide/vod",
@@ -215,6 +215,11 @@
       "name": "🎬金蝉影视",
       "api": "https://zy.jinchancaiji.com/api.php/provide/vod",
       "detail": "https://zy.jinchancaiji.com"
+    },
+    "www_kxgav_com_api_json_php": {
+      "name": "🔞白嫖资源",
+      "api": "https://www.kxgav.com/api/json.php",
+      "detail": "https://www.kxgav.com"
     },
     "apilj_com_provide_vod": {
       "name": "🔞辣椒资源",
@@ -270,11 +275,6 @@
       "name": "🔞番号资源",
       "api": "http://fhapi9.com/api.php/provide/vod",
       "detail": "http://fhapi9.com"
-    },
-    "www_kxgav_com_api_json_php": {
-      "name": "🔞白嫖资源",
-      "api": "https://www.kxgav.com/api/json.php",
-      "detail": "https://www.kxgav.com"
     },
     "api_bwzyz_com_provide_vod": {
       "name": "🔞百万资源",
