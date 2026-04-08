@@ -296,11 +296,6 @@
       "api": "https://api.yzzy-api.com/inc/api_mac10.php",
       "detail": "https://1080zyk.com"
     },
-    "www_caiji_cyou_provide_vod": {
-      "name": "🎬789官采资源站采集接口",
-      "api": "https://www.caiji.cyou/api.php/provide/vod",
-      "detail": "https://www.caiji.cyou"
-    },
     "api_okzyw_net_provide_vod": {
       "name": "🎬OK资源采集网采集接口",
       "api": "http://api.okzyw.net/api.php/provide/vod",
@@ -380,6 +375,11 @@
       "name": "🎬金鹰资源",
       "api": "https://jyzyapi.com/provide/vod/from/jinyingm3u8/at/json",
       "detail": "https://jinyingzy.com"
+    },
+    "cj_baozi66_top_provide_vod": {
+      "name": "🎬雨哥哥资源",
+      "api": "http://cj.baozi66.top:66/api.php/provide/vod",
+      "detail": "http://cj.baozi66.top:66"
     },
     "ffzy5_tv_provide_vod": {
       "name": "🎬非凡影视",
