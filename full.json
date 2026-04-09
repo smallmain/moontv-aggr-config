@@ -298,8 +298,8 @@
     },
     "api_okzyw_net_provide_vod": {
       "name": "🎬OK资源采集网采集接口",
-      "api": "http://api.okzyw.net/api.php/provide/vod",
-      "detail": "http://api.okzyw.net"
+      "api": "https://api.okzyw.net/api.php/provide/vod",
+      "detail": "https://okzyw.cc/index.php/label/help.html"
     },
     "ikunzyapi_com_at_json": {
       "name": "🎬ikun资源",
@@ -385,11 +385,6 @@
       "name": "🎬非凡影视",
       "api": "http://ffzy5.tv/api.php/provide/vod",
       "detail": "http://ffzy5.tv"
-    },
-    "ffzy1_tv_provide_vod": {
-      "name": "🎬非凡线路1",
-      "api": "http://ffzy1.tv/api.php/provide/vod",
-      "detail": "http://ffzy1.tv"
     },
     "www_moduzy_com_provide_vod": {
       "name": "🎬魔都采集",
