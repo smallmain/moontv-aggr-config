@@ -336,6 +336,11 @@
       "api": "https://www.wwzy.tv/api.php/provide/vod",
       "detail": "https://www.wwzy.tv"
     },
+    "taopianapi_com_vod_json_html": {
+      "name": "🎬淘片",
+      "api": "https://taopianapi.com/cjapi/mc/vod/json.html",
+      "detail": "https://www.taopianzy.com/index.html"
+    },
     "api_maoyanapi_top_at_json": {
       "name": "🎬猫眼资源",
       "api": "https://api.maoyanapi.top/api.php/provide/vod/at/json",
@@ -375,11 +380,6 @@
       "name": "🎬金鹰资源",
       "api": "https://jyzyapi.com/provide/vod/from/jinyingm3u8/at/json",
       "detail": "https://jinyingzy.com"
-    },
-    "cj_baozi66_top_provide_vod": {
-      "name": "🎬雨哥哥资源",
-      "api": "http://cj.baozi66.top:66/api.php/provide/vod",
-      "detail": "http://cj.baozi66.top:66"
     },
     "ffzy5_tv_provide_vod": {
       "name": "🎬非凡影视",
@@ -486,11 +486,6 @@
       "api": "https://apilsbzy1.com/api.php/provide/vod",
       "detail": "https://apilsbzy1.com"
     },
-    "api_douapi_cc_provide_vod": {
-      "name": "🔞豆豆资源",
-      "api": "https://api.douapi.cc/api.php/provide/vod",
-      "detail": "https://doudouzy.com"
-    },
     "shayuapi_com_provide_vod": {
       "name": "🔞鲨鱼资源",
       "api": "https://shayuapi.com/api.php/provide/vod",
@@ -525,6 +520,11 @@
       "name": "🔞色猫资源",
       "api": "https://caiji.semaozy.net/inc/apijson_vod.php/provide/vod",
       "detail": "https://semaozy1.com"
+    },
+    "api_douapi_cc_provide_vod": {
+      "name": "🔞豆豆资源",
+      "api": "https://api.douapi.cc/api.php/provide/vod",
+      "detail": "https://doudouzy.com"
     },
     "hsckzy_xyz_provide_vod": {
       "name": "🔞黄色仓库",

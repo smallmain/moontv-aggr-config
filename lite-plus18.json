@@ -306,11 +306,6 @@
       "api": "https://apilsbzy1.com/api.php/provide/vod",
       "detail": "https://apilsbzy1.com"
     },
-    "api_douapi_cc_provide_vod": {
-      "name": "🔞豆豆资源",
-      "api": "https://api.douapi.cc/api.php/provide/vod",
-      "detail": "https://doudouzy.com"
-    },
     "shayuapi_com_provide_vod": {
       "name": "🔞鲨鱼资源",
       "api": "https://shayuapi.com/api.php/provide/vod",
@@ -345,6 +340,11 @@
       "name": "🔞色猫资源",
       "api": "https://caiji.semaozy.net/inc/apijson_vod.php/provide/vod",
       "detail": "https://semaozy1.com"
+    },
+    "api_douapi_cc_provide_vod": {
+      "name": "🔞豆豆资源",
+      "api": "https://api.douapi.cc/api.php/provide/vod",
+      "detail": "https://doudouzy.com"
     },
     "hsckzy_xyz_provide_vod": {
       "name": "🔞黄色仓库",
