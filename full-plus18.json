@@ -296,6 +296,11 @@
       "api": "https://api.yzzy-api.com/inc/api_mac10.php",
       "detail": "https://1080zyk.com"
     },
+    "www_ikunzy_com_provide_vod": {
+      "name": "🎬Ikun资源（备用）",
+      "api": "https://www.ikunzy.com/api.php/provide/vod",
+      "detail": "https://www.ikunzy.com"
+    },
     "api_okzyw_net_provide_vod": {
       "name": "🎬OK资源采集网采集接口",
       "api": "https://api.okzyw.net/api.php/provide/vod",
@@ -341,15 +346,10 @@
       "api": "https://taopianapi.com/cjapi/mc/vod/json.html",
       "detail": "https://www.taopianzy.com/index.html"
     },
-    "api_maoyanapi_top_at_json": {
-      "name": "🎬猫眼资源",
-      "api": "https://api.maoyanapi.top/api.php/provide/vod/at/json",
-      "detail": "https://api.maoyanapi.top"
-    },
-    "maoyanzy_com_provide_vod": {
-      "name": "🎬猫眼资源",
-      "api": "https://maoyanzy.com/api.php/provide/vod",
-      "detail": "https://maoyanzy.com"
+    "taopianapi_com_vod_json_html_178e07": {
+      "name": "🎬淘片资源网",
+      "api": "https://taopianapi.com/cjapi/mc10/vod/json.html",
+      "detail": "https://taopianapi.com"
     },
     "www_suoniapi_com_provide_vod": {
       "name": "🎬索尼资源",
@@ -541,11 +541,6 @@
       "api": "https://siwazyw.tv/api.php/provide/vod",
       "detail": "https://siwazyw.tv"
     },
-    "www_xrbsp_com_api_json_php": {
-      "name": "🔞淫水机资源",
-      "api": "https://www.xrbsp.com/api/json.php",
-      "detail": "https://www.xrbsp.com"
-    },
     "www_gdlsp_com_api_json_php": {
       "name": "🔞香奶儿资源",
       "api": "https://www.gdlsp.com/api/json.php",
@@ -570,6 +565,11 @@
       "name": "🔞森林资源",
       "api": "https://slapibf.com/api.php/provide/vod",
       "detail": "https://slapibf.com"
+    },
+    "www_xrbsp_com_api_json_php": {
+      "name": "🔞淫水机资源",
+      "api": "https://www.xrbsp.com/api/json.php",
+      "detail": "https://www.xrbsp.com"
     },
     "hhzyapi_com_at_json": {
       "name": "🔞豪华资源",
