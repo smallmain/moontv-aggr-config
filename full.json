@@ -211,6 +211,11 @@
       "api": "https://api.apibdzy.com/api.php/provide/vod",
       "detail": "https://bdzy1.com"
     },
+    "lovedan_net_provide_vod": {
+      "name": "🎬艾旦影视",
+      "api": "https://lovedan.net/api.php/provide/vod",
+      "detail": "https://lovedan.net"
+    },
     "zy_jinchancaiji_com_provide_vod": {
       "name": "🎬金蝉影视",
       "api": "https://zy.jinchancaiji.com/api.php/provide/vod",
@@ -250,11 +255,6 @@
       "name": "🎬红牛资源3",
       "api": "https://www.hongniuzy3.com/api.php/provide/vod",
       "detail": "https://www.hongniuzy3.com"
-    },
-    "lovedan_net_provide_vod": {
-      "name": "🎬艾旦影视",
-      "api": "https://lovedan.net/api.php/provide/vod",
-      "detail": "https://lovedan.net"
     },
     "www_huyaapi_com_at_json": {
       "name": "🎬虎牙资源",
@@ -351,6 +351,11 @@
       "api": "https://taopianapi.com/cjapi/mc10/vod/json.html",
       "detail": "https://taopianapi.com"
     },
+    "api_maoyanapi_top_at_json": {
+      "name": "🎬猫眼资源",
+      "api": "https://api.maoyanapi.top/api.php/provide/vod/at/json",
+      "detail": "https://api.maoyanapi.top"
+    },
     "www_suoniapi_com_provide_vod": {
       "name": "🎬索尼资源",
       "api": "https://www.suoniapi.com/api.php/provide/vod",
@@ -385,6 +390,11 @@
       "name": "🎬非凡影视",
       "api": "http://ffzy5.tv/api.php/provide/vod",
       "detail": "http://ffzy5.tv"
+    },
+    "ffzy1_tv_provide_vod": {
+      "name": "🎬非凡线路1",
+      "api": "http://ffzy1.tv/api.php/provide/vod",
+      "detail": "http://ffzy1.tv"
     },
     "www_moduzy_com_provide_vod": {
       "name": "🎬魔都采集",
