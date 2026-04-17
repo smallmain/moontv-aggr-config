@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-04-16T05:39:02.769016+00:00",
+  "generated_at": "2026-04-17T05:36:47.337307+00:00",
   "summary": {
     "source_repositories": 5,
-    "unique_api_sites": 158,
-    "safe_api_sites": 104,
-    "adult_api_sites": 54,
+    "unique_api_sites": 157,
+    "safe_api_sites": 105,
+    "adult_api_sites": 52,
     "failed_sources": 0
   },
   "sources": [
@@ -37,8 +37,8 @@
       "repo": "https://github.com/oooopera/moontv_config",
       "ref": null,
       "parser": "json",
-      "api_count": 137,
-      "score": 1243
+      "api_count": 128,
+      "score": 1207
     },
     {
       "name": "heardic/shipinyuan",
@@ -53,17 +53,17 @@
     "lite": {
       "json": "lite.json",
       "txt": "lite.txt",
-      "api_count": 44
+      "api_count": 42
     },
     "lite_plus18": {
       "json": "lite-plus18.json",
       "txt": "lite-plus18.txt",
-      "api_count": 71
+      "api_count": 69
     },
     "full": {
       "json": "full.json",
       "txt": "full.txt",
-      "api_count": 81
+      "api_count": 82
     },
     "full_plus18": {
       "json": "full-plus18.json",
@@ -655,23 +655,6 @@
       ]
     },
     {
-      "name": "🎬百度云zy",
-      "api": "https://api.apibdzy.com/api.php/provide/vod",
-      "detail": "https://bdzy1.com",
-      "adult": false,
-      "consensus": 4,
-      "sources": [
-        "hafrey1/LunaTV-config",
-        "heardic/shipinyuan",
-        "oooopera/moontv_config",
-        "vodtv/api"
-      ],
-      "observed_names": [
-        "TV-百度云资源",
-        "🎬百度云zy"
-      ]
-    },
-    {
       "name": "🎬虎牙资源",
       "api": "https://www.huyaapi.com/api.php/provide/vod",
       "detail": "https://www.huyaapi.com",
@@ -806,20 +789,37 @@
         "U酷资源",
         "🎬U酷资源"
       ]
+    },
+    {
+      "name": "🎬卧龙点播",
+      "api": "https://collect.wolongzyw.com/api.php/provide/vod",
+      "detail": "https://collect.wolongzyw.com",
+      "adult": false,
+      "consensus": 3,
+      "sources": [
+        "heardic/shipinyuan",
+        "oooopera/moontv_config",
+        "qianqikun/LunaTV-config"
+      ],
+      "observed_names": [
+        "TV-卧龙点播",
+        "卧龙|点播",
+        "🎬卧龙资源1"
+      ]
     }
   ],
   "errors": [],
   "health": {
-    "generated_at": "2026-04-16T05:39:01.936050+00:00",
+    "generated_at": "2026-04-17T05:36:46.418120+00:00",
     "target_file": "full-plus18.json",
-    "total_apis": 158,
+    "total_apis": 157,
     "current_success": 118,
-    "current_failure": 40,
+    "current_failure": 39,
     "enabled_apis": 120,
     "healthy_apis": 115,
     "subhealthy_apis": 5,
-    "unhealthy_apis": 38,
-    "average_availability_rate": 0.7450271247739603,
+    "unhealthy_apis": 37,
+    "average_availability_rate": 0.7497725204731575,
     "validation_mode": "moontvplus-search",
     "search_keywords": [
       "斗罗",
