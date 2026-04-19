@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-04-18T05:17:39.267990+00:00",
+  "generated_at": "2026-04-19T05:37:31.114204+00:00",
   "summary": {
     "source_repositories": 5,
-    "unique_api_sites": 156,
-    "safe_api_sites": 104,
-    "adult_api_sites": 52,
+    "unique_api_sites": 159,
+    "safe_api_sites": 105,
+    "adult_api_sites": 54,
     "failed_sources": 0
   },
   "sources": [
@@ -37,8 +37,8 @@
       "repo": "https://github.com/oooopera/moontv_config",
       "ref": null,
       "parser": "json",
-      "api_count": 130,
-      "score": 1215
+      "api_count": 131,
+      "score": 1219
     },
     {
       "name": "heardic/shipinyuan",
@@ -63,12 +63,12 @@
     "full": {
       "json": "full.json",
       "txt": "full.txt",
-      "api_count": 81
+      "api_count": 82
     },
     "full_plus18": {
       "json": "full-plus18.json",
       "txt": "full-plus18.txt",
-      "api_count": 118
+      "api_count": 121
     }
   },
   "top_sites": [
@@ -478,24 +478,6 @@
       ]
     },
     {
-      "name": "🎬闪电资源",
-      "api": "https://xsd.sdzyapi.com/api.php/provide/vod",
-      "detail": "https://shandianzy.com",
-      "adult": false,
-      "consensus": 5,
-      "sources": [
-        "hafrey1/LunaTV-config",
-        "heardic/shipinyuan",
-        "oooopera/moontv_config",
-        "qianqikun/LunaTV-config",
-        "vodtv/api"
-      ],
-      "observed_names": [
-        "索尼-闪电资源",
-        "🎬闪电资源"
-      ]
-    },
-    {
       "name": "🎬飘零资源",
       "api": "https://p2100.net/api.php/provide/vod",
       "detail": "https://p2100.net",
@@ -705,6 +687,23 @@
       ]
     },
     {
+      "name": "🎬闪电资源",
+      "api": "https://xsd.sdzyapi.com/api.php/provide/vod",
+      "detail": "https://shandianzy.com",
+      "adult": false,
+      "consensus": 4,
+      "sources": [
+        "hafrey1/LunaTV-config",
+        "heardic/shipinyuan",
+        "qianqikun/LunaTV-config",
+        "vodtv/api"
+      ],
+      "observed_names": [
+        "索尼-闪电资源",
+        "🎬闪电资源"
+      ]
+    },
+    {
       "name": "🎬非凡资源",
       "api": "https://api.ffzyapi.com/api.php/provide/vod",
       "detail": "https://cj.ffzyapi.com",
@@ -810,16 +809,16 @@
   ],
   "errors": [],
   "health": {
-    "generated_at": "2026-04-18T05:17:38.442494+00:00",
+    "generated_at": "2026-04-19T05:37:30.057400+00:00",
     "target_file": "full-plus18.json",
-    "total_apis": 156,
-    "current_success": 118,
-    "current_failure": 38,
-    "enabled_apis": 118,
-    "healthy_apis": 116,
-    "subhealthy_apis": 2,
+    "total_apis": 159,
+    "current_success": 119,
+    "current_failure": 40,
+    "enabled_apis": 121,
+    "healthy_apis": 117,
+    "subhealthy_apis": 4,
     "unhealthy_apis": 38,
-    "average_availability_rate": 0.75503663003663,
+    "average_availability_rate": 0.7470799640610961,
     "validation_mode": "moontvplus-search",
     "search_keywords": [
       "斗罗",
