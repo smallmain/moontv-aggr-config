@@ -16,6 +16,11 @@
       "api": "https://wolongzyw.com/api.php/provide/vod",
       "detail": "https://wolongzyw.com"
     },
+    "cj_rycjapi_com_provide_vod": {
+      "name": "🎬如意资源",
+      "api": "https://cj.rycjapi.com/api.php/provide/vod",
+      "detail": "https://www.ryzyw.com"
+    },
     "caiji_kuaichezy_org_provide_vod": {
       "name": "🎬快车资源",
       "api": "https://caiji.kuaichezy.org/api.php/provide/vod",
@@ -130,11 +135,6 @@
       "name": "🎬光速资源",
       "api": "https://api.guangsuapi.com/api.php/provide/vod",
       "detail": "https://api.guangsuapi.com"
-    },
-    "cj_rycjapi_com_provide_vod": {
-      "name": "🎬如意资源",
-      "api": "https://cj.rycjapi.com/api.php/provide/vod",
-      "detail": "https://www.ryzyw.com"
     },
     "jszyapi_com_provide_vod": {
       "name": "🎬极速资源",
@@ -282,9 +282,9 @@
       "detail": "https://jyzyapi.com"
     },
     "sdzyapi_com_provide_vod": {
-      "name": "🎬閃電资源",
-      "api": "https://sdzyapi.com/api.php/provide/vod",
-      "detail": "https://sdzyapi.com"
+      "name": "🎬闪电|点播",
+      "api": "http://sdzyapi.com/api.php/provide/vod",
+      "detail": "http://sdzyapi.com"
     },
     "cj_ffzyapi_com_provide_vod": {
       "name": "🎬非凡资源",
@@ -350,11 +350,6 @@
       "name": "🎬猫眼资源",
       "api": "https://api.maoyanapi.top/api.php/provide/vod/at/json",
       "detail": "https://api.maoyanapi.top"
-    },
-    "maoyanzy_com_provide_vod": {
-      "name": "🎬猫眼资源",
-      "api": "https://maoyanzy.com/api.php/provide/vod",
-      "detail": "https://maoyanzy.com"
     },
     "www_suoniapi_com_provide_vod": {
       "name": "🎬索尼资源",
