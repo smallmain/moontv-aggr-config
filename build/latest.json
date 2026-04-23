@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-22T05:34:31.731927+00:00",
+  "generated_at": "2026-04-23T05:39:25.050834+00:00",
   "summary": {
     "source_repositories": 5,
     "unique_api_sites": 154,
@@ -37,8 +37,8 @@
       "repo": "https://github.com/oooopera/moontv_config",
       "ref": null,
       "parser": "json",
-      "api_count": 129,
-      "score": 1211
+      "api_count": 131,
+      "score": 1219
     },
     {
       "name": "heardic/shipinyuan",
@@ -655,6 +655,23 @@
       ]
     },
     {
+      "name": "🎬百度云zy",
+      "api": "https://api.apibdzy.com/api.php/provide/vod",
+      "detail": "https://bdzy1.com",
+      "adult": false,
+      "consensus": 4,
+      "sources": [
+        "hafrey1/LunaTV-config",
+        "heardic/shipinyuan",
+        "oooopera/moontv_config",
+        "vodtv/api"
+      ],
+      "observed_names": [
+        "TV-百度云资源",
+        "🎬百度云zy"
+      ]
+    },
+    {
       "name": "🎬虎牙资源",
       "api": "https://www.huyaapi.com/api.php/provide/vod",
       "detail": "https://www.huyaapi.com",
@@ -789,37 +806,20 @@
         "U酷资源",
         "🎬U酷资源"
       ]
-    },
-    {
-      "name": "🎬卧龙点播",
-      "api": "https://collect.wolongzyw.com/api.php/provide/vod",
-      "detail": "https://collect.wolongzyw.com",
-      "adult": false,
-      "consensus": 3,
-      "sources": [
-        "heardic/shipinyuan",
-        "oooopera/moontv_config",
-        "qianqikun/LunaTV-config"
-      ],
-      "observed_names": [
-        "TV-卧龙点播",
-        "卧龙|点播",
-        "🎬卧龙资源1"
-      ]
     }
   ],
   "errors": [],
   "health": {
-    "generated_at": "2026-04-22T05:34:30.906739+00:00",
+    "generated_at": "2026-04-23T05:39:24.027402+00:00",
     "target_file": "full-plus18.json",
     "total_apis": 154,
-    "current_success": 118,
-    "current_failure": 36,
+    "current_success": 117,
+    "current_failure": 37,
     "enabled_apis": 118,
-    "healthy_apis": 117,
-    "subhealthy_apis": 1,
+    "healthy_apis": 116,
+    "subhealthy_apis": 2,
     "unhealthy_apis": 36,
-    "average_availability_rate": 0.7657699443413729,
+    "average_availability_rate": 0.7653061224489797,
     "validation_mode": "moontvplus-search",
     "search_keywords": [
       "斗罗",
