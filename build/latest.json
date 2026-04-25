@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-24T05:43:43.952914+00:00",
+  "generated_at": "2026-04-25T05:22:25.699440+00:00",
   "summary": {
     "source_repositories": 5,
     "unique_api_sites": 153,
@@ -37,8 +37,8 @@
       "repo": "https://github.com/oooopera/moontv_config",
       "ref": null,
       "parser": "json",
-      "api_count": 116,
-      "score": 1159
+      "api_count": 124,
+      "score": 1191
     },
     {
       "name": "heardic/shipinyuan",
@@ -63,12 +63,12 @@
     "full": {
       "json": "full.json",
       "txt": "full.txt",
-      "api_count": 81
+      "api_count": 82
     },
     "full_plus18": {
       "json": "full-plus18.json",
       "txt": "full-plus18.txt",
-      "api_count": 117
+      "api_count": 118
     }
   },
   "top_sites": [
@@ -145,6 +145,7 @@
       "observed_names": [
         "TV-如意资源",
         "如意资源",
+        "如意资源网采集接口",
         "🎬如意资源"
       ]
     },
@@ -636,6 +637,23 @@
       ]
     },
     {
+      "name": "🎬百度云zy",
+      "api": "https://api.apibdzy.com/api.php/provide/vod",
+      "detail": "https://bdzy1.com",
+      "adult": false,
+      "consensus": 4,
+      "sources": [
+        "hafrey1/LunaTV-config",
+        "heardic/shipinyuan",
+        "oooopera/moontv_config",
+        "vodtv/api"
+      ],
+      "observed_names": [
+        "TV-百度云资源",
+        "🎬百度云zy"
+      ]
+    },
+    {
       "name": "🎬虎牙资源",
       "api": "https://www.huyaapi.com/api.php/provide/vod",
       "detail": "https://www.huyaapi.com",
@@ -787,37 +805,20 @@
         "U酷资源",
         "🎬U酷资源"
       ]
-    },
-    {
-      "name": "🎬卧龙点播",
-      "api": "https://collect.wolongzyw.com/api.php/provide/vod",
-      "detail": "https://collect.wolongzyw.com",
-      "adult": false,
-      "consensus": 3,
-      "sources": [
-        "heardic/shipinyuan",
-        "oooopera/moontv_config",
-        "qianqikun/LunaTV-config"
-      ],
-      "observed_names": [
-        "TV-卧龙点播",
-        "卧龙|点播",
-        "🎬卧龙资源1"
-      ]
     }
   ],
   "errors": [],
   "health": {
-    "generated_at": "2026-04-24T05:43:43.126178+00:00",
+    "generated_at": "2026-04-25T05:22:24.986665+00:00",
     "target_file": "full-plus18.json",
     "total_apis": 153,
-    "current_success": 115,
-    "current_failure": 38,
-    "enabled_apis": 117,
-    "healthy_apis": 113,
-    "subhealthy_apis": 4,
-    "unhealthy_apis": 36,
-    "average_availability_rate": 0.7628384687208217,
+    "current_success": 111,
+    "current_failure": 42,
+    "enabled_apis": 118,
+    "healthy_apis": 111,
+    "subhealthy_apis": 7,
+    "unhealthy_apis": 35,
+    "average_availability_rate": 0.7605042016806723,
     "validation_mode": "moontvplus-search",
     "search_keywords": [
       "斗罗",
