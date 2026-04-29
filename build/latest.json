@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-04-28T06:14:25.239987+00:00",
+  "generated_at": "2026-04-29T06:08:15.770353+00:00",
   "summary": {
     "source_repositories": 5,
-    "unique_api_sites": 153,
-    "safe_api_sites": 104,
+    "unique_api_sites": 152,
+    "safe_api_sites": 103,
     "adult_api_sites": 49,
     "failed_sources": 0
   },
@@ -37,8 +37,8 @@
       "repo": "https://github.com/oooopera/moontv_config",
       "ref": null,
       "parser": "json",
-      "api_count": 120,
-      "score": 1175
+      "api_count": 124,
+      "score": 1191
     },
     {
       "name": "heardic/shipinyuan",
@@ -53,12 +53,12 @@
     "lite": {
       "json": "lite.json",
       "txt": "lite.txt",
-      "api_count": 42
+      "api_count": 43
     },
     "lite_plus18": {
       "json": "lite-plus18.json",
       "txt": "lite-plus18.txt",
-      "api_count": 69
+      "api_count": 70
     },
     "full": {
       "json": "full.json",
@@ -187,6 +187,44 @@
         "新浪资源",
         "新浪资源阿",
         "🎬新浪资源"
+      ]
+    },
+    {
+      "name": "🎬无尽资源",
+      "api": "https://api.wujinapi.com/api.php/provide/vod",
+      "detail": "https://wujinzy.com",
+      "adult": false,
+      "consensus": 5,
+      "sources": [
+        "hafrey1/LunaTV-config",
+        "heardic/shipinyuan",
+        "oooopera/moontv_config",
+        "qianqikun/LunaTV-config",
+        "vodtv/api"
+      ],
+      "observed_names": [
+        "TV-无尽资源",
+        "无尽资源",
+        "🎬无尽影视",
+        "🎬无尽资源1"
+      ]
+    },
+    {
+      "name": "🎬无尽资源",
+      "api": "https://api.wujinapi.me/api.php/provide/vod",
+      "detail": "https://wujinzy.com",
+      "adult": false,
+      "consensus": 5,
+      "sources": [
+        "hafrey1/LunaTV-config",
+        "heardic/shipinyuan",
+        "oooopera/moontv_config",
+        "qianqikun/LunaTV-config",
+        "vodtv/api"
+      ],
+      "observed_names": [
+        "TV-无尽资源",
+        "🎬无尽资源"
       ]
     },
     {
@@ -420,6 +458,24 @@
       ]
     },
     {
+      "name": "🎬金鹰点播",
+      "api": "https://jinyingzy.com/api.php/provide/vod",
+      "detail": "https://jinyingzy.com",
+      "adult": false,
+      "consensus": 5,
+      "sources": [
+        "hafrey1/LunaTV-config",
+        "heardic/shipinyuan",
+        "oooopera/moontv_config",
+        "qianqikun/LunaTV-config",
+        "vodtv/api"
+      ],
+      "observed_names": [
+        "TV-金鹰点播",
+        "🎬金鹰点播"
+      ]
+    },
+    {
       "name": "🎬闪电资源",
       "api": "https://xsd.sdzyapi.com/api.php/provide/vod",
       "detail": "https://shandianzy.com",
@@ -526,41 +582,6 @@
       "observed_names": [
         "TV-光速资源",
         "🎬光速资源"
-      ]
-    },
-    {
-      "name": "🎬无尽影视",
-      "api": "https://api.wujinapi.com/api.php/provide/vod",
-      "detail": "https://wujinzy.com",
-      "adult": false,
-      "consensus": 4,
-      "sources": [
-        "hafrey1/LunaTV-config",
-        "heardic/shipinyuan",
-        "qianqikun/LunaTV-config",
-        "vodtv/api"
-      ],
-      "observed_names": [
-        "TV-无尽资源",
-        "🎬无尽影视",
-        "🎬无尽资源1"
-      ]
-    },
-    {
-      "name": "🎬无尽资源",
-      "api": "https://api.wujinapi.me/api.php/provide/vod",
-      "detail": "https://wujinzy.com",
-      "adult": false,
-      "consensus": 4,
-      "sources": [
-        "hafrey1/LunaTV-config",
-        "heardic/shipinyuan",
-        "qianqikun/LunaTV-config",
-        "vodtv/api"
-      ],
-      "observed_names": [
-        "TV-无尽资源",
-        "🎬无尽资源"
       ]
     },
     {
@@ -699,23 +720,6 @@
       ]
     },
     {
-      "name": "🎬金鹰点播",
-      "api": "https://jinyingzy.com/api.php/provide/vod",
-      "detail": "https://jinyingzy.com",
-      "adult": false,
-      "consensus": 4,
-      "sources": [
-        "hafrey1/LunaTV-config",
-        "heardic/shipinyuan",
-        "qianqikun/LunaTV-config",
-        "vodtv/api"
-      ],
-      "observed_names": [
-        "TV-金鹰点播",
-        "🎬金鹰点播"
-      ]
-    },
-    {
       "name": "🎬非凡资源",
       "api": "https://api.ffzyapi.com/api.php/provide/vod",
       "detail": "https://cj.ffzyapi.com",
@@ -804,16 +808,16 @@
   ],
   "errors": [],
   "health": {
-    "generated_at": "2026-04-28T06:14:24.478097+00:00",
+    "generated_at": "2026-04-29T06:08:15.008846+00:00",
     "target_file": "full-plus18.json",
-    "total_apis": 153,
-    "current_success": 114,
+    "total_apis": 152,
+    "current_success": 113,
     "current_failure": 39,
     "enabled_apis": 114,
-    "healthy_apis": 106,
-    "subhealthy_apis": 8,
-    "unhealthy_apis": 39,
-    "average_availability_rate": 0.7539682539682541,
+    "healthy_apis": 104,
+    "subhealthy_apis": 10,
+    "unhealthy_apis": 38,
+    "average_availability_rate": 0.7509398496240604,
     "validation_mode": "moontvplus-search",
     "search_keywords": [
       "斗罗",
