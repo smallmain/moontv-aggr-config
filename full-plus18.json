@@ -286,6 +286,11 @@
       "api": "https://api.yzzy-api.com/inc/api_mac10.php",
       "detail": "https://1080zyk.com"
     },
+    "api_okzyw_net_provide_vod": {
+      "name": "🎬OK资源采集网采集接口",
+      "api": "http://api.okzyw.net/api.php/provide/vod",
+      "detail": "http://api.okzyw.net"
+    },
     "ikunzyapi_com_at_json": {
       "name": "🎬ikun资源",
       "api": "https://ikunzyapi.com/api.php/provide/vod/at/json",
@@ -536,11 +541,6 @@
       "api": "https://www.xrbsp.com/api/json.php",
       "detail": "https://www.xrbsp.com"
     },
-    "www_gdlsp_com_api_json_php": {
-      "name": "🔞香奶儿资源",
-      "api": "https://www.gdlsp.com/api/json.php",
-      "detail": "https://www.gdlsp.com"
-    },
     "www_xiangjiaozyw_com_provide_vod": {
       "name": "🔞香蕉资源",
       "api": "https://www.xiangjiaozyw.com/api.php/provide/vod",
@@ -570,6 +570,11 @@
       "name": "🔞豪华资源",
       "api": "https://hhzyapi.com/api.php/provide/vod/from/hhm3u8/at/json",
       "detail": "https://hhzyapi.com"
+    },
+    "www_gdlsp_com_api_json_php": {
+      "name": "🔞香奶儿资源",
+      "api": "https://www.gdlsp.com/api/json.php",
+      "detail": "https://www.gdlsp.com"
     }
   }
 }

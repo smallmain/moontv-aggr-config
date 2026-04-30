@@ -286,6 +286,11 @@
       "api": "https://api.yzzy-api.com/inc/api_mac10.php",
       "detail": "https://1080zyk.com"
     },
+    "api_okzyw_net_provide_vod": {
+      "name": "🎬OK资源采集网采集接口",
+      "api": "http://api.okzyw.net/api.php/provide/vod",
+      "detail": "http://api.okzyw.net"
+    },
     "ikunzyapi_com_at_json": {
       "name": "🎬ikun资源",
       "api": "https://ikunzyapi.com/api.php/provide/vod/at/json",
