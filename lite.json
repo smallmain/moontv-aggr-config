@@ -196,11 +196,6 @@
       "api": "https://360zy.com/api.php/provide/vod",
       "detail": "https://360zy.com"
     },
-    "api_ukuapi_com_provide_vod": {
-      "name": "🎬U酷资源",
-      "api": "https://api.ukuapi.com/api.php/provide/vod",
-      "detail": "https://api.ukuapi.com"
-    },
     "collect_wolongzyw_com_provide_vod": {
       "name": "🎬卧龙点播",
       "api": "https://collect.wolongzyw.com/api.php/provide/vod",

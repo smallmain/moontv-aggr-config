@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-04-30T06:12:17.485742+00:00",
+  "generated_at": "2026-05-01T06:22:53.199971+00:00",
   "summary": {
     "source_repositories": 5,
-    "unique_api_sites": 153,
-    "safe_api_sites": 104,
+    "unique_api_sites": 152,
+    "safe_api_sites": 103,
     "adult_api_sites": 49,
     "failed_sources": 0
   },
@@ -37,8 +37,8 @@
       "repo": "https://github.com/oooopera/moontv_config",
       "ref": null,
       "parser": "json",
-      "api_count": 123,
-      "score": 1187
+      "api_count": 119,
+      "score": 1171
     },
     {
       "name": "heardic/shipinyuan",
@@ -53,22 +53,22 @@
     "lite": {
       "json": "lite.json",
       "txt": "lite.txt",
-      "api_count": 43
+      "api_count": 42
     },
     "lite_plus18": {
       "json": "lite-plus18.json",
       "txt": "lite-plus18.txt",
-      "api_count": 70
+      "api_count": 69
     },
     "full": {
       "json": "full.json",
       "txt": "full.txt",
-      "api_count": 78
+      "api_count": 77
     },
     "full_plus18": {
       "json": "full-plus18.json",
       "txt": "full-plus18.txt",
-      "api_count": 115
+      "api_count": 114
     }
   },
   "top_sites": [
@@ -788,9 +788,9 @@
       ]
     },
     {
-      "name": "🎬U酷资源",
-      "api": "https://api.ukuapi.com/api.php/provide/vod",
-      "detail": "https://api.ukuapi.com",
+      "name": "🎬卧龙点播",
+      "api": "https://collect.wolongzyw.com/api.php/provide/vod",
+      "detail": "https://collect.wolongzyw.com",
       "adult": false,
       "consensus": 3,
       "sources": [
@@ -799,25 +799,24 @@
         "qianqikun/LunaTV-config"
       ],
       "observed_names": [
-        "TV-U酷资源",
-        "U酷|点播",
-        "U酷资源",
-        "🎬U酷资源"
+        "TV-卧龙点播",
+        "卧龙|点播",
+        "🎬卧龙资源1"
       ]
     }
   ],
   "errors": [],
   "health": {
-    "generated_at": "2026-04-30T06:12:16.695959+00:00",
+    "generated_at": "2026-05-01T06:22:52.422021+00:00",
     "target_file": "full-plus18.json",
-    "total_apis": 153,
-    "current_success": 115,
+    "total_apis": 152,
+    "current_success": 114,
     "current_failure": 38,
-    "enabled_apis": 115,
-    "healthy_apis": 105,
+    "enabled_apis": 114,
+    "healthy_apis": 104,
     "subhealthy_apis": 10,
     "unhealthy_apis": 38,
-    "average_availability_rate": 0.7516339869281047,
+    "average_availability_rate": 0.74906015037594,
     "validation_mode": "moontvplus-search",
     "search_keywords": [
       "斗罗",
