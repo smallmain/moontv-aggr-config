@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-09T05:57:38.613038+00:00",
+  "generated_at": "2026-05-10T06:19:10.603012+00:00",
   "summary": {
     "source_repositories": 5,
-    "unique_api_sites": 152,
-    "safe_api_sites": 100,
-    "adult_api_sites": 52,
+    "unique_api_sites": 153,
+    "safe_api_sites": 102,
+    "adult_api_sites": 51,
     "failed_sources": 0
   },
   "sources": [
@@ -37,8 +37,8 @@
       "repo": "https://github.com/oooopera/moontv_config",
       "ref": null,
       "parser": "json",
-      "api_count": 119,
-      "score": 1171
+      "api_count": 123,
+      "score": 1187
     },
     {
       "name": "heardic/shipinyuan",
@@ -53,22 +53,22 @@
     "lite": {
       "json": "lite.json",
       "txt": "lite.txt",
-      "api_count": 43
+      "api_count": 42
     },
     "lite_plus18": {
       "json": "lite-plus18.json",
       "txt": "lite-plus18.txt",
-      "api_count": 70
+      "api_count": 69
     },
     "full": {
       "json": "full.json",
       "txt": "full.txt",
-      "api_count": 73
+      "api_count": 75
     },
     "full_plus18": {
       "json": "full-plus18.json",
       "txt": "full-plus18.txt",
-      "api_count": 113
+      "api_count": 114
     }
   },
   "top_sites": [
@@ -382,24 +382,6 @@
       ]
     },
     {
-      "name": "🎬茅台资源",
-      "api": "https://caiji.maotaizy.cc/api.php/provide/vod",
-      "detail": "https://mtzy.me",
-      "adult": false,
-      "consensus": 5,
-      "sources": [
-        "hafrey1/LunaTV-config",
-        "heardic/shipinyuan",
-        "oooopera/moontv_config",
-        "qianqikun/LunaTV-config",
-        "vodtv/api"
-      ],
-      "observed_names": [
-        "TV-茅台资源",
-        "🎬茅台资源"
-      ]
-    },
-    {
       "name": "🎬豪华资源",
       "api": "https://hhzyapi.com/api.php/provide/vod",
       "detail": "https://www.haohuazy.com",
@@ -621,6 +603,23 @@
       ]
     },
     {
+      "name": "🎬猫眼资源",
+      "api": "https://api.maoyanapi.top/api.php/provide/vod",
+      "detail": "https://www.maoyanzy.com",
+      "adult": false,
+      "consensus": 4,
+      "sources": [
+        "hafrey1/LunaTV-config",
+        "oooopera/moontv_config",
+        "qianqikun/LunaTV-config",
+        "vodtv/api"
+      ],
+      "observed_names": [
+        "猫眼资源",
+        "🎬猫眼资源"
+      ]
+    },
+    {
       "name": "🎬电影天堂",
       "api": "http://caiji.dyttzyapi.com/api.php/provide/vod",
       "detail": "http://caiji.dyttzyapi.com",
@@ -652,6 +651,23 @@
       "observed_names": [
         "TV-百度云资源",
         "🎬百度云zy"
+      ]
+    },
+    {
+      "name": "🎬茅台资源",
+      "api": "https://caiji.maotaizy.cc/api.php/provide/vod",
+      "detail": "https://mtzy.me",
+      "adult": false,
+      "consensus": 4,
+      "sources": [
+        "hafrey1/LunaTV-config",
+        "heardic/shipinyuan",
+        "qianqikun/LunaTV-config",
+        "vodtv/api"
+      ],
+      "observed_names": [
+        "TV-茅台资源",
+        "🎬茅台资源"
       ]
     },
     {
@@ -757,23 +773,6 @@
       ]
     },
     {
-      "name": "🎬360资源",
-      "api": "https://360zy.com/api.php/provide/vod",
-      "detail": "https://360zy.com",
-      "adult": false,
-      "consensus": 3,
-      "sources": [
-        "heardic/shipinyuan",
-        "oooopera/moontv_config",
-        "qianqikun/LunaTV-config"
-      ],
-      "observed_names": [
-        "360资源",
-        "TV-360资源",
-        "🎬360资源"
-      ]
-    },
-    {
       "name": "🎬U酷资源",
       "api": "https://api.ukuapi.com/api.php/provide/vod",
       "detail": "https://api.ukuapi.com",
@@ -811,16 +810,16 @@
   ],
   "errors": [],
   "health": {
-    "generated_at": "2026-05-09T05:57:37.688455+00:00",
+    "generated_at": "2026-05-10T06:19:09.849347+00:00",
     "target_file": "full-plus18.json",
-    "total_apis": 152,
-    "current_success": 109,
-    "current_failure": 43,
-    "enabled_apis": 113,
-    "healthy_apis": 85,
-    "subhealthy_apis": 28,
+    "total_apis": 153,
+    "current_success": 111,
+    "current_failure": 42,
+    "enabled_apis": 114,
+    "healthy_apis": 90,
+    "subhealthy_apis": 24,
     "unhealthy_apis": 39,
-    "average_availability_rate": 0.7133458646616544,
+    "average_availability_rate": 0.7231559290382822,
     "validation_mode": "moontvplus-search",
     "search_keywords": [
       "斗罗",
