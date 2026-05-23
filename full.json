@@ -71,6 +71,16 @@
       "api": "https://suoniapi.com/api.php/provide/vod",
       "detail": "https://suonizy.net"
     },
+    "www_hongniuzy2_com_provide_vod": {
+      "name": "🎬红牛资源",
+      "api": "https://www.hongniuzy2.com/api.php/provide/vod",
+      "detail": "https://www.hongniuzy.com"
+    },
+    "caiji_maotaizy_cc_provide_vod": {
+      "name": "🎬茅台资源",
+      "api": "https://caiji.maotaizy.cc/api.php/provide/vod",
+      "detail": "https://mtzy.me"
+    },
     "hhzyapi_com_provide_vod": {
       "name": "🎬豪华资源",
       "api": "https://hhzyapi.com/api.php/provide/vod",
@@ -95,6 +105,11 @@
       "name": "🎬闪电资源",
       "api": "https://xsd.sdzyapi.com/api.php/provide/vod",
       "detail": "https://shandianzy.com"
+    },
+    "p2100_net_provide_vod": {
+      "name": "🎬飘零资源",
+      "api": "https://p2100.net/api.php/provide/vod",
+      "detail": "https://p2100.net"
     },
     "caiji_moduapi_cc_provide_vod": {
       "name": "🎬魔都动漫",
@@ -136,20 +151,15 @@
       "api": "http://caiji.dyttzyapi.com/api.php/provide/vod",
       "detail": "http://caiji.dyttzyapi.com"
     },
-    "www_hongniuzy2_com_provide_vod": {
-      "name": "🎬红牛资源",
-      "api": "https://www.hongniuzy2.com/api.php/provide/vod",
-      "detail": "https://www.hongniuzy.com"
-    },
-    "caiji_maotaizy_cc_provide_vod": {
-      "name": "🎬茅台资源",
-      "api": "https://caiji.maotaizy.cc/api.php/provide/vod",
-      "detail": "https://mtzy.me"
-    },
     "www_huyaapi_com_provide_vod": {
       "name": "🎬虎牙资源",
       "api": "https://www.huyaapi.com/api.php/provide/vod",
       "detail": "https://www.huyaapi.com"
+    },
+    "caiji_dbzy5_com_provide_vod": {
+      "name": "🎬豆瓣资源",
+      "api": "https://caiji.dbzy5.com/api.php/provide/vod",
+      "detail": "https://dbzy.tv"
     },
     "cj_lzcaiji_com_provide_vod": {
       "name": "🎬量子资源",
@@ -160,11 +170,6 @@
       "name": "🎬非凡资源",
       "api": "https://api.ffzyapi.com/api.php/provide/vod",
       "detail": "https://cj.ffzyapi.com"
-    },
-    "p2100_net_provide_vod": {
-      "name": "🎬飘零资源",
-      "api": "https://p2100.net/api.php/provide/vod",
-      "detail": "https://p2100.net"
     },
     "cj_yayazy_net_provide_vod": {
       "name": "🎬鸭鸭资源",
@@ -195,11 +200,6 @@
       "name": "🎬百度云zy",
       "api": "https://api.apibdzy.com/api.php/provide/vod",
       "detail": "https://bdzy1.com"
-    },
-    "caiji_dbzy5_com_provide_vod": {
-      "name": "🎬豆瓣资源",
-      "api": "https://caiji.dbzy5.com/api.php/provide/vod",
-      "detail": "https://dbzy.tv"
     },
     "api_1080zyku_com_inc_api_mac10_php": {
       "name": "🎬1080资源",
@@ -306,11 +306,6 @@
       "api": "https://tyyszyapi.com/api.php/provide/vod",
       "detail": "https://tyyszyapi.com"
     },
-    "tiankongzy_cc_provide_vod": {
-      "name": "🎬天空资源",
-      "api": "https://tiankongzy.cc/api.php/provide/vod",
-      "detail": "https://tiankongzy.cc"
-    },
     "zy_xiaomaomi_cc_provide_vod": {
       "name": "🎬小猫咪资源",
       "api": "https://zy.xiaomaomi.cc/api.php/provide/vod",
@@ -351,11 +346,6 @@
       "api": "https://api.maoyanapi.top/api.php/provide/vod/at/json",
       "detail": "https://api.maoyanapi.top"
     },
-    "maoyanzy_com_provide_vod": {
-      "name": "🎬猫眼资源",
-      "api": "https://maoyanzy.com/api.php/provide/vod",
-      "detail": "https://maoyanzy.com"
-    },
     "img_smdyw_top_provide_vod": {
       "name": "🎬神马资源",
       "api": "https://img.smdyw.top/api.php/provide/vod",
@@ -371,6 +361,11 @@
       "api": "https://www.huyaapi.com/api.php/provide/vod/from/hym3u8",
       "detail": "https://www.huyaapi.com"
     },
+    "dbzy_com_provide_vod": {
+      "name": "🎬豆瓣资源3",
+      "api": "https://dbzy.com/api.php/provide/vod",
+      "detail": "https://dbzy.com"
+    },
     "subocj_com_provide_vod": {
       "name": "🎬速播资源",
       "api": "https://subocj.com/api.php/provide/vod",
@@ -385,6 +380,11 @@
       "name": "🎬非凡影视",
       "api": "http://ffzy5.tv/api.php/provide/vod",
       "detail": "http://ffzy5.tv"
+    },
+    "ffzy1_tv_provide_vod": {
+      "name": "🎬非凡线路1",
+      "api": "http://ffzy1.tv/api.php/provide/vod",
+      "detail": "http://ffzy1.tv"
     },
     "www_moduzy_com_provide_vod": {
       "name": "🎬魔都采集",
