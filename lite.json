@@ -91,6 +91,11 @@
       "api": "https://subocaiji.com/api.php/provide/vod",
       "detail": "https://www.subozy.com"
     },
+    "cj_lziapi_com_provide_vod": {
+      "name": "🎬量子资源",
+      "api": "https://cj.lziapi.com/api.php/provide/vod",
+      "detail": "https://cj.lziapi.com"
+    },
     "jinyingzy_com_provide_vod": {
       "name": "🎬金鹰点播",
       "api": "https://jinyingzy.com/api.php/provide/vod",
@@ -161,10 +166,10 @@
       "api": "https://caiji.dbzy5.com/api.php/provide/vod",
       "detail": "https://dbzy.tv"
     },
-    "cj_lziapi_com_provide_vod": {
-      "name": "🎬量子影视",
-      "api": "https://cj.lziapi.com/api.php/provide/vod",
-      "detail": "https://lzizy.net"
+    "cj_lzcaiji_com_provide_vod": {
+      "name": "🎬量子资源",
+      "api": "https://cj.lzcaiji.com/api.php/provide/vod",
+      "detail": "https://cj.lzcaiji.com"
     },
     "api_ffzyapi_com_provide_vod": {
       "name": "🎬非凡资源",
@@ -200,11 +205,6 @@
       "name": "🎬艾旦影视",
       "api": "https://lovedan.net/api.php/provide/vod",
       "detail": "https://lovedan.net"
-    },
-    "cj_lzcaiji_com_provide_vod": {
-      "name": "🎬量子资源",
-      "api": "https://cj.lzcaiji.com/api.php/provide/vod",
-      "detail": "https://cj.lzcaiji.com"
     }
   }
 }
