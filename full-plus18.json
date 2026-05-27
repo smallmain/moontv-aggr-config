@@ -356,6 +356,11 @@
       "api": "https://www.hongniuzy2.com/api.php/provide/vod/at/josn",
       "detail": "https://hongniuzy.net"
     },
+    "caiji_maotaizy_cc_at_josn": {
+      "name": "🎬茅台资源",
+      "api": "https://caiji.maotaizy.cc/api.php/provide/vod/at/josn",
+      "detail": "https://caiji.maotaizy.cc"
+    },
     "www_huyaapi_com_from_hym3u8": {
       "name": "🎬虎牙",
       "api": "https://www.huyaapi.com/api.php/provide/vod/from/hym3u8",
@@ -375,11 +380,6 @@
       "name": "🎬非凡影视",
       "api": "http://ffzy5.tv/api.php/provide/vod",
       "detail": "http://ffzy5.tv"
-    },
-    "ffzy1_tv_provide_vod": {
-      "name": "🎬非凡线路1",
-      "api": "http://ffzy1.tv/api.php/provide/vod",
-      "detail": "http://ffzy1.tv"
     },
     "www_moduzy_com_provide_vod": {
       "name": "🎬魔都采集",
@@ -511,11 +511,6 @@
       "api": "https://api.ddapi.cc/api.php/provide/vod",
       "detail": "https://didizy.com"
     },
-    "caiji_semaozy_net_provide_vod": {
-      "name": "🔞色猫资源",
-      "api": "https://caiji.semaozy.net/inc/apijson_vod.php/provide/vod",
-      "detail": "https://semaozy1.com"
-    },
     "api_douapi_cc_provide_vod": {
       "name": "🔞豆豆资源",
       "api": "https://api.douapi.cc/api.php/provide/vod",
@@ -550,11 +545,6 @@
       "name": "🔞成人22",
       "api": "http://www.feifei67.com/api.php/provide/vod",
       "detail": "http://www.feifei67.com"
-    },
-    "www_msnii_com_api_xml_php": {
-      "name": "🔞成人46",
-      "api": "https://www.msnii.com/api/xml.php",
-      "detail": "https://www.msnii.com"
     },
     "slapibf_com_provide_vod": {
       "name": "🔞森林资源",

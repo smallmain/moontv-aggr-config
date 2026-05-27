@@ -356,6 +356,11 @@
       "api": "https://www.hongniuzy2.com/api.php/provide/vod/at/josn",
       "detail": "https://hongniuzy.net"
     },
+    "caiji_maotaizy_cc_at_josn": {
+      "name": "🎬茅台资源",
+      "api": "https://caiji.maotaizy.cc/api.php/provide/vod/at/josn",
+      "detail": "https://caiji.maotaizy.cc"
+    },
     "www_huyaapi_com_from_hym3u8": {
       "name": "🎬虎牙",
       "api": "https://www.huyaapi.com/api.php/provide/vod/from/hym3u8",
@@ -375,11 +380,6 @@
       "name": "🎬非凡影视",
       "api": "http://ffzy5.tv/api.php/provide/vod",
       "detail": "http://ffzy5.tv"
-    },
-    "ffzy1_tv_provide_vod": {
-      "name": "🎬非凡线路1",
-      "api": "http://ffzy1.tv/api.php/provide/vod",
-      "detail": "http://ffzy1.tv"
     },
     "www_moduzy_com_provide_vod": {
       "name": "🎬魔都采集",
