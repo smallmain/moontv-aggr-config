@@ -291,6 +291,11 @@
       "api": "https://ikunzyapi.com/api.php/provide/vod/at/json",
       "detail": "https://ikunzyapi.com"
     },
+    "www_iqiyizyapi_com_provide_vod": {
+      "name": "🎬iqiyi资源",
+      "api": "https://www.iqiyizyapi.com/api.php/provide/vod",
+      "detail": "https://www.iqiyizyapi.com"
+    },
     "api_yzzy_api_com_inc_api_mac10_all_php": {
       "name": "🎬优质资源库",
       "api": "https://api.yzzy-api.com/inc/api_mac10_all.php",
@@ -365,6 +370,11 @@
       "name": "🎬虎牙",
       "api": "https://www.huyaapi.com/api.php/provide/vod/from/hym3u8",
       "detail": "https://www.huyaapi.com"
+    },
+    "caiji_xgzyapi_com_provide_vod": {
+      "name": "🎬西瓜资源采集接口",
+      "api": "https://caiji.xgzyapi.com/api.php/provide/vod",
+      "detail": "https://caiji.xgzyapi.com"
     },
     "subocj_com_provide_vod": {
       "name": "🎬速播资源",
@@ -526,6 +536,11 @@
       "api": "https://api.souavzyw.net/api.php/provide/vod",
       "detail": "https://api.souavzyw.net"
     },
+    "www_xrbsp_com_api_json_php": {
+      "name": "🔞淫水机资源",
+      "api": "https://www.xrbsp.com/api/json.php",
+      "detail": "https://www.xrbsp.com"
+    },
     "www_xiangjiaozyw_com_provide_vod": {
       "name": "🔞香蕉资源",
       "api": "https://www.xiangjiaozyw.com/api.php/provide/vod",
@@ -536,30 +551,25 @@
       "api": "https://www.heiliaozyapi.com/api.php/provide/vod",
       "detail": "https://heiliaozy.cc"
     },
+    "www_ckzy1_com_provide_vod": {
+      "name": "🔞CK资源",
+      "api": "https://www.ckzy1.com/api.php/provide/vod",
+      "detail": "https://www.ckzy1.com"
+    },
     "www_yytv4_cc_provide_vod": {
       "name": "🔞优优资源",
       "api": "https://www.yytv4.cc/api.php/provide/vod",
       "detail": "https://www.yytv4.cc"
-    },
-    "www_feifei67_com_provide_vod": {
-      "name": "🔞成人22",
-      "api": "http://www.feifei67.com/api.php/provide/vod",
-      "detail": "http://www.feifei67.com"
     },
     "slapibf_com_provide_vod": {
       "name": "🔞森林资源",
       "api": "https://slapibf.com/api.php/provide/vod",
       "detail": "https://slapibf.com"
     },
-    "www_xrbsp_com_api_json_php": {
-      "name": "🔞淫水机资源",
-      "api": "https://www.xrbsp.com/api/json.php",
-      "detail": "https://www.xrbsp.com"
-    },
-    "jcspcj8_com_api": {
-      "name": "🔞熊猫资源",
-      "api": "http://jcspcj8.com/api",
-      "detail": "http://jcspcj8.com"
+    "zmcj88_com_api": {
+      "name": "🔞泡芙资源",
+      "api": "http://zmcj88.com/api",
+      "detail": "http://zmcj88.com"
     },
     "hhzyapi_com_at_json": {
       "name": "🔞豪华资源",
