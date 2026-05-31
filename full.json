@@ -86,6 +86,11 @@
       "api": "https://hhzyapi.com/api.php/provide/vod",
       "detail": "https://www.haohuazy.com"
     },
+    "subocaiji_com_provide_vod": {
+      "name": "🎬速播资源",
+      "api": "https://subocaiji.com/api.php/provide/vod",
+      "detail": "https://www.subozy.com"
+    },
     "cj_lziapi_com_provide_vod": {
       "name": "🎬量子资源",
       "api": "https://cj.lziapi.com/api.php/provide/vod",
@@ -160,11 +165,6 @@
       "name": "🎬豆瓣资源",
       "api": "https://caiji.dbzy5.com/api.php/provide/vod",
       "detail": "https://dbzy.tv"
-    },
-    "subocaiji_com_provide_vod": {
-      "name": "🎬速播资源",
-      "api": "https://subocaiji.com/api.php/provide/vod",
-      "detail": "https://www.subozy.com"
     },
     "cj_lzcaiji_com_provide_vod": {
       "name": "🎬量子资源",
@@ -341,15 +341,20 @@
       "api": "http://by.bfzyapi.com/api.php/provide/vod",
       "detail": "http://by.bfzyapi.com"
     },
+    "taopianapi_com_vod_json_html": {
+      "name": "🎬淘片",
+      "api": "https://taopianapi.com/cjapi/mc/vod/json.html",
+      "detail": "https://www.taopianzy.com/index.html"
+    },
+    "taopianapi_com_vod_json_html_178e07": {
+      "name": "🎬淘片资源网",
+      "api": "https://taopianapi.com/cjapi/mc10/vod/json.html",
+      "detail": "https://taopianapi.com"
+    },
     "api_maoyanapi_top_at_json": {
       "name": "🎬猫眼资源",
       "api": "https://api.maoyanapi.top/api.php/provide/vod/at/json",
       "detail": "https://api.maoyanapi.top"
-    },
-    "img_smdyw_top_provide_vod": {
-      "name": "🎬神马资源",
-      "api": "https://img.smdyw.top/api.php/provide/vod",
-      "detail": "https://img.smdyw.top"
     },
     "www_suoniapi_com_provide_vod": {
       "name": "🎬索尼资源",
@@ -360,11 +365,6 @@
       "name": "🎬红牛",
       "api": "https://www.hongniuzy2.com/api.php/provide/vod/at/josn",
       "detail": "https://hongniuzy.net"
-    },
-    "caiji_maotaizy_cc_at_josn": {
-      "name": "🎬茅台资源",
-      "api": "https://caiji.maotaizy.cc/api.php/provide/vod/at/josn",
-      "detail": "https://caiji.maotaizy.cc"
     },
     "www_huyaapi_com_from_hym3u8": {
       "name": "🎬虎牙",

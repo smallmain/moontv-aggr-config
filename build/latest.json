@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-30T06:30:38.270346+00:00",
+  "generated_at": "2026-05-31T07:05:35.826201+00:00",
   "summary": {
     "source_repositories": 5,
-    "unique_api_sites": 159,
-    "safe_api_sites": 108,
+    "unique_api_sites": 160,
+    "safe_api_sites": 109,
     "adult_api_sites": 51,
     "failed_sources": 0
   },
@@ -68,7 +68,7 @@
     "full_plus18": {
       "json": "full-plus18.json",
       "txt": "full-plus18.txt",
-      "api_count": 116
+      "api_count": 115
     }
   },
   "top_sites": [
@@ -418,6 +418,24 @@
       ]
     },
     {
+      "name": "🎬速播资源",
+      "api": "https://subocaiji.com/api.php/provide/vod",
+      "detail": "https://www.subozy.com",
+      "adult": false,
+      "consensus": 5,
+      "sources": [
+        "hafrey1/LunaTV-config",
+        "heardic/shipinyuan",
+        "oooopera/moontv_config",
+        "qianqikun/LunaTV-config",
+        "vodtv/api"
+      ],
+      "observed_names": [
+        "TV-速博资源",
+        "🎬速播资源"
+      ]
+    },
+    {
       "name": "🎬量子资源",
       "api": "https://cj.lziapi.com/api.php/provide/vod",
       "detail": "https://cj.lziapi.com",
@@ -687,23 +705,6 @@
       ]
     },
     {
-      "name": "🎬速播资源",
-      "api": "https://subocaiji.com/api.php/provide/vod",
-      "detail": "https://www.subozy.com",
-      "adult": false,
-      "consensus": 4,
-      "sources": [
-        "hafrey1/LunaTV-config",
-        "heardic/shipinyuan",
-        "qianqikun/LunaTV-config",
-        "vodtv/api"
-      ],
-      "observed_names": [
-        "TV-速博资源",
-        "🎬速播资源"
-      ]
-    },
-    {
       "name": "🎬量子资源",
       "api": "https://cj.lzcaiji.com/api.php/provide/vod",
       "detail": "https://cj.lzcaiji.com",
@@ -808,16 +809,16 @@
   ],
   "errors": [],
   "health": {
-    "generated_at": "2026-05-30T06:30:37.374041+00:00",
+    "generated_at": "2026-05-31T07:05:34.849045+00:00",
     "target_file": "full-plus18.json",
-    "total_apis": 159,
-    "current_success": 113,
+    "total_apis": 160,
+    "current_success": 114,
     "current_failure": 46,
-    "enabled_apis": 116,
+    "enabled_apis": 115,
     "healthy_apis": 96,
-    "subhealthy_apis": 20,
-    "unhealthy_apis": 43,
-    "average_availability_rate": 0.7066486972147351,
+    "subhealthy_apis": 19,
+    "unhealthy_apis": 45,
+    "average_availability_rate": 0.7080357142857145,
     "validation_mode": "moontvplus-search",
     "search_keywords": [
       "斗罗",
