@@ -66,6 +66,11 @@
       "api": "https://www.hongniuzy2.com/api.php/provide/vod",
       "detail": "https://www.hongniuzy.com"
     },
+    "caiji_maotaizy_cc_provide_vod": {
+      "name": "🎬茅台资源",
+      "api": "https://caiji.maotaizy.cc/api.php/provide/vod",
+      "detail": "https://mtzy.me"
+    },
     "hhzyapi_com_provide_vod": {
       "name": "🎬豪华资源",
       "api": "https://hhzyapi.com/api.php/provide/vod",
@@ -131,10 +136,10 @@
       "api": "http://caiji.dyttzyapi.com/api.php/provide/vod",
       "detail": "http://caiji.dyttzyapi.com"
     },
-    "caiji_maotaizy_cc_provide_vod": {
-      "name": "🎬茅台资源",
-      "api": "https://caiji.maotaizy.cc/api.php/provide/vod",
-      "detail": "https://mtzy.me"
+    "api_apibdzy_com_provide_vod": {
+      "name": "🎬百度云zy",
+      "api": "https://api.apibdzy.com/api.php/provide/vod",
+      "detail": "https://bdzy1.com"
     },
     "www_huyaapi_com_provide_vod": {
       "name": "🎬虎牙资源",
@@ -180,11 +185,6 @@
       "name": "🎬天涯资源",
       "api": "https://tyyszy.com/api.php/provide/vod",
       "detail": "https://tyyszy.com"
-    },
-    "api_apibdzy_com_provide_vod": {
-      "name": "🎬百度云zy",
-      "api": "https://api.apibdzy.com/api.php/provide/vod",
-      "detail": "https://bdzy1.com"
     },
     "lovedan_net_provide_vod": {
       "name": "🎬艾旦影视",
@@ -268,8 +268,8 @@
     },
     "api_okzyw_net_provide_vod": {
       "name": "🎬OK资源采集网采集接口",
-      "api": "http://api.okzyw.net/api.php/provide/vod",
-      "detail": "http://api.okzyw.net"
+      "api": "https://api.okzyw.net/api.php/provide/vod",
+      "detail": "https://okzyw.cc/index.php/label/help.html"
     },
     "www_ikunzy_com_provide_vod": {
       "name": "🎬ikunzy资源",
@@ -326,6 +326,11 @@
       "api": "https://taopianapi.com/cjapi/mc/vod/json.html",
       "detail": "https://www.taopianzy.com/index.html"
     },
+    "taopianapi_com_vod_json_html_178e07": {
+      "name": "🎬淘片资源",
+      "api": "https://taopianapi.com/cjapi/mc10/vod/json.html",
+      "detail": "https://www.taopianzy.com/help.html"
+    },
     "api_maoyanapi_top_at_json": {
       "name": "🎬猫眼资源",
       "api": "https://api.maoyanapi.top/api.php/provide/vod/at/json",
@@ -360,6 +365,11 @@
       "name": "🎬金鹰资源",
       "api": "https://jyzyapi.com/provide/vod/from/jinyingm3u8/at/json",
       "detail": "https://jinyingzy.com"
+    },
+    "cj_baozi66_top_provide_vod": {
+      "name": "🎬雨哥哥资源",
+      "api": "http://cj.baozi66.top:66/api.php/provide/vod",
+      "detail": "http://cj.baozi66.top:66"
     },
     "ffzy5_tv_provide_vod": {
       "name": "🎬非凡影视",
