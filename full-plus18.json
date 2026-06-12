@@ -186,11 +186,6 @@
       "api": "https://tyyszy.com/api.php/provide/vod",
       "detail": "https://tyyszy.com"
     },
-    "lovedan_net_provide_vod": {
-      "name": "🎬艾旦影视",
-      "api": "https://lovedan.net/api.php/provide/vod",
-      "detail": "https://lovedan.net"
-    },
     "api_1080zyku_com_inc_api_mac10_php": {
       "name": "🎬1080资源",
       "api": "https://api.1080zyku.com/inc/api_mac10.php",
@@ -215,6 +210,11 @@
       "name": "🎬红牛资源",
       "api": "https://www.hongniuzy3.com/api.php/provide/vod",
       "detail": "https://www.hongniuzy3.com"
+    },
+    "lovedan_net_provide_vod": {
+      "name": "🎬艾旦影视",
+      "api": "https://lovedan.net/api.php/provide/vod",
+      "detail": "https://lovedan.net"
     },
     "www_huyaapi_com_at_json": {
       "name": "🎬虎牙资源",
@@ -317,6 +317,11 @@
       "detail": "http://by.bfzyapi.com"
     },
     "taopianapi_com_vod_json_html": {
+      "name": "🎬淘片",
+      "api": "https://taopianapi.com/cjapi/mc/vod/json.html",
+      "detail": "https://www.taopianzy.com/index.html"
+    },
+    "taopianapi_com_vod_json_html_178e07": {
       "name": "🎬淘片资源",
       "api": "https://taopianapi.com/cjapi/mc10/vod/json.html",
       "detail": "https://www.taopianzy.com/help.html"
@@ -356,6 +361,11 @@
       "api": "https://jyzyapi.com/provide/vod/from/jinyingm3u8/at/json",
       "detail": "https://jinyingzy.com"
     },
+    "cj_baozi66_top_provide_vod": {
+      "name": "🎬雨哥哥资源",
+      "api": "http://cj.baozi66.top:66/api.php/provide/vod",
+      "detail": "http://cj.baozi66.top:66"
+    },
     "ffzy5_tv_provide_vod": {
       "name": "🎬非凡影视",
       "api": "http://ffzy5.tv/api.php/provide/vod",
@@ -385,6 +395,11 @@
       "name": "🔞白嫖资源",
       "api": "https://www.kxgav.com/api/json.php",
       "detail": "https://www.kxgav.com"
+    },
+    "www_msnii_com_api_json_php": {
+      "name": "🔞美少女",
+      "api": "https://www.msnii.com/api/json.php",
+      "detail": "https://www.msnii.com"
     },
     "apilj_com_provide_vod": {
       "name": "🔞辣椒资源",
@@ -455,11 +470,6 @@
       "name": "🔞细胞资源",
       "api": "https://www.xxibaozyw.com/api.php/provide/vod",
       "detail": "https://www.xxibaozyw.com"
-    },
-    "www_msnii_com_api_json_php": {
-      "name": "🔞美少女",
-      "api": "https://www.msnii.com/api/json.php",
-      "detail": "https://www.msnii.com"
     },
     "apilsbzy1_com_provide_vod": {
       "name": "🔞老色逼",
