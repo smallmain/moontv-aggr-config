@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-13T07:05:22.046862+00:00",
+  "generated_at": "2026-06-14T07:56:00.426648+00:00",
   "summary": {
     "source_repositories": 5,
-    "unique_api_sites": 157,
-    "safe_api_sites": 108,
+    "unique_api_sites": 156,
+    "safe_api_sites": 107,
     "adult_api_sites": 49,
     "failed_sources": 0
   },
@@ -37,8 +37,8 @@
       "repo": "https://github.com/oooopera/moontv_config",
       "ref": null,
       "parser": "json",
-      "api_count": 132,
-      "score": 1223
+      "api_count": 128,
+      "score": 1207
     },
     {
       "name": "heardic/shipinyuan",
@@ -58,17 +58,17 @@
     "lite_plus18": {
       "json": "lite-plus18.json",
       "txt": "lite-plus18.txt",
-      "api_count": 64
+      "api_count": 63
     },
     "full": {
       "json": "full.json",
       "txt": "full.txt",
-      "api_count": 78
+      "api_count": 77
     },
     "full_plus18": {
       "json": "full-plus18.json",
       "txt": "full-plus18.txt",
-      "api_count": 112
+      "api_count": 110
     }
   },
   "top_sites": [
@@ -260,25 +260,6 @@
         "TV-旺旺资源",
         "旺旺|点播",
         "🎬旺旺资源"
-      ]
-    },
-    {
-      "name": "🎬暴风资源",
-      "api": "https://bfzyapi.com/api.php/provide/vod",
-      "detail": "https://bfzy.tv",
-      "adult": false,
-      "consensus": 5,
-      "sources": [
-        "hafrey1/LunaTV-config",
-        "heardic/shipinyuan",
-        "oooopera/moontv_config",
-        "qianqikun/LunaTV-config",
-        "vodtv/api"
-      ],
-      "observed_names": [
-        "TV-暴风资源",
-        "暴风资源",
-        "🎬暴风资源"
       ]
     },
     {
@@ -566,6 +547,23 @@
       ]
     },
     {
+      "name": "🎬暴风资源",
+      "api": "https://bfzyapi.com/api.php/provide/vod",
+      "detail": "https://bfzy.tv",
+      "adult": false,
+      "consensus": 4,
+      "sources": [
+        "hafrey1/LunaTV-config",
+        "heardic/shipinyuan",
+        "qianqikun/LunaTV-config",
+        "vodtv/api"
+      ],
+      "observed_names": [
+        "TV-暴风资源",
+        "🎬暴风资源"
+      ]
+    },
+    {
       "name": "🎬极速资源",
       "api": "https://jszyapi.com/api.php/provide/vod",
       "detail": "https://jszyapi.com",
@@ -807,16 +805,16 @@
   ],
   "errors": [],
   "health": {
-    "generated_at": "2026-06-13T07:05:21.304260+00:00",
+    "generated_at": "2026-06-14T07:55:59.712842+00:00",
     "target_file": "full-plus18.json",
-    "total_apis": 157,
-    "current_success": 109,
-    "current_failure": 48,
-    "enabled_apis": 112,
-    "healthy_apis": 97,
-    "subhealthy_apis": 15,
-    "unhealthy_apis": 45,
-    "average_availability_rate": 0.7038216560509554,
+    "total_apis": 156,
+    "current_success": 110,
+    "current_failure": 46,
+    "enabled_apis": 110,
+    "healthy_apis": 96,
+    "subhealthy_apis": 14,
+    "unhealthy_apis": 46,
+    "average_availability_rate": 0.7005494505494506,
     "validation_mode": "moontvplus-search",
     "search_keywords": [
       "斗罗",

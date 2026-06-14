@@ -36,11 +36,6 @@
       "api": "https://api.wujinapi.me/api.php/provide/vod",
       "detail": "https://wujinzy.com"
     },
-    "bfzyapi_com_provide_vod": {
-      "name": "🎬暴风资源",
-      "api": "https://bfzyapi.com/api.php/provide/vod",
-      "detail": "https://bfzy.tv"
-    },
     "zuidazy_me_provide_vod": {
       "name": "🎬最大点播",
       "api": "https://zuidazy.me/api.php/provide/vod",
@@ -115,6 +110,11 @@
       "name": "🎬光速资源",
       "api": "https://api.guangsuapi.com/api.php/provide/vod",
       "detail": "https://api.guangsuapi.com"
+    },
+    "bfzyapi_com_provide_vod": {
+      "name": "🎬暴风资源",
+      "api": "https://bfzyapi.com/api.php/provide/vod",
+      "detail": "https://bfzy.tv"
     },
     "jszyapi_com_provide_vod": {
       "name": "🎬极速资源",
@@ -265,11 +265,6 @@
       "name": "🎬1080资源",
       "api": "https://api.yzzy-api.com/inc/api_mac10.php",
       "detail": "https://1080zyk.com"
-    },
-    "api_okzyw_net_provide_vod": {
-      "name": "🎬OK资源采集网采集接口",
-      "api": "https://api.okzyw.net/api.php/provide/vod",
-      "detail": "https://okzyw.cc/index.php/label/help.html"
     },
     "www_ikunzy_com_provide_vod": {
       "name": "🎬ikunzy资源",
