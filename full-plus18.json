@@ -121,6 +121,16 @@
       "api": "https://jszyapi.com/api.php/provide/vod",
       "detail": "https://jszyapi.com"
     },
+    "iqiyizyapi_com_provide_vod": {
+      "name": "🎬爱奇艺",
+      "api": "https://iqiyizyapi.com/api.php/provide/vod",
+      "detail": "https://iqiyizyapi.com"
+    },
+    "api_maoyanapi_top_provide_vod": {
+      "name": "🎬猫眼资源",
+      "api": "https://api.maoyanapi.top/api.php/provide/vod",
+      "detail": "https://www.maoyanzy.com"
+    },
     "caiji_dyttzyapi_com_provide_vod": {
       "name": "🎬电影天堂",
       "api": "http://caiji.dyttzyapi.com/api.php/provide/vod",
@@ -176,16 +186,6 @@
       "api": "https://tyyszy.com/api.php/provide/vod",
       "detail": "https://tyyszy.com"
     },
-    "iqiyizyapi_com_provide_vod": {
-      "name": "🎬爱奇艺",
-      "api": "https://iqiyizyapi.com/api.php/provide/vod",
-      "detail": "https://iqiyizyapi.com"
-    },
-    "api_maoyanapi_top_provide_vod": {
-      "name": "🎬猫眼资源",
-      "api": "https://api.maoyanapi.top/api.php/provide/vod",
-      "detail": "https://www.maoyanzy.com"
-    },
     "lovedan_net_provide_vod": {
       "name": "🎬艾旦影视",
       "api": "https://lovedan.net/api.php/provide/vod",
@@ -195,6 +195,11 @@
       "name": "🎬1080资源",
       "api": "https://api.1080zyku.com/inc/api_mac10.php",
       "detail": "https://api.1080zyku.com"
+    },
+    "www_iqiyizyapi_com_provide_vod": {
+      "name": "🎬iqiyi资源",
+      "api": "https://www.iqiyizyapi.com/api.php/provide/vod",
+      "detail": "https://www.iqiyizyapi.com"
     },
     "api_wujinapi_cc_provide_vod": {
       "name": "🎬wujinapi无尽",
@@ -276,11 +281,6 @@
       "api": "https://ikunzyapi.com/api.php/provide/vod/at/json",
       "detail": "https://ikunzyapi.com"
     },
-    "www_iqiyizyapi_com_provide_vod": {
-      "name": "🎬iqiyi资源",
-      "api": "https://www.iqiyizyapi.com/api.php/provide/vod",
-      "detail": "https://www.iqiyizyapi.com"
-    },
     "api_yzzy_api_com_inc_api_mac10_all_php": {
       "name": "🎬优质资源库",
       "api": "https://api.yzzy-api.com/inc/api_mac10_all.php",
@@ -290,11 +290,6 @@
       "name": "🎬天涯影视资源",
       "api": "https://tyyszyapi.com/api.php/provide/vod",
       "detail": "https://tyyszyapi.com"
-    },
-    "zy_xiaomaomi_cc_provide_vod": {
-      "name": "🎬小猫咪资源",
-      "api": "https://zy.xiaomaomi.cc/api.php/provide/vod",
-      "detail": "https://zy.xiaomaomi.cc"
     },
     "154_219_117_232_provide_vod": {
       "name": "🎬建安资源站",
@@ -321,15 +316,10 @@
       "api": "http://by.bfzyapi.com/api.php/provide/vod",
       "detail": "http://by.bfzyapi.com"
     },
-    "taopianapi_com_vod_json_html": {
-      "name": "🎬淘片",
-      "api": "https://taopianapi.com/cjapi/mc/vod/json.html",
-      "detail": "https://www.taopianzy.com/index.html"
-    },
-    "taopianapi_com_vod_json_html_178e07": {
-      "name": "🎬淘片资源",
-      "api": "https://taopianapi.com/cjapi/mc10/vod/json.html",
-      "detail": "https://www.taopianzy.com/help.html"
+    "api_maoyanapi_top_at_json": {
+      "name": "🎬猫眼资源",
+      "api": "https://api.maoyanapi.top/api.php/provide/vod/at/json",
+      "detail": "https://api.maoyanapi.top"
     },
     "www_suoniapi_com_provide_vod": {
       "name": "🎬索尼资源",
@@ -366,11 +356,6 @@
       "api": "https://jyzyapi.com/provide/vod/from/jinyingm3u8/at/json",
       "detail": "https://jinyingzy.com"
     },
-    "cj_baozi66_top_provide_vod": {
-      "name": "🎬雨哥哥资源",
-      "api": "http://cj.baozi66.top:66/api.php/provide/vod",
-      "detail": "http://cj.baozi66.top:66"
-    },
     "ffzy5_tv_provide_vod": {
       "name": "🎬非凡影视",
       "api": "http://ffzy5.tv/api.php/provide/vod",
@@ -405,16 +390,6 @@
       "name": "🎬🔅索尼资源网ᴴ",
       "api": "https://suoniapi.com/api.php/provide/vod/from/snm3u8",
       "detail": "https://suoniapi.com"
-    },
-    "jyzyapi_com_at_xmlsea": {
-      "name": "🎬🔅金鹰资源网ᴴ",
-      "api": "https://jyzyapi.com/provide/vod/at/xmlsea",
-      "detail": "https://jyzyapi.com"
-    },
-    "fszy1_com_provide_vod": {
-      "name": "🎬🔅飞速资源ᴴ",
-      "api": "http://fszy1.com/api.php/provide/vod",
-      "detail": "http://fszy1.com"
     },
     "ckzy_me_provide_vod": {
       "name": "🔞CK资源",
