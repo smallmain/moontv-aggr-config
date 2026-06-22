@@ -21,10 +21,10 @@
       "api": "https://caiji.kuaichezy.org/api.php/provide/vod",
       "detail": "https://kuaichezy.com"
     },
-    "api_xinlangapi_com_provide_vod": {
-      "name": "🎬新浪资源",
-      "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod",
-      "detail": "https://xinlangapi.com"
+    "api_wujinapi_com_provide_vod": {
+      "name": "🎬无尽资源",
+      "api": "https://api.wujinapi.com/api.php/provide/vod",
+      "detail": "https://wujinzy.com"
     },
     "api_wujinapi_me_provide_vod": {
       "name": "🎬无尽资源",
@@ -56,20 +56,10 @@
       "api": "https://suoniapi.com/api.php/provide/vod",
       "detail": "https://suonizy.net"
     },
-    "www_hongniuzy2_com_provide_vod": {
-      "name": "🎬红牛资源",
-      "api": "https://www.hongniuzy2.com/api.php/provide/vod",
-      "detail": "https://www.hongniuzy.com"
-    },
-    "hhzyapi_com_provide_vod": {
-      "name": "🎬豪华资源",
-      "api": "https://hhzyapi.com/api.php/provide/vod",
-      "detail": "https://www.haohuazy.com"
-    },
-    "subocaiji_com_provide_vod": {
-      "name": "🎬速播资源",
-      "api": "https://subocaiji.com/api.php/provide/vod",
-      "detail": "https://www.subozy.com"
+    "caiji_maotaizy_cc_provide_vod": {
+      "name": "🎬茅台资源",
+      "api": "https://caiji.maotaizy.cc/api.php/provide/vod",
+      "detail": "https://mtzy.me"
     },
     "cj_lziapi_com_provide_vod": {
       "name": "🎬量子资源",
@@ -106,10 +96,10 @@
       "api": "https://api.guangsuapi.com/api.php/provide/vod",
       "detail": "https://api.guangsuapi.com"
     },
-    "api_wujinapi_com_provide_vod": {
-      "name": "🎬无尽影视",
-      "api": "https://api.wujinapi.com/api.php/provide/vod",
-      "detail": "https://wujinzy.com"
+    "api_xinlangapi_com_provide_vod": {
+      "name": "🎬新浪资源",
+      "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod",
+      "detail": "https://xinlangapi.com"
     },
     "jszyapi_com_provide_vod": {
       "name": "🎬极速资源",
@@ -136,10 +126,25 @@
       "api": "https://api.apibdzy.com/api.php/provide/vod",
       "detail": "https://bdzy1.com"
     },
-    "caiji_maotaizy_cc_provide_vod": {
-      "name": "🎬茅台资源",
-      "api": "https://caiji.maotaizy.cc/api.php/provide/vod",
-      "detail": "https://mtzy.me"
+    "www_hongniuzy2_com_provide_vod": {
+      "name": "🎬红牛资源",
+      "api": "https://www.hongniuzy2.com/api.php/provide/vod",
+      "detail": "https://www.hongniuzy.com"
+    },
+    "caiji_dbzy5_com_provide_vod": {
+      "name": "🎬豆瓣资源",
+      "api": "https://caiji.dbzy5.com/api.php/provide/vod",
+      "detail": "https://dbzy.tv"
+    },
+    "hhzyapi_com_provide_vod": {
+      "name": "🎬豪华资源",
+      "api": "https://hhzyapi.com/api.php/provide/vod",
+      "detail": "https://www.haohuazy.com"
+    },
+    "subocaiji_com_provide_vod": {
+      "name": "🎬速播资源",
+      "api": "https://subocaiji.com/api.php/provide/vod",
+      "detail": "https://www.subozy.com"
     },
     "cj_lzcaiji_com_provide_vod": {
       "name": "🎬量子资源",
@@ -186,11 +191,6 @@
       "api": "https://www.huyaapi.com/api.php/provide/vod",
       "detail": "https://www.huyaapi.com"
     },
-    "caiji_dbzy5_com_provide_vod": {
-      "name": "🎬豆瓣资源",
-      "api": "https://caiji.dbzy5.com/api.php/provide/vod",
-      "detail": "https://dbzy.tv"
-    },
     "api_1080zyku_com_inc_api_mac10_php": {
       "name": "🎬1080资源",
       "api": "https://api.1080zyku.com/inc/api_mac10.php",
@@ -200,6 +200,16 @@
       "name": "🎬iqiyi资源",
       "api": "https://www.iqiyizyapi.com/api.php/provide/vod",
       "detail": "https://www.iqiyizyapi.com"
+    },
+    "api_wujinapi_cc_provide_vod": {
+      "name": "🎬wujinapi无尽",
+      "api": "https://api.wujinapi.cc/api.php/provide/vod",
+      "detail": "https://api.wujinapi.cc"
+    },
+    "api_wujinapi_net_provide_vod": {
+      "name": "🎬无尽资源",
+      "api": "https://api.wujinapi.net/api.php/provide/vod",
+      "detail": "https://api.wujinapi.net"
     },
     "api_niuniuzy_me_provide_vod": {
       "name": "🎬牛牛点播",
@@ -211,10 +221,10 @@
       "api": "https://api.1080zyku.com/inc/apijson.php",
       "detail": "https://api.1080zyku.com"
     },
-    "www_hongniuzy3_com_provide_vod": {
-      "name": "🎬红牛资源",
-      "api": "https://www.hongniuzy3.com/api.php/provide/vod",
-      "detail": "https://www.hongniuzy3.com"
+    "dbzy_tv_provide_vod": {
+      "name": "🎬豆瓣资源",
+      "api": "https://dbzy.tv/api.php/provide/vod",
+      "detail": "https://dbzy.tv"
     },
     "sdzyapi_com_provide_vod": {
       "name": "🎬闪电资源",
@@ -246,11 +256,6 @@
       "api": "https://ikunzyapi.com/api.php/provide/vod/at/json",
       "detail": "https://ikunzyapi.com"
     },
-    "api_wujinapi_cc_provide_vod": {
-      "name": "🎬wujinapi无尽",
-      "api": "https://api.wujinapi.cc/api.php/provide/vod",
-      "detail": "https://api.wujinapi.cc"
-    },
     "api_yzzy_api_com_inc_api_mac10_all_php": {
       "name": "🎬优质资源库",
       "api": "https://api.yzzy-api.com/inc/api_mac10_all.php",
@@ -265,16 +270,6 @@
       "name": "🎬建安资源站",
       "api": "http://154.219.117.232:9981/jacloudapi.php/provide/vod",
       "detail": "http://154.219.117.232:9981"
-    },
-    "api_xinlangapi_com_vod_josn": {
-      "name": "🎬新浪",
-      "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/josn",
-      "detail": "https://api.xinlangapi.com"
-    },
-    "api_wujinapi_net_provide_vod": {
-      "name": "🎬无尽资源",
-      "api": "https://api.wujinapi.net/api.php/provide/vod",
-      "detail": "https://api.wujinapi.net"
     },
     "yonghu_ffzyapi8_com_at_json": {
       "name": "🎬无广1线 (非凡)",
@@ -296,10 +291,10 @@
       "api": "https://api.maoyanapi.top/api.php/provide/vod/at/json",
       "detail": "https://api.maoyanapi.top"
     },
-    "www_hongniuzy2_com_at_josn": {
-      "name": "🎬红牛",
-      "api": "https://www.hongniuzy2.com/api.php/provide/vod/at/josn",
-      "detail": "https://hongniuzy.net"
+    "www_hongniuzy3_com_provide_vod": {
+      "name": "🎬红牛资源",
+      "api": "https://www.hongniuzy3.com/api.php/provide/vod",
+      "detail": "https://www.hongniuzy3.com"
     },
     "www_huyaapi_com_at_json": {
       "name": "🎬虎牙资源",
@@ -310,16 +305,6 @@
       "name": "🎬西瓜资源采集接口",
       "api": "https://caiji.xgzyapi.com/api.php/provide/vod",
       "detail": "https://caiji.xgzyapi.com"
-    },
-    "dbzy_tv_provide_vod": {
-      "name": "🎬豆瓣资源",
-      "api": "https://dbzy.tv/api.php/provide/vod",
-      "detail": "https://dbzy.tv"
-    },
-    "subocj_com_provide_vod": {
-      "name": "🎬速播资源采集规则地址",
-      "api": "https://subocj.com/api.php/provide/vod",
-      "detail": "https://subocj.com"
     },
     "jyzyapi_com_provide_vod": {
       "name": "🎬金鹰资源",
@@ -366,10 +351,10 @@
       "api": "https://suoniapi.com/api.php/provide/vod/from/snm3u8",
       "detail": "https://suoniapi.com"
     },
-    "hongniuzy2_com_provide_vod": {
-      "name": "🎬🔅红牛ᴴ",
-      "api": "https://hongniuzy2.com/api.php/provide/vod",
-      "detail": "https://hongniuzy2.com"
+    "jyzyapi_com_at_xmlsea": {
+      "name": "🎬🔅金鹰资源网ᴴ",
+      "api": "https://jyzyapi.com/provide/vod/at/xmlsea",
+      "detail": "https://jyzyapi.com"
     }
   }
 }
