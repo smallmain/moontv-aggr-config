@@ -146,7 +146,7 @@ https://raw.githubusercontent.com/<owner>/<repo>/main/lite.txt
 The data below is generated automatically by GitHub Actions and tracks all aggregated APIs before publishing.
 
 <!-- API_HEALTH_REPORT_START -->
-### API Status (Last Updated: 2026-06-23 06:58:30 UTC)
+### API Status (Last Updated: 2026-06-24 06:56:02 UTC)
 
 - Scope: all aggregated APIs
 - Output rule: sources failing 3 consecutive rounds are removed from all output files
@@ -154,7 +154,7 @@ The data below is generated automatically by GitHub Actions and tracks all aggre
 - Safe-source keywords: 斗罗 / 仙逆
 - Adult-source keywords: 斗罗 / 无码
 - Retry mode: keywords are tried in order and each request may be retried to reduce transient false negatives
-- API Count: 103/149
+- API Count: 108/155
 
 <details>
 <summary>Expand full API details</summary>
@@ -168,7 +168,7 @@ The data below is generated automatically by GitHub Actions and tracks all aggre
 | ✅ | lite | 🎬iKun资源 | `https://ikunzyapi.com/api.php/provide/vod` | 200 / valid / wd=斗罗 / 15 results | 100.0% | ✅✅✅✅✅✅✅ |
 | ✅ | lite | 🎬优质资源 | `https://api.yzzy-api.com/inc/apijson.php` | 200 / valid / wd=斗罗 / 20 results | 100.0% | ✅✅✅✅✅✅✅ |
 | ✅ | lite | 🎬光速资源 | `https://api.guangsuapi.com/api.php/provide/vod` | 200 / valid / wd=斗罗 / 20 results | 100.0% | ✅✅✅✅✅✅✅ |
-| ✅ | lite | 🎬天涯资源 | `https://tyyszy.com/api.php/provide/vod` | 200 / playable-fallback-list / 1 playable links | 100.0% | ✅✅✅✅✅✅✅ |
+| ✅ | lite | 🎬天涯资源 | `https://tyyszy.com/api.php/provide/vod` | 200 / playable-fallback-list / 42 playable links | 100.0% | ✅✅✅✅✅✅✅ |
 | ✅ | lite | 🎬快车资源 | `https://caiji.kuaichezy.org/api.php/provide/vod` | 200 / playable-fallback-list / 1 playable links | 100.0% | ✅✅✅✅✅✅✅ |
 | ✅ | lite | 🎬无尽资源 | `https://api.wujinapi.com/api.php/provide/vod` | 200 / valid / wd=斗罗 / 20 results | 100.0% | ✅✅✅✅✅✅✅ |
 | ✅ | lite | 🎬无尽资源 | `https://api.wujinapi.me/api.php/provide/vod` | 200 / valid / wd=斗罗 / 20 results | 100.0% | ✅✅✅✅✅✅✅ |
@@ -178,9 +178,10 @@ The data below is generated automatically by GitHub Actions and tracks all aggre
 | ✅ | lite | 🎬极速资源 | `https://jszyapi.com/api.php/provide/vod` | 200 / valid / wd=斗罗 / 20 results | 100.0% | ✅✅✅✅✅✅✅ |
 | ✅ | lite | 🎬樱花资源 | `https://m3u8.apiyhzy.com/api.php/provide/vod` | 200 / playable-fallback-list / 1 playable links | 100.0% | ✅✅✅✅✅✅✅ |
 | ✅ | lite | 🎬爱奇艺 | `https://iqiyizyapi.com/api.php/provide/vod` | 200 / valid / wd=斗罗 / 20 results | 100.0% | ✅✅✅✅✅✅✅ |
+| ✅ | lite | 🎬猫眼资源 | `https://api.maoyanapi.top/api.php/provide/vod` | 200 / valid / wd=斗罗 / 15 results | 100.0% | ✅✅✅✅✅✅✅ |
 | ✅ | lite | 🎬电影天堂 | `http://caiji.dyttzyapi.com/api.php/provide/vod` | 200 / valid / wd=斗罗 / 13 results | 100.0% | ✅✅✅✅✅✅✅ |
 | ✅ | lite | 🎬百度云zy | `https://api.apibdzy.com/api.php/provide/vod` | 200 / valid / wd=斗罗 / 13 results | 100.0% | ✅✅✅✅✅✅✅ |
-| ✅ | lite | 🎬索尼资源 | `https://suoniapi.com/api.php/provide/vod` | 200 / playable-fallback-list / 213 playable links | 100.0% | ✅✅✅✅✅✅✅ |
+| ✅ | lite | 🎬索尼资源 | `https://suoniapi.com/api.php/provide/vod` | 200 / playable-fallback-list / 1 playable links | 100.0% | ✅✅✅✅✅✅✅ |
 | ✅ | lite | 🎬红牛资源 | `https://www.hongniuzy2.com/api.php/provide/vod` | 200 / valid / wd=斗罗 / 20 results | 100.0% | ✅✅✅✅✅✅✅ |
 | ✅ | lite | 🎬虎牙资源 | `https://www.huyaapi.com/api.php/provide/vod` | 200 / valid / wd=斗罗 / 20 results | 100.0% | ✅✅✅✅✅✅✅ |
 | ✅ | lite | 🎬豪华资源 | `https://hhzyapi.com/api.php/provide/vod` | 200 / valid / wd=斗罗 / 20 results | 100.0% | ✅✅✅✅✅✅✅ |
@@ -201,29 +202,34 @@ The data below is generated automatically by GitHub Actions and tracks all aggre
 | ✅ | full | 🎬iqiyi资源 | `https://www.iqiyizyapi.com/api.php/provide/vod` | 200 / valid / wd=斗罗 / 20 results | 100.0% | ✅✅✅✅✅✅✅ |
 | ✅ | full | 🎬wujinapi无尽 | `https://api.wujinapi.cc/api.php/provide/vod` | 200 / valid / wd=斗罗 / 20 results | 100.0% | ✅✅✅✅✅✅✅ |
 | ✅ | full | 🎬优质资源库 | `https://api.yzzy-api.com/inc/api_mac10_all.php` | 200 / playable-fallback-list / 2 playable links | 100.0% | ✅✅✅✅✅✅✅ |
-| ✅ | full | 🎬天涯影视资源 | `https://tyyszyapi.com/api.php/provide/vod` | 200 / playable-fallback-list / 1 playable links | 100.0% | ✅✅✅✅✅✅✅ |
-| ✅ | full | 🎬建安资源站 | `http://154.219.117.232:9981/jacloudapi.php/provide/vod` | 200 / playable-fallback-list / 1656 playable links | 100.0% | ✅✅✅✅✅✅✅ |
+| ✅ | full | 🎬天涯影视资源 | `https://tyyszyapi.com/api.php/provide/vod` | 200 / playable-fallback-list / 42 playable links | 100.0% | ✅✅✅✅✅✅✅ |
+| ✅ | full | 🎬小猫咪资源 | `https://zy.xiaomaomi.cc/api.php/provide/vod` | 200 / valid / wd=斗罗 / 21 results | 100.0% | ✅ |
+| ✅ | full | 🎬建安资源站 | `http://154.219.117.232:9981/jacloudapi.php/provide/vod` | 200 / playable-fallback-list / 4452 playable links | 100.0% | ✅✅✅✅✅✅✅ |
+| ✅ | full | 🎬新浪 | `https://api.xinlangapi.com/xinlangapi.php/provide/vod/josn` | 200 / valid / wd=斗罗 / 20 results | 100.0% | ✅ |
 | ✅ | full | 🎬无尽资源 | `https://api.wujinapi.net/api.php/provide/vod` | 200 / valid / wd=斗罗 / 20 results | 100.0% | ✅✅✅✅✅✅✅ |
 | ✅ | full | 🎬无广1线 (非凡) | `https://yonghu.ffzyapi8.com/api.php/provide/vod/from/ffm3u8/at/json` | 200 / valid / wd=斗罗 / 20 results | 100.0% | ✅✅✅✅✅✅✅ |
-| ✅ | full | 🎬暴风资源2 | `http://by.bfzyapi.com/api.php/provide/vod` | 200 / playable-fallback-list / 71 playable links | 100.0% | ✅✅✅✅✅✅✅ |
+| ✅ | full | 🎬暴风资源2 | `http://by.bfzyapi.com/api.php/provide/vod` | 200 / playable-fallback-list / 522 playable links | 100.0% | ✅✅✅✅✅✅✅ |
 | ✅ | full | 🎬牛牛点播 | `https://api.niuniuzy.me/api.php/provide/vod` | 200 / playable-fallback-list / 1 playable links | 100.0% | ✅✅✅✅✅✅✅ |
 | ✅ | full | 🎬猫眼资源 | `https://api.maoyanapi.top/api.php/provide/vod/at/json` | 200 / valid / wd=斗罗 / 15 results | 100.0% | ✅✅✅✅✅✅✅ |
 | ✅ | full | 🎬神马云 | `https://api.1080zyku.com/inc/apijson.php` | 200 / valid / wd=斗罗 / 20 results | 100.0% | ✅✅✅✅✅✅✅ |
+| ✅ | full | 🎬红牛 | `https://www.hongniuzy2.com/api.php/provide/vod/at/josn` | 200 / valid / wd=斗罗 / 20 results | 100.0% | ✅ |
 | ✅ | full | 🎬红牛资源 | `https://www.hongniuzy3.com/api.php/provide/vod` | 200 / valid / wd=斗罗 / 20 results | 100.0% | ✅✅✅✅✅✅✅ |
+| ✅ | full | 🎬虎牙 | `https://www.huyaapi.com/api.php/provide/vod/from/hym3u8` | 200 / valid / wd=斗罗 / 20 results | 100.0% | ✅ |
 | ✅ | full | 🎬虎牙资源 | `https://www.huyaapi.com/api.php/provide/vod/at/json` | 200 / valid / wd=斗罗 / 20 results | 100.0% | ✅✅✅✅✅✅✅ |
 | ✅ | full | 🎬西瓜资源采集接口 | `https://caiji.xgzyapi.com/api.php/provide/vod` | 200 / valid / wd=斗罗 / 13 results | 100.0% | ✅✅✅✅✅✅✅ |
 | ✅ | full | 🎬金鹰Json | `https://jyzyapi.com/provide/vod/from/jinyingyun/at/json` | 200 / valid / wd=斗罗 / 20 results | 100.0% | ✅✅✅✅✅✅✅ |
 | ✅ | full | 🎬金鹰资源 | `https://jyzyapi.com/api.php/provide/vod` | 200 / valid / wd=斗罗 / 20 results | 100.0% | ✅✅✅✅✅✅✅ |
+| ✅ | full | 🎬金鹰资源 | `https://jyzyapi.com/provide/vod/from/jinyingm3u8/at/json` | 200 / valid / wd=斗罗 / 20 results | 100.0% | ✅ |
 | ✅ | full | 🎬金鹰资源采集网 | `https://jyzyapi.com/provide/vod` | 200 / valid / wd=斗罗 / 20 results | 100.0% | ✅✅✅✅✅✅✅ |
 | ✅ | full | 🎬闪电资源 | `https://sdzyapi.com/api.php/provide/vod` | 200 / playable-fallback-list / 1 playable links | 100.0% | ✅✅✅✅✅✅✅ |
 | ✅ | full | 🎬非凡影视 | `http://ffzy5.tv/api.php/provide/vod` | 200 / valid / wd=斗罗 / 17 results | 100.0% | ✅✅✅✅✅✅✅ |
-| ✅ | full | 🎬非凡资源 | `https://cj.ffzyapi.com/api.php/provide/vod` | 200 / valid / wd=斗罗 / 17 results | 100.0% | ✅✅✅✅✅✅✅ |
+| ✅ | full | 🎬非凡资源 | `https://cj.ffzyapi.com/api.php/provide/vod` | 200 / valid / wd=斗罗 / 20 results | 100.0% | ✅✅✅✅✅✅✅ |
 | ✅ | full | 🎬黄色资源啊啊 | `https://hsckzy888.com/api.php/provide/vod` | 200 / valid / wd=斗罗 / 6 results | 100.0% | ✅✅✅✅✅✅✅ |
-| ✅ | full | 🎬🔅映迷ᴴ | `https://www.inmi.app/api.php/provide/vod` | 200 / valid / wd=仙逆 / 4 results | 100.0% | ✅✅✅✅✅ |
+| ✅ | full | 🎬🔅映迷ᴴ | `https://www.inmi.app/api.php/provide/vod` | 200 / valid / wd=仙逆 / 4 results | 100.0% | ✅✅✅✅✅✅ |
 | ✅ | full | 🎬🔅樱花资源ᴴ | `https://yhzy.cc/api.php/provide/vod` | 200 / valid / wd=斗罗 / 20 results | 100.0% | ✅✅✅✅✅✅✅ |
 | ✅ | full | 🎬🔅牛牛资源ᴴ | `https://api.niuniuzy.me/api.php/provide/vod/from/nnm3u8` | 200 / playable-fallback-list / 1 playable links | 100.0% | ✅✅✅✅✅✅✅ |
-| ✅ | full | 🎬🔅索尼资源网ᴴ | `https://suoniapi.com/api.php/provide/vod/from/snm3u8` | 200 / playable-fallback-list / 213 playable links | 100.0% | ✅✅✅✅✅✅✅ |
-| ✅ | full | 🎬🔅红牛ᴴ | `https://hongniuzy2.com/api.php/provide/vod` | 200 / valid / wd=斗罗 / 20 results | 100.0% | ✅ |
+| ✅ | full | 🎬🔅索尼资源网ᴴ | `https://suoniapi.com/api.php/provide/vod/from/snm3u8` | 200 / playable-fallback-list / 1 playable links | 100.0% | ✅✅✅✅✅✅✅ |
+| ✅ | full | 🎬🔅红牛ᴴ | `https://hongniuzy2.com/api.php/provide/vod` | 200 / valid / wd=斗罗 / 20 results | 100.0% | ✅✅ |
 | ✅ | plus18 | 🔞155资源 | `https://155api.com/api.php/provide/vod` | 200 / valid / wd=斗罗 / 18 results | 100.0% | ✅✅✅✅✅✅✅ |
 | ✅ | plus18 | 🔞AIvin | `http://lbapiby.com/api.php/provide/vod` | 200 / valid / wd=斗罗 / 20 results | 100.0% | ✅✅✅✅✅✅✅ |
 | ✅ | plus18 | 🔞CK资源 | `https://ckzy.me/api.php/provide/vod` | 200 / valid / wd=无码 / 1 results | 100.0% | ✅✅✅✅✅✅✅ |
@@ -233,6 +239,7 @@ The data below is generated automatically by GitHub Actions and tracks all aggre
 | ✅ | plus18 | 🔞乐播资源 | `https://lbapi9.com/api.php/provide/vod` | 200 / valid / wd=斗罗 / 20 results | 100.0% | ✅✅✅✅✅✅✅ |
 | ✅ | plus18 | 🔞大奶子 | `https://apidanaizi.com/api.php/provide/vod` | 200 / valid / wd=斗罗 / 1 results | 100.0% | ✅✅✅✅✅✅✅ |
 | ✅ | plus18 | 🔞奥斯卡 | `https://aosikazy.com/api.php/provide/vod` | 200 / playable-fallback-list / 1 playable links | 100.0% | ✅✅✅✅✅✅✅ |
+| ✅ | plus18 | 🔞奶香资源 | `https://naixxzy.com/api.php/provide/vod` | 200 / valid / wd=斗罗 / 5 results | 100.0% | ✅✅✅✅✅✅✅ |
 | ✅ | plus18 | 🔞小鸡资源 | `https://api.xiaojizy.live/provide/vod` | 200 / valid / wd=斗罗 / 20 results | 100.0% | ✅✅✅✅✅✅✅ |
 | ✅ | plus18 | 🔞桃花资源 | `https://thzy1.me/api.php/provide/vod` | 200 / valid / wd=斗罗 / 16 results | 100.0% | ✅✅✅✅✅✅✅ |
 | ✅ | plus18 | 🔞森林资源 | `https://beiyong.slapibf.com/api.php/provide/vod` | 200 / playable-fallback-list / 1 playable links | 100.0% | ✅✅✅✅✅✅✅ |
@@ -253,25 +260,24 @@ The data below is generated automatically by GitHub Actions and tracks all aggre
 | ✅ | plus18 | 🔞鲨鱼资源 | `https://shayuapi.com/api.php/provide/vod` | 200 / valid / wd=斗罗 / 20 results | 100.0% | ✅✅✅✅✅✅✅ |
 | ✅ | plus18 | 🔞麻豆视频 | `https://91md.me/api.php/provide/vod` | 200 / valid / wd=斗罗 / 2 results | 100.0% | ✅✅✅✅✅✅✅ |
 | ✅ | plus18 | 🔞黄AVZY | `https://www.pgxdy.com/api/json.php` | 200 / valid / wd=斗罗 / 1 results | 100.0% | ✅✅✅✅✅✅✅ |
-| ✅ | plus18 | 🔞黄色仓库 | `https://hsckzy.xyz/api.php/provide/vod` | 200 / valid / wd=斗罗 / 6 results | 100.0% | ✅✅✅✅✅✅✅ |
 | ✅ | plus18 | 🔞黑料资源 | `https://www.heiliaozyapi.com/api.php/provide/vod` | 200 / valid / wd=斗罗 / 23 results | 100.0% | ✅✅✅✅✅✅✅ |
-| ⚠️ | lite | 🎬如意资源 | `https://cj.rycjapi.com/api.php/provide/vod` | 200 / valid / wd=斗罗 / 11 results | 92.9% | ❌✅✅✅✅✅✅ |
+| ⚠️ | lite | 🎬如意资源 | `https://cj.rycjapi.com/api.php/provide/vod` | 200 / valid / wd=斗罗 / 11 results | 92.9% | ✅✅✅✅✅✅✅ |
 | ⚠️ | lite | 🎬新浪资源 | `https://api.xinlangapi.com/xinlangapi.php/provide/vod` | 200 / valid / wd=斗罗 / 20 results | 92.9% | ✅✅✅✅✅✅✅ |
-| ⚠️ | lite | 🎬猫眼资源 | `https://api.maoyanapi.top/api.php/provide/vod` | 200 / valid / wd=斗罗 / 15 results | 92.9% | ✅✅✅✅✅✅✅ |
-| ⚠️ | lite | 🎬艾旦影视 | `https://lovedan.net/api.php/provide/vod` | 200 / valid / wd=斗罗 / 20 results | 85.7% | ✅✅✅✅✅✅✅ |
-| ⚠️ | lite | 🎬豆瓣资源 | `https://caiji.dbzy5.com/api.php/provide/vod` | 200 / valid / wd=斗罗 / 20 results | 85.7% | ✅❌✅✅✅✅✅ |
-| ⚠️ | lite | 🎬茅台资源 | `https://caiji.maotaizy.cc/api.php/provide/vod` | The read operation timed out | 78.6% | ✅❌✅✅✅✅❌ |
-| ⚠️ | full | 🎬豆瓣资源 | `https://dbzy.tv/api.php/provide/vod` | 200 / valid / wd=斗罗 / 20 results | 85.7% | ✅❌✅✅✅✅✅ |
-| ⚠️ | full | 🎬🔅金鹰资源网ᴴ | `https://jyzyapi.com/provide/vod/at/xmlsea` | 200 / invalid-json / wd=仙逆 | 0.0% | ❌❌ |
-| ⚠️ | plus18 | 🔞奶香资源 | `https://naixxzy.com/api.php/provide/vod` | 200 / valid / wd=斗罗 / 5 results | 92.9% | ✅✅✅✅✅✅✅ |
-| ❌ | lite | 🎬卧龙资源 | `https://wolongzyw.com/api.php/provide/vod` | 200 / invalid-json / wd=仙逆 | 0.0% | ❌❌❌❌❌❌❌ |
-| ❌ | lite | 🎬旺旺短剧 | `https://wwzy.tv/api.php/provide/vod` | 200 / invalid-json / wd=仙逆 | 0.0% | ❌❌❌❌❌❌❌ |
+| ⚠️ | lite | 🎬豆瓣资源 | `https://caiji.dbzy5.com/api.php/provide/vod` | 200 / playable-fallback-list / 46 playable links | 85.7% | ❌✅✅✅✅✅✅ |
+| ⚠️ | lite | 🎬茅台资源 | `https://caiji.maotaizy.cc/api.php/provide/vod` | 200 / playable-fallback-list / 124 playable links | 78.6% | ❌✅✅✅✅❌✅ |
+| ⚠️ | lite | 🎬艾旦影视 | `https://lovedan.net/api.php/provide/vod` | 200 / empty-list / wd=仙逆 / 0 results | 78.6% | ✅✅✅✅✅✅❌ |
+| ⚠️ | full | 🎬豆瓣资源 | `https://dbzy.tv/api.php/provide/vod` | 200 / playable-fallback-list / 46 playable links | 85.7% | ❌✅✅✅✅✅✅ |
+| ⚠️ | full | 🎬雨哥哥资源 | `http://cj.baozi66.top:66/api.php/provide/vod` | 200 / invalid-json / wd=仙逆 | 0.0% | ❌ |
+| ⚠️ | plus18 | 🔞黄色仓库 | `https://hsckzy.xyz/api.php/provide/vod` | HTTP 523 / wd=斗罗 | 92.9% | ✅✅✅✅✅✅❌ |
+| ❌ | lite | 🎬卧龙资源 | `https://wolongzyw.com/api.php/provide/vod` | 200 / invalid-json / wd=斗罗 | 0.0% | ❌❌❌❌❌❌❌ |
+| ❌ | lite | 🎬旺旺短剧 | `https://wwzy.tv/api.php/provide/vod` | 200 / invalid-json / wd=斗罗 | 0.0% | ❌❌❌❌❌❌❌ |
 | ❌ | lite | 🎬旺旺资源 | `https://api.wwzy.tv/api.php/provide/vod` | 200 / invalid-json / wd=仙逆 | 0.0% | ❌❌❌❌❌❌❌ |
-| ❌ | lite | 🎬金鹰点播 | `https://jinyingzy.com/api.php/provide/vod` | HTTP 403 / wd=仙逆 | 0.0% | ❌❌❌❌❌❌❌ |
-| ❌ | full | 🎬🔅飞速资源ᴴ | `http://fszy1.com/api.php/provide/vod` | 200 / invalid-json / wd=仙逆 | 0.0% | ❌❌❌❌❌ |
+| ❌ | lite | 🎬金鹰点播 | `https://jinyingzy.com/api.php/provide/vod` | HTTP 403 / wd=斗罗 | 0.0% | ❌❌❌❌❌❌❌ |
+| ❌ | full | 🎬🔅金鹰资源网ᴴ | `https://jyzyapi.com/provide/vod/at/xmlsea` | 200 / invalid-json / wd=仙逆 | 0.0% | ❌❌❌ |
+| ❌ | full | 🎬🔅飞速资源ᴴ | `http://fszy1.com/api.php/provide/vod` | 200 / invalid-json / wd=仙逆 | 0.0% | ❌❌❌❌❌❌ |
 | ❌ | full | 🎬1080源 | `https://api.1080zyku.com/api.php/provide/vod` | 200 / invalid-json / wd=仙逆 | 0.0% | ❌❌❌❌❌❌❌ |
 | ❌ | full | 🎬1080资源 | `https://api.1080zyku.com/inc/api.php/provide/vod` | 200 / invalid-json / wd=斗罗 | 0.0% | ❌❌❌❌❌❌❌ |
-| ❌ | full | 🎬七七影视 | `https://www.qiqidys.com/api.php/provide/vod` | 200 / invalid-json / wd=仙逆 | 0.0% | ❌❌❌❌❌❌❌ |
+| ❌ | full | 🎬七七影视 | `https://www.qiqidys.com/api.php/provide/vod` | 200 / invalid-json / wd=斗罗 | 0.0% | ❌❌❌❌❌❌❌ |
 | ❌ | full | 🎬优质资源库1080zyk6.com高清 | `https://api.yzzy-api.com/inc/ldg_api_all.php/provide/vod` | 200 / invalid-json / wd=斗罗 | 0.0% | ❌❌❌❌❌❌❌ |
 | ❌ | full | 🎬华为吧资源 | `https://huawei8.live/api.php/provide/vod` | [Errno -2] Name or service not known | 0.0% | ❌❌❌❌❌❌❌ |
 | ❌ | full | 🎬卧龙资源 | `https://collect.wolongzy.cc/api.php/provide/vod` | [Errno -2] Name or service not known | 0.0% | ❌❌❌❌❌❌❌ |
@@ -282,7 +288,7 @@ The data below is generated automatically by GitHub Actions and tracks all aggre
 | ❌ | full | 🎬山海资源 | `https://zy.sh0o.cn/api.php/provide/vod` | [Errno 111] Connection refused | 0.0% | ❌❌❌❌❌❌❌ |
 | ❌ | full | 🎬快播资源网站 | `https://gayapi.com/api.php/provide/vod` | [Errno 111] Connection refused | 0.0% | ❌❌❌❌❌❌❌ |
 | ❌ | full | 🎬步步高资源 | `https://api.yparse.com/api/json` | HTTP 403 / wd=仙逆 | 0.0% | ❌❌❌❌❌❌❌ |
-| ❌ | full | 🎬淘片资源 | `https://taopianapi.com/cjapi/sda/vod` | HTTP 404 / wd=仙逆 | 0.0% | ❌❌❌❌❌❌❌ |
+| ❌ | full | 🎬淘片资源 | `https://taopianapi.com/cjapi/sda/vod` | HTTP 404 / wd=斗罗 | 0.0% | ❌❌❌❌❌❌❌ |
 | ❌ | full | 🎬爱短剧.cc | `https://www.aiduanju.cc/` | [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016) | 0.0% | ❌❌❌❌❌❌❌ |
 | ❌ | full | 🎬神马资源 | `https://img.smdyw.top/api.php/provide/vod` | 200 / invalid-json / wd=仙逆 | 0.0% | ❌❌❌❌❌❌❌ |
 | ❌ | full | 🎬蜂巢片库 | `https://api.fczy888.me/api.php/provide/vod` | [Errno -2] Name or service not known | 0.0% | ❌❌❌❌❌❌❌ |
@@ -295,7 +301,7 @@ The data below is generated automatically by GitHub Actions and tracks all aggre
 | ❌ | full | 🎬黑木耳 | `https://json.heimuer.xyz/api.php/provide/vod` | [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016) | 0.0% | ❌❌❌❌❌❌❌ |
 | ❌ | full | 🎬黑木耳点播 | `https://json02.heimuer.xyz/api.php/provide/vod` | [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016) | 0.0% | ❌❌❌❌❌❌❌ |
 | ❌ | plus18 | 🔞百万资源 | `https://api.bwzyz.com/api.php/provide/vod` | 200 / invalid-json / wd=无码 | 7.1% | ❌❌❌❌❌❌❌ |
-| ❌ | plus18 | 🔞91-精品 | `https://91jpzyw.com/api.php/provide/vod` | HTTP 521 / wd=斗罗 | 0.0% | ❌❌❌❌❌❌❌ |
+| ❌ | plus18 | 🔞91-精品 | `https://91jpzyw.com/api.php/provide/vod` | HTTP 521 / wd=无码 | 0.0% | ❌❌❌❌❌❌❌ |
 | ❌ | plus18 | 🔞丝袜资源 | `https://siwazyw.tv/api.php/provide/vod` | 200 / invalid-json / wd=无码 | 0.0% | ❌❌❌❌❌❌❌ |
 | ❌ | plus18 | 🔞丝袜资源 | `https://siwazyw.tv/api.php/provide/vod/at/json` | 200 / invalid-json / wd=斗罗 | 0.0% | ❌❌❌❌❌❌❌ |
 | ❌ | plus18 | 🔞丝袜资源 | `https://www.siwazyw.tv/api.php/provide/vod/at/json` | 200 / invalid-json / wd=无码 | 0.0% | ❌❌❌❌❌❌❌ |
@@ -308,7 +314,7 @@ The data below is generated automatically by GitHub Actions and tracks all aggre
 | ❌ | plus18 | 🔞杏吧资源 | `https://xingba111.com/api.php/provide/vod` | HTTP 403 / wd=无码 | 0.0% | ❌❌❌❌❌❌❌ |
 | ❌ | plus18 | 🔞杏吧资源 | `https://xingba222.com/api.php/provide/vod` | HTTP 403 / wd=无码 | 0.0% | ❌❌❌❌❌❌❌ |
 | ❌ | plus18 | 🔞色南国 | `https://api.sexnguon.com/api.php/provide/vod` | [Errno 111] Connection refused | 0.0% | ❌❌❌❌❌❌❌ |
-| ❌ | plus18 | 🔞色猫资源 | `https://api.maozyapi.com/inc/apijson_vod.php` | HTTP 521 / wd=斗罗 | 0.0% | ❌❌❌❌❌❌❌ |
+| ❌ | plus18 | 🔞色猫资源 | `https://api.maozyapi.com/inc/apijson_vod.php` | HTTP 521 / wd=无码 | 0.0% | ❌❌❌❌❌❌❌ |
 | ❌ | plus18 | 🔞色猫资源 | `https://caiji.semaozy.net/inc/apijson_vod.php/provide/vod` | 200 / empty-list / wd=无码 / 0 results | 0.0% | ❌❌❌❌❌❌❌ |
 
 </details>
