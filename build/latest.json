@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-24T06:56:03.379850+00:00",
+  "generated_at": "2026-06-25T06:55:47.651739+00:00",
   "summary": {
     "source_repositories": 5,
-    "unique_api_sites": 155,
-    "safe_api_sites": 107,
+    "unique_api_sites": 154,
+    "safe_api_sites": 106,
     "adult_api_sites": 48,
     "failed_sources": 0
   },
@@ -37,8 +37,8 @@
       "repo": "https://github.com/oooopera/moontv_config",
       "ref": null,
       "parser": "json",
-      "api_count": 123,
-      "score": 1187
+      "api_count": 128,
+      "score": 1207
     },
     {
       "name": "heardic/shipinyuan",
@@ -63,12 +63,12 @@
     "full": {
       "json": "full.json",
       "txt": "full.txt",
-      "api_count": 76
+      "api_count": 75
     },
     "full_plus18": {
       "json": "full-plus18.json",
       "txt": "full-plus18.txt",
-      "api_count": 108
+      "api_count": 107
     }
   },
   "top_sites": [
@@ -181,6 +181,7 @@
       ],
       "observed_names": [
         "TV-新浪点播",
+        "新浪|点播",
         "新浪资源阿",
         "🎬新浪资源"
       ]
@@ -200,6 +201,7 @@
       ],
       "observed_names": [
         "TV-无尽资源",
+        "无尽|点播",
         "🎬无尽影视",
         "🎬无尽资源1"
       ]
@@ -371,6 +373,7 @@
       ],
       "observed_names": [
         "TV-红牛资源",
+        "红牛|点播",
         "🎬红牛资源"
       ]
     },
@@ -425,6 +428,7 @@
       ],
       "observed_names": [
         "TV-速博资源",
+        "速博|点播",
         "🎬速播资源"
       ]
     },
@@ -658,6 +662,7 @@
       ],
       "observed_names": [
         "TV-虎牙资源",
+        "虎牙|点播",
         "🎬虎牙资源"
       ]
     },
@@ -793,22 +798,23 @@
       ],
       "observed_names": [
         "TV-U酷资源",
+        "U酷|点播",
         "🎬U酷资源"
       ]
     }
   ],
   "errors": [],
   "health": {
-    "generated_at": "2026-06-24T06:56:02.606559+00:00",
+    "generated_at": "2026-06-25T06:55:46.886601+00:00",
     "target_file": "full-plus18.json",
-    "total_apis": 155,
-    "current_success": 105,
-    "current_failure": 50,
-    "enabled_apis": 108,
-    "healthy_apis": 100,
+    "total_apis": 154,
+    "current_success": 106,
+    "current_failure": 48,
+    "enabled_apis": 107,
+    "healthy_apis": 99,
     "subhealthy_apis": 8,
     "unhealthy_apis": 47,
-    "average_availability_rate": 0.6847926267281106,
+    "average_availability_rate": 0.6883116883116882,
     "validation_mode": "moontvplus-search",
     "search_keywords": [
       "斗罗",
