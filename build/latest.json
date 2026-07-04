@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-03T06:41:22.012141+00:00",
+  "generated_at": "2026-07-04T06:28:16.661236+00:00",
   "summary": {
     "source_repositories": 5,
-    "unique_api_sites": 153,
-    "safe_api_sites": 105,
+    "unique_api_sites": 154,
+    "safe_api_sites": 106,
     "adult_api_sites": 48,
     "failed_sources": 0
   },
@@ -63,12 +63,12 @@
     "full": {
       "json": "full.json",
       "txt": "full.txt",
-      "api_count": 74
+      "api_count": 75
     },
     "full_plus18": {
       "json": "full-plus18.json",
       "txt": "full-plus18.txt",
-      "api_count": 107
+      "api_count": 108
     }
   },
   "top_sites": [
@@ -800,16 +800,16 @@
   ],
   "errors": [],
   "health": {
-    "generated_at": "2026-07-03T06:41:21.252245+00:00",
+    "generated_at": "2026-07-04T06:28:15.884714+00:00",
     "target_file": "full-plus18.json",
-    "total_apis": 153,
-    "current_success": 106,
-    "current_failure": 47,
-    "enabled_apis": 107,
-    "healthy_apis": 97,
-    "subhealthy_apis": 10,
+    "total_apis": 154,
+    "current_success": 108,
+    "current_failure": 46,
+    "enabled_apis": 108,
+    "healthy_apis": 99,
+    "subhealthy_apis": 9,
     "unhealthy_apis": 46,
-    "average_availability_rate": 0.684500466853408,
+    "average_availability_rate": 0.6931607353685275,
     "validation_mode": "moontvplus-search",
     "search_keywords": [
       "斗罗",
