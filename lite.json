@@ -61,11 +61,6 @@
       "api": "https://suoniapi.com/api.php/provide/vod",
       "detail": "https://suonizy.net"
     },
-    "www_hongniuzy2_com_provide_vod": {
-      "name": "🎬红牛资源",
-      "api": "https://www.hongniuzy2.com/api.php/provide/vod",
-      "detail": "https://www.hongniuzy.com"
-    },
     "caiji_maotaizy_cc_provide_vod": {
       "name": "🎬茅台资源",
       "api": "https://caiji.maotaizy.cc/api.php/provide/vod",
@@ -106,11 +101,6 @@
       "api": "https://www.mdzyapi.com/api.php/provide/vod",
       "detail": "https://www.moduzy.net"
     },
-    "api_yzzy_api_com_inc_apijson_php": {
-      "name": "🎬优质资源",
-      "api": "https://api.yzzy-api.com/inc/apijson.php",
-      "detail": "https://1080zyk4.com"
-    },
     "api_guangsuapi_com_provide_vod": {
       "name": "🎬光速资源",
       "api": "https://api.guangsuapi.com/api.php/provide/vod",
@@ -141,6 +131,11 @@
       "api": "https://api.apibdzy.com/api.php/provide/vod",
       "detail": "https://bdzy1.com"
     },
+    "www_hongniuzy2_com_provide_vod": {
+      "name": "🎬红牛资源",
+      "api": "https://www.hongniuzy2.com/api.php/provide/vod",
+      "detail": "https://www.hongniuzy.com"
+    },
     "www_huyaapi_com_provide_vod": {
       "name": "🎬虎牙资源",
       "api": "https://www.huyaapi.com/api.php/provide/vod",
@@ -166,20 +161,15 @@
       "api": "https://cj.yayazy.net/api.php/provide/vod",
       "detail": "https://cj.yayazy.net"
     },
-    "360zyzz_com_provide_vod": {
-      "name": "🎬360 资源",
-      "api": "https://360zyzz.com/api.php/provide/vod",
-      "detail": "https://360zy.com"
-    },
-    "360zy_com_provide_vod": {
-      "name": "🎬360资源",
-      "api": "https://360zy.com/api.php/provide/vod",
-      "detail": "https://360zy.com"
-    },
     "api_ukuapi_com_provide_vod": {
       "name": "🎬U酷资源",
       "api": "https://api.ukuapi.com/api.php/provide/vod",
       "detail": "https://api.ukuapi.com"
+    },
+    "api_yzzy_api_com_inc_apijson_php": {
+      "name": "🎬优质资源",
+      "api": "https://api.yzzy-api.com/inc/apijson.php",
+      "detail": "https://1080zyk4.com"
     },
     "tyyszy_com_provide_vod": {
       "name": "🎬天涯资源",
