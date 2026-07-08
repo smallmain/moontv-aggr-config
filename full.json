@@ -306,10 +306,20 @@
       "api": "https://api.wsyzy.net/api.php/provide/vod",
       "detail": "https://api.wsyzy.net"
     },
+    "taopianapi_com_vod_json_html": {
+      "name": "🎬淘片资源",
+      "api": "https://taopianapi.com/cjapi/mc10/vod/json.html",
+      "detail": "https://www.taopianzy.com/help.html"
+    },
     "api_maoyanapi_top_at_json": {
       "name": "🎬猫眼资源",
       "api": "https://api.maoyanapi.top/api.php/provide/vod/at/json",
       "detail": "https://api.maoyanapi.top"
+    },
+    "subocj_com_provide_vod": {
+      "name": "🎬速播资源",
+      "api": "https://subocj.com/api.php/provide/vod",
+      "detail": "https://subocj.com"
     },
     "ffzy5_tv_provide_vod": {
       "name": "🎬非凡影视",
