@@ -76,11 +76,6 @@
       "api": "https://hhzyapi.com/api.php/provide/vod",
       "detail": "https://www.haohuazy.com"
     },
-    "subocaiji_com_provide_vod": {
-      "name": "🎬速播资源",
-      "api": "https://subocaiji.com/api.php/provide/vod",
-      "detail": "https://www.subozy.com"
-    },
     "cj_lziapi_com_provide_vod": {
       "name": "🎬量子资源",
       "api": "https://cj.lziapi.com/api.php/provide/vod",
@@ -150,6 +145,11 @@
       "name": "🎬豆瓣资源",
       "api": "https://caiji.dbzy5.com/api.php/provide/vod",
       "detail": "https://dbzy.tv"
+    },
+    "subocaiji_com_provide_vod": {
+      "name": "🎬速播资源",
+      "api": "https://subocaiji.com/api.php/provide/vod",
+      "detail": "https://www.subozy.com"
     },
     "cj_lzcaiji_com_provide_vod": {
       "name": "🎬量子资源",
