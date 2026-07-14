@@ -156,11 +156,6 @@
       "api": "https://api.ffzyapi.com/api.php/provide/vod",
       "detail": "https://cj.ffzyapi.com"
     },
-    "p2100_net_provide_vod": {
-      "name": "🎬飘零资源",
-      "api": "https://p2100.net/api.php/provide/vod",
-      "detail": "https://p2100.net"
-    },
     "cj_yayazy_net_provide_vod": {
       "name": "🎬鸭鸭资源",
       "api": "https://cj.yayazy.net/api.php/provide/vod",
@@ -351,6 +346,11 @@
       "api": "https://jyzyapi.com/provide/vod/from/jinyingm3u8/at/json",
       "detail": "https://jinyingzy.com"
     },
+    "cj_baozi66_top_provide_vod": {
+      "name": "🎬雨哥哥资源",
+      "api": "http://cj.baozi66.top:66/api.php/provide/vod",
+      "detail": "http://cj.baozi66.top:66"
+    },
     "ffzy5_tv_provide_vod": {
       "name": "🎬非凡影视",
       "api": "http://ffzy5.tv/api.php/provide/vod",
@@ -371,6 +371,11 @@
       "api": "https://hsckzy888.com/api.php/provide/vod",
       "detail": "https://hsckzy888.com"
     },
+    "www_77hanju_com_provide_vod": {
+      "name": "🎬🔅77韩剧ᴴ",
+      "api": "https://www.77hanju.com/api.php/provide/vod",
+      "detail": "https://www.77hanju.com"
+    },
     "yhzy_cc_provide_vod": {
       "name": "🎬🔅樱花资源ᴴ",
       "api": "https://yhzy.cc/api.php/provide/vod",
@@ -385,6 +390,11 @@
       "name": "🎬🔅索尼资源网ᴴ",
       "api": "https://suoniapi.com/api.php/provide/vod/from/snm3u8",
       "detail": "https://suoniapi.com"
+    },
+    "hongniuzy2_com_provide_vod": {
+      "name": "🎬🔅红牛ᴴ",
+      "api": "https://hongniuzy2.com/api.php/provide/vod",
+      "detail": "https://hongniuzy2.com"
     }
   }
 }
