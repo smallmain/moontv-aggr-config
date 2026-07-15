@@ -336,6 +336,11 @@
       "api": "https://www.huyaapi.com/api.php/provide/vod/from/hym3u8",
       "detail": "https://www.huyaapi.com"
     },
+    "caiji_xgzyapi_com_provide_vod": {
+      "name": "🎬西瓜资源采集接口",
+      "api": "https://caiji.xgzyapi.com/api.php/provide/vod",
+      "detail": "https://caiji.xgzyapi.com"
+    },
     "subocj_com_provide_vod": {
       "name": "🎬速播资源",
       "api": "https://subocj.com/api.php/provide/vod",

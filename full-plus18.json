@@ -336,6 +336,11 @@
       "api": "https://www.huyaapi.com/api.php/provide/vod/from/hym3u8",
       "detail": "https://www.huyaapi.com"
     },
+    "caiji_xgzyapi_com_provide_vod": {
+      "name": "🎬西瓜资源采集接口",
+      "api": "https://caiji.xgzyapi.com/api.php/provide/vod",
+      "detail": "https://caiji.xgzyapi.com"
+    },
     "subocj_com_provide_vod": {
       "name": "🎬速播资源",
       "api": "https://subocj.com/api.php/provide/vod",
@@ -556,20 +561,25 @@
       "api": "https://www.ckzy1.com/api.php/provide/vod",
       "detail": "https://www.ckzy1.com"
     },
-    "wmcj8_com_inc_sapi_php": {
-      "name": "🔞成人07",
-      "api": "http://wmcj8.com/inc/sapi.php",
-      "detail": "http://wmcj8.com"
-    },
-    "www_feifei67_com_provide_vod": {
-      "name": "🔞成人22",
-      "api": "http://www.feifei67.com/api.php/provide/vod",
-      "detail": "http://www.feifei67.com"
+    "www_gdlsp_com_api_xml_php": {
+      "name": "🔞成人36",
+      "api": "https://www.gdlsp.com/api/xml.php",
+      "detail": "https://www.gdlsp.com"
     },
     "slapibf_com_provide_vod": {
       "name": "🔞森林资源",
       "api": "https://slapibf.com/api.php/provide/vod",
       "detail": "https://slapibf.com"
+    },
+    "zmcj88_com_api": {
+      "name": "🔞泡芙资源",
+      "api": "http://zmcj88.com/api",
+      "detail": "http://zmcj88.com"
+    },
+    "jcspcj8_com_api": {
+      "name": "🔞熊猫资源",
+      "api": "http://jcspcj8.com/api",
+      "detail": "http://jcspcj8.com"
     },
     "hhzyapi_com_at_json": {
       "name": "🔞豪华资源",
