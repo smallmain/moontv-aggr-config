@@ -66,6 +66,11 @@
       "api": "https://www.hongniuzy2.com/api.php/provide/vod",
       "detail": "https://www.hongniuzy.com"
     },
+    "caiji_maotaizy_cc_provide_vod": {
+      "name": "🎬茅台资源",
+      "api": "https://caiji.maotaizy.cc/api.php/provide/vod",
+      "detail": "https://mtzy.me"
+    },
     "hhzyapi_com_provide_vod": {
       "name": "🎬豪华资源",
       "api": "https://hhzyapi.com/api.php/provide/vod",
@@ -130,11 +135,6 @@
       "name": "🎬百度云zy",
       "api": "https://api.apibdzy.com/api.php/provide/vod",
       "detail": "https://bdzy1.com"
-    },
-    "caiji_maotaizy_cc_provide_vod": {
-      "name": "🎬茅台资源",
-      "api": "https://caiji.maotaizy.cc/api.php/provide/vod",
-      "detail": "https://mtzy.me"
     },
     "www_huyaapi_com_provide_vod": {
       "name": "🎬虎牙资源",
@@ -311,6 +311,11 @@
       "api": "https://api.wsyzy.net/api.php/provide/vod",
       "detail": "https://api.wsyzy.net"
     },
+    "taopianapi_com_vod_json_html": {
+      "name": "🎬淘片",
+      "api": "https://taopianapi.com/cjapi/mc/vod/json.html",
+      "detail": "https://www.taopianzy.com/index.html"
+    },
     "api_maoyanapi_top_at_json": {
       "name": "🎬猫眼资源",
       "api": "https://api.maoyanapi.top/api.php/provide/vod/at/json",
@@ -320,6 +325,11 @@
       "name": "🎬红牛",
       "api": "https://www.hongniuzy2.com/api.php/provide/vod/at/josn",
       "detail": "https://hongniuzy.net"
+    },
+    "caihy_zone_id_e8_8c_b6_e6_9d_af_e7_8b_90_php": {
+      "name": "🎬茶杯狐",
+      "api": "http://caihy.zone.id/%E8%8C%B6%E6%9D%AF%E7%8B%90.php?filter=true",
+      "detail": "http://caihy.zone.id"
     },
     "www_huyaapi_com_from_hym3u8": {
       "name": "🎬虎牙",
