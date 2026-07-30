@@ -281,6 +281,11 @@
       "api": "https://ikunzyapi.com/api.php/provide/vod/at/json",
       "detail": "https://ikunzyapi.com"
     },
+    "cdn_dzzyapi_com_provide_vod": {
+      "name": "🎬大众资源采集接口",
+      "api": "https://cdn.dzzyapi.com/api.php/provide/vod",
+      "detail": "https://cdn.dzzyapi.com"
+    },
     "tyyszyapi_com_provide_vod": {
       "name": "🎬天涯影视",
       "api": "https://tyyszyapi.com/api.php/provide/vod",
