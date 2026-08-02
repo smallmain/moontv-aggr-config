@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-01T06:07:23.192445+00:00",
+  "generated_at": "2026-08-02T06:10:39.602448+00:00",
   "summary": {
     "source_repositories": 5,
-    "unique_api_sites": 160,
+    "unique_api_sites": 162,
     "safe_api_sites": 111,
-    "adult_api_sites": 49,
+    "adult_api_sites": 51,
     "failed_sources": 0
   },
   "sources": [
@@ -53,12 +53,12 @@
     "lite": {
       "json": "lite.json",
       "txt": "lite.txt",
-      "api_count": 37
+      "api_count": 38
     },
     "lite_plus18": {
       "json": "lite-plus18.json",
       "txt": "lite-plus18.txt",
-      "api_count": 62
+      "api_count": 63
     },
     "full": {
       "json": "full.json",
@@ -68,7 +68,7 @@
     "full_plus18": {
       "json": "full-plus18.json",
       "txt": "full-plus18.txt",
-      "api_count": 111
+      "api_count": 113
     }
   },
   "top_sites": [
@@ -643,23 +643,6 @@
       ]
     },
     {
-      "name": "🎬豆瓣资源",
-      "api": "https://caiji.dbzy5.com/api.php/provide/vod",
-      "detail": "https://dbzy.tv",
-      "adult": false,
-      "consensus": 4,
-      "sources": [
-        "hafrey1/LunaTV-config",
-        "oooopera/moontv_config",
-        "qianqikun/LunaTV-config",
-        "vodtv/api"
-      ],
-      "observed_names": [
-        "Rui-豆瓣资源",
-        "🎬豆瓣资源"
-      ]
-    },
-    {
       "name": "🎬量子资源",
       "api": "https://cj.lzcaiji.com/api.php/provide/vod",
       "detail": "https://cj.lzcaiji.com",
@@ -794,20 +777,35 @@
         "天涯资源",
         "🎬天涯影视"
       ]
+    },
+    {
+      "name": "🎬艾旦影视",
+      "api": "https://lovedan.net/api.php/provide/vod",
+      "detail": "https://lovedan.net",
+      "adult": false,
+      "consensus": 3,
+      "sources": [
+        "hafrey1/LunaTV-config",
+        "oooopera/moontv_config",
+        "vodtv/api"
+      ],
+      "observed_names": [
+        "🎬艾旦影视"
+      ]
     }
   ],
   "errors": [],
   "health": {
-    "generated_at": "2026-08-01T06:07:22.449959+00:00",
+    "generated_at": "2026-08-02T06:10:38.862525+00:00",
     "target_file": "full-plus18.json",
-    "total_apis": 160,
-    "current_success": 111,
-    "current_failure": 49,
-    "enabled_apis": 111,
-    "healthy_apis": 104,
-    "subhealthy_apis": 7,
+    "total_apis": 162,
+    "current_success": 109,
+    "current_failure": 53,
+    "enabled_apis": 113,
+    "healthy_apis": 103,
+    "subhealthy_apis": 10,
     "unhealthy_apis": 49,
-    "average_availability_rate": 0.6888392857142857,
+    "average_availability_rate": 0.6794532627865961,
     "validation_mode": "moontvplus-search",
     "search_keywords": [
       "斗罗",
