@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-04T06:03:01.881434+00:00",
+  "generated_at": "2026-08-05T05:54:41.341074+00:00",
   "summary": {
     "source_repositories": 5,
-    "unique_api_sites": 160,
+    "unique_api_sites": 159,
     "safe_api_sites": 109,
-    "adult_api_sites": 51,
+    "adult_api_sites": 50,
     "failed_sources": 0
   },
   "sources": [
@@ -37,8 +37,8 @@
       "repo": "https://github.com/oooopera/moontv_config",
       "ref": null,
       "parser": "json",
-      "api_count": 120,
-      "score": 1175
+      "api_count": 117,
+      "score": 1163
     },
     {
       "name": "heardic/shipinyuan",
@@ -68,7 +68,7 @@
     "full_plus18": {
       "json": "full-plus18.json",
       "txt": "full-plus18.txt",
-      "api_count": 111
+      "api_count": 110
     }
   },
   "top_sites": [
@@ -338,6 +338,24 @@
       ]
     },
     {
+      "name": "🎬茅台资源",
+      "api": "https://caiji.maotaizy.cc/api.php/provide/vod",
+      "detail": "https://mtzy.me",
+      "adult": false,
+      "consensus": 5,
+      "sources": [
+        "hafrey1/LunaTV-config",
+        "heardic/shipinyuan",
+        "oooopera/moontv_config",
+        "qianqikun/LunaTV-config",
+        "vodtv/api"
+      ],
+      "observed_names": [
+        "TV-茅台资源",
+        "🎬茅台资源"
+      ]
+    },
+    {
       "name": "🎬豪华资源",
       "api": "https://hhzyapi.com/api.php/provide/vod",
       "detail": "https://www.haohuazy.com",
@@ -539,23 +557,6 @@
       ]
     },
     {
-      "name": "🎬爱奇艺",
-      "api": "https://iqiyizyapi.com/api.php/provide/vod",
-      "detail": "https://iqiyizyapi.com",
-      "adult": false,
-      "consensus": 4,
-      "sources": [
-        "hafrey1/LunaTV-config",
-        "oooopera/moontv_config",
-        "qianqikun/LunaTV-config",
-        "vodtv/api"
-      ],
-      "observed_names": [
-        "🎬-爱奇艺-",
-        "🎬爱奇艺"
-      ]
-    },
-    {
       "name": "🎬猫眼资源",
       "api": "https://api.maoyanapi.top/api.php/provide/vod",
       "detail": "https://www.maoyanzy.com",
@@ -603,23 +604,6 @@
       "observed_names": [
         "TV-百度云资源",
         "🎬百度云zy"
-      ]
-    },
-    {
-      "name": "🎬茅台资源",
-      "api": "https://caiji.maotaizy.cc/api.php/provide/vod",
-      "detail": "https://mtzy.me",
-      "adult": false,
-      "consensus": 4,
-      "sources": [
-        "hafrey1/LunaTV-config",
-        "heardic/shipinyuan",
-        "qianqikun/LunaTV-config",
-        "vodtv/api"
-      ],
-      "observed_names": [
-        "TV-茅台资源",
-        "🎬茅台资源"
       ]
     },
     {
@@ -790,20 +774,36 @@
         "天涯资源",
         "🎬天涯影视"
       ]
+    },
+    {
+      "name": "🎬爱奇艺",
+      "api": "https://iqiyizyapi.com/api.php/provide/vod",
+      "detail": "https://iqiyizyapi.com",
+      "adult": false,
+      "consensus": 3,
+      "sources": [
+        "hafrey1/LunaTV-config",
+        "qianqikun/LunaTV-config",
+        "vodtv/api"
+      ],
+      "observed_names": [
+        "🎬-爱奇艺-",
+        "🎬爱奇艺"
+      ]
     }
   ],
   "errors": [],
   "health": {
-    "generated_at": "2026-08-04T06:03:01.165856+00:00",
+    "generated_at": "2026-08-05T05:54:40.728973+00:00",
     "target_file": "full-plus18.json",
-    "total_apis": 160,
+    "total_apis": 159,
     "current_success": 109,
-    "current_failure": 51,
-    "enabled_apis": 111,
+    "current_failure": 50,
+    "enabled_apis": 110,
     "healthy_apis": 101,
-    "subhealthy_apis": 10,
+    "subhealthy_apis": 9,
     "unhealthy_apis": 49,
-    "average_availability_rate": 0.6758928571428571,
+    "average_availability_rate": 0.6801437556154537,
     "validation_mode": "moontvplus-search",
     "search_keywords": [
       "斗罗",
