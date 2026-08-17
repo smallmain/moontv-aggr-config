@@ -111,6 +111,11 @@
       "api": "https://api.maoyanapi.top/api.php/provide/vod",
       "detail": "https://www.maoyanzy.com"
     },
+    "caiji_dyttzyapi_com_provide_vod": {
+      "name": "🎬电影天堂",
+      "api": "http://caiji.dyttzyapi.com/api.php/provide/vod",
+      "detail": "http://caiji.dyttzyapi.com"
+    },
     "api_apibdzy_com_provide_vod": {
       "name": "🎬百度云zy",
       "api": "https://api.apibdzy.com/api.php/provide/vod",
