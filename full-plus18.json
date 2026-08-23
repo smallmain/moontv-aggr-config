@@ -211,11 +211,6 @@
       "api": "https://api.wujinapi.cc/api.php/provide/vod",
       "detail": "https://api.wujinapi.cc"
     },
-    "api_wujinapi_net_provide_vod": {
-      "name": "🎬无尽资源3",
-      "api": "https://api.wujinapi.net/api.php/provide/vod",
-      "detail": "https://api.wujinapi.net"
-    },
     "api_niuniuzy_me_provide_vod": {
       "name": "🎬牛牛点播",
       "api": "https://api.niuniuzy.me/api.php/provide/vod",
@@ -295,6 +290,11 @@
       "name": "🎬建安资源站",
       "api": "http://154.219.117.232:9981/jacloudapi.php/provide/vod",
       "detail": "http://154.219.117.232:9981"
+    },
+    "api_wujinapi_net_provide_vod": {
+      "name": "🎬无尽资源",
+      "api": "https://api.wujinapi.net/api.php/provide/vod",
+      "detail": "https://api.wujinapi.net"
     },
     "yonghu_ffzyapi8_com_at_json": {
       "name": "🎬无广1线 (非凡)",
@@ -391,11 +391,6 @@
       "api": "https://apilj.com/api.php/provide/vod",
       "detail": "https://apilj.com"
     },
-    "www_pgxdy_com_api_json_php": {
-      "name": "🔞黄AVZY",
-      "api": "https://www.pgxdy.com/api/json.php",
-      "detail": "https://www.pgxdy.com"
-    },
     "155api_com_provide_vod": {
       "name": "🔞155资源",
       "api": "https://155api.com/api.php/provide/vod",
@@ -461,6 +456,11 @@
       "api": "https://91md.me/api.php/provide/vod",
       "detail": "https://91md.me"
     },
+    "www_pgxdy_com_api_json_php": {
+      "name": "🔞黄AVZY",
+      "api": "https://www.pgxdy.com/api/json.php",
+      "detail": "https://www.pgxdy.com"
+    },
     "apidanaizi_com_provide_vod": {
       "name": "🔞大奶子",
       "api": "https://apidanaizi.com/api.php/provide/vod",
@@ -521,25 +521,15 @@
       "api": "https://www.heiliaozyapi.com/api.php/provide/vod",
       "detail": "https://heiliaozy.cc"
     },
-    "www_kxgav_com_api_xml_php": {
-      "name": "🔞成人44",
-      "api": "https://www.kxgav.com/api/xml.php",
-      "detail": "https://www.kxgav.com"
-    },
-    "www_msnii_com_api_xml_php": {
-      "name": "🔞成人46",
-      "api": "https://www.msnii.com/api/xml.php",
-      "detail": "https://www.msnii.com"
-    },
     "slapibf_com_provide_vod": {
       "name": "🔞森林资源",
       "api": "https://slapibf.com/api.php/provide/vod",
       "detail": "https://slapibf.com"
     },
-    "jcspcj8_com_api": {
-      "name": "🔞熊猫资源",
-      "api": "http://jcspcj8.com/api",
-      "detail": "http://jcspcj8.com"
+    "zmcj88_com_api": {
+      "name": "🔞泡芙资源",
+      "api": "http://zmcj88.com/api",
+      "detail": "http://zmcj88.com"
     },
     "hhzyapi_com_at_json": {
       "name": "🔞豪华资源",

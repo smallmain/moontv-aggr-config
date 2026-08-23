@@ -211,11 +211,6 @@
       "api": "https://api.wujinapi.cc/api.php/provide/vod",
       "detail": "https://api.wujinapi.cc"
     },
-    "api_wujinapi_net_provide_vod": {
-      "name": "🎬无尽资源3",
-      "api": "https://api.wujinapi.net/api.php/provide/vod",
-      "detail": "https://api.wujinapi.net"
-    },
     "api_niuniuzy_me_provide_vod": {
       "name": "🎬牛牛点播",
       "api": "https://api.niuniuzy.me/api.php/provide/vod",
@@ -295,6 +290,11 @@
       "name": "🎬建安资源站",
       "api": "http://154.219.117.232:9981/jacloudapi.php/provide/vod",
       "detail": "http://154.219.117.232:9981"
+    },
+    "api_wujinapi_net_provide_vod": {
+      "name": "🎬无尽资源",
+      "api": "https://api.wujinapi.net/api.php/provide/vod",
+      "detail": "https://api.wujinapi.net"
     },
     "yonghu_ffzyapi8_com_at_json": {
       "name": "🎬无广1线 (非凡)",
