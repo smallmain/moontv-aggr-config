@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-23T03:58:33.395906+00:00",
+  "generated_at": "2026-08-24T04:03:06.611510+00:00",
   "summary": {
     "source_repositories": 5,
-    "unique_api_sites": 155,
+    "unique_api_sites": 156,
     "safe_api_sites": 103,
-    "adult_api_sites": 52,
+    "adult_api_sites": 53,
     "failed_sources": 0
   },
   "sources": [
@@ -37,8 +37,8 @@
       "repo": "https://github.com/oooopera/moontv_config",
       "ref": null,
       "parser": "json",
-      "api_count": 114,
-      "score": 1151
+      "api_count": 117,
+      "score": 1163
     },
     {
       "name": "heardic/shipinyuan",
@@ -53,17 +53,17 @@
     "lite": {
       "json": "lite.json",
       "txt": "lite.txt",
-      "api_count": 39
+      "api_count": 37
     },
     "lite_plus18": {
       "json": "lite-plus18.json",
       "txt": "lite-plus18.txt",
-      "api_count": 63
+      "api_count": 61
     },
     "full": {
       "json": "full.json",
       "txt": "full.txt",
-      "api_count": 74
+      "api_count": 73
     },
     "full_plus18": {
       "json": "full-plus18.json",
@@ -451,6 +451,43 @@
       ]
     },
     {
+      "name": "🎬魔都动漫",
+      "api": "https://caiji.moduapi.cc/api.php/provide/vod",
+      "detail": "https://caiji.moduapi.cc",
+      "adult": false,
+      "consensus": 5,
+      "sources": [
+        "hafrey1/LunaTV-config",
+        "heardic/shipinyuan",
+        "oooopera/moontv_config",
+        "qianqikun/LunaTV-config",
+        "vodtv/api"
+      ],
+      "observed_names": [
+        "TV-魔都动漫",
+        "🎬魔都动漫"
+      ]
+    },
+    {
+      "name": "🎬魔都资源",
+      "api": "https://www.mdzyapi.com/api.php/provide/vod",
+      "detail": "https://www.moduzy.net",
+      "adult": false,
+      "consensus": 5,
+      "sources": [
+        "hafrey1/LunaTV-config",
+        "heardic/shipinyuan",
+        "oooopera/moontv_config",
+        "qianqikun/LunaTV-config",
+        "vodtv/api"
+      ],
+      "observed_names": [
+        "TV-魔都资源",
+        "魔都资源",
+        "🎬魔都资源"
+      ]
+    },
+    {
       "name": "🎬优质资源",
       "api": "https://api.yzzy-api.com/inc/apijson.php",
       "detail": "https://1080zyk4.com",
@@ -685,41 +722,6 @@
       ]
     },
     {
-      "name": "🎬魔都动漫",
-      "api": "https://caiji.moduapi.cc/api.php/provide/vod",
-      "detail": "https://caiji.moduapi.cc",
-      "adult": false,
-      "consensus": 4,
-      "sources": [
-        "hafrey1/LunaTV-config",
-        "heardic/shipinyuan",
-        "qianqikun/LunaTV-config",
-        "vodtv/api"
-      ],
-      "observed_names": [
-        "TV-魔都动漫",
-        "🎬魔都动漫"
-      ]
-    },
-    {
-      "name": "🎬魔都资源",
-      "api": "https://www.mdzyapi.com/api.php/provide/vod",
-      "detail": "https://www.moduzy.net",
-      "adult": false,
-      "consensus": 4,
-      "sources": [
-        "hafrey1/LunaTV-config",
-        "heardic/shipinyuan",
-        "qianqikun/LunaTV-config",
-        "vodtv/api"
-      ],
-      "observed_names": [
-        "TV-魔都资源",
-        "魔都资源",
-        "🎬魔都资源"
-      ]
-    },
-    {
       "name": "🎬鸭鸭资源",
       "api": "https://cj.yayazy.net/api.php/provide/vod",
       "detail": "https://yayazy3.com",
@@ -790,16 +792,16 @@
   ],
   "errors": [],
   "health": {
-    "generated_at": "2026-08-23T03:58:32.720688+00:00",
+    "generated_at": "2026-08-24T04:03:05.863686+00:00",
     "target_file": "full-plus18.json",
-    "total_apis": 155,
-    "current_success": 104,
-    "current_failure": 51,
+    "total_apis": 156,
+    "current_success": 101,
+    "current_failure": 55,
     "enabled_apis": 107,
-    "healthy_apis": 88,
-    "subhealthy_apis": 19,
-    "unhealthy_apis": 48,
-    "average_availability_rate": 0.6682027649769585,
+    "healthy_apis": 85,
+    "subhealthy_apis": 22,
+    "unhealthy_apis": 49,
+    "average_availability_rate": 0.6625457875457875,
     "validation_mode": "moontvplus-search",
     "search_keywords": [
       "斗罗",

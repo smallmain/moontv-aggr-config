@@ -91,6 +91,11 @@
       "api": "https://xsd.sdzyapi.com/api.php/provide/vod",
       "detail": "https://shandianzy.com"
     },
+    "www_mdzyapi_com_provide_vod": {
+      "name": "🎬魔都资源",
+      "api": "https://www.mdzyapi.com/api.php/provide/vod",
+      "detail": "https://www.moduzy.net"
+    },
     "api_yzzy_api_com_inc_apijson_php": {
       "name": "🎬优质资源",
       "api": "https://api.yzzy-api.com/inc/apijson.php",
@@ -151,16 +156,6 @@
       "api": "https://api.ffzyapi.com/api.php/provide/vod",
       "detail": "https://cj.ffzyapi.com"
     },
-    "caiji_moduapi_cc_provide_vod": {
-      "name": "🎬魔都动漫",
-      "api": "https://caiji.moduapi.cc/api.php/provide/vod",
-      "detail": "https://caiji.moduapi.cc"
-    },
-    "www_mdzyapi_com_provide_vod": {
-      "name": "🎬魔都资源",
-      "api": "https://www.mdzyapi.com/api.php/provide/vod",
-      "detail": "https://www.moduzy.net"
-    },
     "cj_yayazy_net_provide_vod": {
       "name": "🎬鸭鸭资源",
       "api": "https://cj.yayazy.net/api.php/provide/vod",
@@ -186,11 +181,6 @@
       "api": "https://tyyszy.com/api.php/provide/vod",
       "detail": "https://tyyszy.com"
     },
-    "lovedan_net_provide_vod": {
-      "name": "🎬艾旦影视",
-      "api": "https://lovedan.net/api.php/provide/vod",
-      "detail": "https://lovedan.net"
-    },
     "jyzyapi_com_at_json": {
       "name": "🎬金鹰点播",
       "api": "https://jyzyapi.com/provide/vod/from/jinyingyun/at/json",
@@ -211,6 +201,11 @@
       "api": "https://api.wujinapi.cc/api.php/provide/vod",
       "detail": "https://api.wujinapi.cc"
     },
+    "api_wujinapi_net_provide_vod": {
+      "name": "🎬无尽资源3",
+      "api": "https://api.wujinapi.net/api.php/provide/vod",
+      "detail": "https://api.wujinapi.net"
+    },
     "api_niuniuzy_me_provide_vod": {
       "name": "🎬牛牛点播",
       "api": "https://api.niuniuzy.me/api.php/provide/vod",
@@ -225,6 +220,11 @@
       "name": "🎬红牛资源",
       "api": "https://www.hongniuzy3.com/api.php/provide/vod",
       "detail": "https://www.hongniuzy3.com"
+    },
+    "lovedan_net_provide_vod": {
+      "name": "🎬艾旦影视",
+      "api": "https://lovedan.net/api.php/provide/vod",
+      "detail": "https://lovedan.net"
     },
     "www_huyaapi_com_at_json": {
       "name": "🎬虎牙资源",
@@ -290,11 +290,6 @@
       "name": "🎬建安资源站",
       "api": "http://154.219.117.232:9981/jacloudapi.php/provide/vod",
       "detail": "http://154.219.117.232:9981"
-    },
-    "api_wujinapi_net_provide_vod": {
-      "name": "🎬无尽资源",
-      "api": "https://api.wujinapi.net/api.php/provide/vod",
-      "detail": "https://api.wujinapi.net"
     },
     "yonghu_ffzyapi8_com_at_json": {
       "name": "🎬无广1线 (非凡)",
