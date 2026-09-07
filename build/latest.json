@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-06T07:52:25.062956+00:00",
+  "generated_at": "2026-09-07T08:13:57.509286+00:00",
   "summary": {
     "source_repositories": 5,
-    "unique_api_sites": 147,
-    "safe_api_sites": 96,
-    "adult_api_sites": 51,
+    "unique_api_sites": 148,
+    "safe_api_sites": 95,
+    "adult_api_sites": 53,
     "failed_sources": 0
   },
   "sources": [
@@ -37,8 +37,8 @@
       "repo": "https://github.com/oooopera/moontv_config",
       "ref": null,
       "parser": "json",
-      "api_count": 104,
-      "score": 1111
+      "api_count": 106,
+      "score": 1119
     },
     {
       "name": "heardic/shipinyuan",
@@ -68,7 +68,7 @@
     "full_plus18": {
       "json": "full-plus18.json",
       "txt": "full-plus18.txt",
-      "api_count": 98
+      "api_count": 99
     }
   },
   "top_sites": [
@@ -785,16 +785,16 @@
   ],
   "errors": [],
   "health": {
-    "generated_at": "2026-09-06T07:52:24.474621+00:00",
+    "generated_at": "2026-09-07T08:13:56.719248+00:00",
     "target_file": "full-plus18.json",
-    "total_apis": 147,
+    "total_apis": 148,
     "current_success": 95,
-    "current_failure": 52,
-    "enabled_apis": 98,
-    "healthy_apis": 88,
-    "subhealthy_apis": 10,
+    "current_failure": 53,
+    "enabled_apis": 99,
+    "healthy_apis": 91,
+    "subhealthy_apis": 8,
     "unhealthy_apis": 49,
-    "average_availability_rate": 0.6593780369290574,
+    "average_availability_rate": 0.6515444015444015,
     "validation_mode": "moontvplus-search",
     "search_keywords": [
       "斗罗",

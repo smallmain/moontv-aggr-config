@@ -236,6 +236,11 @@
       "api": "https://lbapi9.com/api.php/provide/vod",
       "detail": "https://lbapi9.com"
     },
+    "aosikazy_com_provide_vod": {
+      "name": "🔞奥斯卡",
+      "api": "https://aosikazy.com/api.php/provide/vod",
+      "detail": "https://aosikazy.com"
+    },
     "naixxzy_com_provide_vod": {
       "name": "🔞奶香资源",
       "api": "https://naixxzy.com/api.php/provide/vod",
@@ -260,11 +265,6 @@
       "name": "🔞精品资源",
       "api": "https://www.jingpinx.com/api.php/provide/vod",
       "detail": "https://www.jingpinx.com"
-    },
-    "www_xxibaozyw_com_provide_vod": {
-      "name": "🔞细胞资源",
-      "api": "https://www.xxibaozyw.com/api.php/provide/vod",
-      "detail": "https://www.xxibaozyw.com"
     },
     "apilsbzy1_com_provide_vod": {
       "name": "🔞老色逼",
