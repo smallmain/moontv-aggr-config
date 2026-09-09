@@ -313,8 +313,8 @@
     },
     "www_qilinzyz_com_provide_vod": {
       "name": "🎬麒麟资源站全站采集接口",
-      "api": "http://www.qilinzyz.com/api.php/provide/vod",
-      "detail": "http://www.qilinzyz.com"
+      "api": "https://www.qilinzyz.com/api.php/provide/vod",
+      "detail": "https://www.qilinzyz.com"
     },
     "hsckzy888_com_provide_vod": {
       "name": "🎬黄色资源啊啊",
