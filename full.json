@@ -286,16 +286,6 @@
       "api": "https://yonghu.ffzyapi8.com/api.php/provide/vod/from/ffm3u8/at/json",
       "detail": "https://yonghu.ffzyapi8.com"
     },
-    "api_wsyzy_net_provide_vod": {
-      "name": "🎬无水印资源网采集接口",
-      "api": "https://api.wsyzy.net/api.php/provide/vod",
-      "detail": "https://api.wsyzy.net"
-    },
-    "taopianapi_com_vod_json_html": {
-      "name": "🎬淘片资源",
-      "api": "https://taopianapi.com/cjapi/mc10/vod/json.html",
-      "detail": "https://www.taopianzy.com/help.html"
-    },
     "maoyanzy_com_provide_vod": {
       "name": "🎬猫眼资源",
       "api": "https://maoyanzy.com/api.php/provide/vod",

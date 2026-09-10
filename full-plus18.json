@@ -286,16 +286,6 @@
       "api": "https://yonghu.ffzyapi8.com/api.php/provide/vod/from/ffm3u8/at/json",
       "detail": "https://yonghu.ffzyapi8.com"
     },
-    "api_wsyzy_net_provide_vod": {
-      "name": "🎬无水印资源网采集接口",
-      "api": "https://api.wsyzy.net/api.php/provide/vod",
-      "detail": "https://api.wsyzy.net"
-    },
-    "taopianapi_com_vod_json_html": {
-      "name": "🎬淘片资源",
-      "api": "https://taopianapi.com/cjapi/mc10/vod/json.html",
-      "detail": "https://www.taopianzy.com/help.html"
-    },
     "maoyanzy_com_provide_vod": {
       "name": "🎬猫眼资源",
       "api": "https://maoyanzy.com/api.php/provide/vod",
@@ -351,11 +341,6 @@
       "api": "https://apilj.com/api.php/provide/vod",
       "detail": "https://apilj.com"
     },
-    "www_pgxdy_com_api_json_php": {
-      "name": "🔞黄AVZY",
-      "api": "https://www.pgxdy.com/api/json.php",
-      "detail": "https://www.pgxdy.com"
-    },
     "155api_com_provide_vod": {
       "name": "🔞155资源",
       "api": "https://155api.com/api.php/provide/vod",
@@ -370,11 +355,6 @@
       "name": "🔞乐播资源",
       "api": "https://lbapi9.com/api.php/provide/vod",
       "detail": "https://lbapi9.com"
-    },
-    "aosikazy_com_provide_vod": {
-      "name": "🔞奥斯卡",
-      "api": "https://aosikazy.com/api.php/provide/vod",
-      "detail": "https://aosikazy.com"
     },
     "naixxzy_com_provide_vod": {
       "name": "🔞奶香资源",
@@ -415,6 +395,11 @@
       "name": "🔞麻豆视频",
       "api": "https://91md.me/api.php/provide/vod",
       "detail": "https://91md.me"
+    },
+    "www_pgxdy_com_api_json_php": {
+      "name": "🔞黄AVZY",
+      "api": "https://www.pgxdy.com/api/json.php",
+      "detail": "https://www.pgxdy.com"
     },
     "apidanaizi_com_provide_vod": {
       "name": "🔞大奶子",
@@ -486,10 +471,10 @@
       "api": "https://slapibf.com/api.php/provide/vod",
       "detail": "https://slapibf.com"
     },
-    "jcspcj8_com_api": {
-      "name": "🔞熊猫资源",
-      "api": "http://jcspcj8.com/api",
-      "detail": "http://jcspcj8.com"
+    "zmcj88_com_api": {
+      "name": "🔞泡芙资源",
+      "api": "http://zmcj88.com/api",
+      "detail": "http://zmcj88.com"
     },
     "hhzyapi_com_at_json": {
       "name": "🔞豪华资源",
