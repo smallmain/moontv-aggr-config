@@ -301,11 +301,6 @@
       "api": "https://ffzy5.tv/api.php/provide/vod",
       "detail": "https://ffzy5.tv"
     },
-    "www_qilinzyz_com_provide_vod": {
-      "name": "🎬麒麟资源站全站采集接口",
-      "api": "https://www.qilinzyz.com/api.php/provide/vod",
-      "detail": "https://www.qilinzyz.com"
-    },
     "hsckzy888_com_provide_vod": {
       "name": "🎬黄色资源啊啊",
       "api": "https://hsckzy888.com/api.php/provide/vod",
@@ -470,11 +465,6 @@
       "name": "🔞森林资源",
       "api": "https://slapibf.com/api.php/provide/vod",
       "detail": "https://slapibf.com"
-    },
-    "zmcj88_com_api": {
-      "name": "🔞泡芙资源",
-      "api": "http://zmcj88.com/api",
-      "detail": "http://zmcj88.com"
     },
     "hhzyapi_com_at_json": {
       "name": "🔞豪华资源",
