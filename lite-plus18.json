@@ -91,6 +91,11 @@
       "api": "https://xsd.sdzyapi.com/api.php/provide/vod",
       "detail": "https://shandianzy.com"
     },
+    "p2100_net_provide_vod": {
+      "name": "🎬飘零资源",
+      "api": "https://p2100.net/api.php/provide/vod",
+      "detail": "https://p2100.net"
+    },
     "caiji_moduapi_cc_provide_vod": {
       "name": "🎬魔都动漫",
       "api": "https://caiji.moduapi.cc/api.php/provide/vod",
@@ -201,11 +206,6 @@
       "api": "https://ckzy.me/api.php/provide/vod",
       "detail": "https://ckzy.me"
     },
-    "jkunzyapi_com_provide_vod": {
-      "name": "🔞jkun资源",
-      "api": "https://jkunzyapi.com/api.php/provide/vod",
-      "detail": "https://jkunzyapi.com"
-    },
     "www_kxgav_com_api_json_php": {
       "name": "🔞白嫖资源",
       "api": "https://www.kxgav.com/api/json.php",
@@ -230,6 +230,11 @@
       "name": "🔞155资源",
       "api": "https://155api.com/api.php/provide/vod",
       "detail": "https://155zy2.com"
+    },
+    "jkunzyapi_com_provide_vod": {
+      "name": "🔞jkun资源",
+      "api": "https://jkunzyapi.com/api.php/provide/vod",
+      "detail": "https://jkunzyapi.com"
     },
     "lbapi9_com_provide_vod": {
       "name": "🔞乐播资源",
@@ -270,6 +275,11 @@
       "name": "🔞老色逼",
       "api": "https://apilsbzy1.com/api.php/provide/vod",
       "detail": "https://apilsbzy1.com"
+    },
+    "shayuapi_com_provide_vod": {
+      "name": "🔞鲨鱼资源",
+      "api": "https://shayuapi.com/api.php/provide/vod",
+      "detail": "https://shayuapi.com"
     },
     "91md_me_provide_vod": {
       "name": "🔞麻豆视频",
