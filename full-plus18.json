@@ -291,6 +291,11 @@
       "api": "https://yonghu.ffzyapi8.com/api.php/provide/vod/from/ffm3u8/at/json",
       "detail": "https://yonghu.ffzyapi8.com"
     },
+    "taopianapi_com_vod_json_html": {
+      "name": "🎬淘片资源",
+      "api": "https://taopianapi.com/cjapi/mc10/vod/json.html",
+      "detail": "https://www.taopianzy.com/help.html"
+    },
     "maoyanzy_com_provide_vod": {
       "name": "🎬猫眼资源",
       "api": "https://maoyanzy.com/api.php/provide/vod",
@@ -320,11 +325,6 @@
       "name": "🔞CK资源",
       "api": "https://ckzy.me/api.php/provide/vod",
       "detail": "https://ckzy.me"
-    },
-    "www_kxgav_com_api_json_php": {
-      "name": "🔞白嫖资源",
-      "api": "https://www.kxgav.com/api/json.php",
-      "detail": "https://www.kxgav.com"
     },
     "www_msnii_com_api_json_php": {
       "name": "🔞美少女",
@@ -375,6 +375,11 @@
       "name": "🔞番号资源",
       "api": "http://fhapi9.com/api.php/provide/vod",
       "detail": "http://fhapi9.com"
+    },
+    "www_kxgav_com_api_json_php": {
+      "name": "🔞白嫖资源",
+      "api": "https://www.kxgav.com/api/json.php",
+      "detail": "https://www.kxgav.com"
     },
     "www_jingpinx_com_provide_vod": {
       "name": "🔞精品资源",
@@ -461,20 +466,15 @@
       "api": "https://www.heiliaozyapi.com/api.php/provide/vod",
       "detail": "https://heiliaozy.cc"
     },
-    "www_xrbsp_com_api_xml_php": {
-      "name": "🔞成人66",
-      "api": "https://www.xrbsp.com/api/xml.php",
-      "detail": "https://www.xrbsp.com"
-    },
     "slapibf_com_provide_vod": {
       "name": "🔞森林资源",
       "api": "https://slapibf.com/api.php/provide/vod",
       "detail": "https://slapibf.com"
     },
-    "jcspcj8_com_api": {
-      "name": "🔞熊猫资源",
-      "api": "http://jcspcj8.com/api",
-      "detail": "http://jcspcj8.com"
+    "zmcj88_com_api": {
+      "name": "🔞泡芙资源",
+      "api": "http://zmcj88.com/api",
+      "detail": "http://zmcj88.com"
     },
     "hhzyapi_com_at_json": {
       "name": "🔞豪华资源",
@@ -485,6 +485,11 @@
       "name": "🔞金鹰资源3",
       "api": "https://jyzyapi.com/provide/vod/from/jinyingm3u8/at/json",
       "detail": "https://jyzyapi.com"
+    },
+    "www_pgxdy_com_api_xml_php": {
+      "name": "🔞黄AV资源1",
+      "api": "https://www.pgxdy.com/api/xml.php",
+      "detail": "https://www.pgxdy.com"
     }
   }
 }
