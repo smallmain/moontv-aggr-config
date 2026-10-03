@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-02T09:43:00.629254+00:00",
+  "generated_at": "2026-10-03T09:07:08.102477+00:00",
   "summary": {
     "source_repositories": 5,
-    "unique_api_sites": 144,
-    "safe_api_sites": 92,
-    "adult_api_sites": 52,
+    "unique_api_sites": 142,
+    "safe_api_sites": 91,
+    "adult_api_sites": 51,
     "failed_sources": 0
   },
   "sources": [
@@ -37,8 +37,8 @@
       "repo": "https://github.com/oooopera/moontv_config",
       "ref": null,
       "parser": "json",
-      "api_count": 97,
-      "score": 1083
+      "api_count": 93,
+      "score": 1067
     },
     {
       "name": "heardic/shipinyuan",
@@ -63,12 +63,12 @@
     "full": {
       "json": "full.json",
       "txt": "full.txt",
-      "api_count": 62
+      "api_count": 61
     },
     "full_plus18": {
       "json": "full-plus18.json",
       "txt": "full-plus18.txt",
-      "api_count": 96
+      "api_count": 94
     }
   },
   "top_sites": [
@@ -387,24 +387,6 @@
       ]
     },
     {
-      "name": "🎬速播资源",
-      "api": "https://subocaiji.com/api.php/provide/vod",
-      "detail": "https://www.subozy.com",
-      "adult": false,
-      "consensus": 5,
-      "sources": [
-        "hafrey1/LunaTV-config",
-        "heardic/shipinyuan",
-        "oooopera/moontv_config",
-        "qianqikun/LunaTV-config",
-        "vodtv/api"
-      ],
-      "observed_names": [
-        "TV-速博资源",
-        "🎬速播资源"
-      ]
-    },
-    {
       "name": "🎬量子影视",
       "api": "https://cj.lziapi.com/api.php/provide/vod",
       "detail": "https://lzizy.net",
@@ -459,25 +441,6 @@
       "observed_names": [
         "TV-魔都动漫",
         "🎬魔都动漫"
-      ]
-    },
-    {
-      "name": "🎬魔都资源",
-      "api": "https://www.mdzyapi.com/api.php/provide/vod",
-      "detail": "https://www.moduzy.net",
-      "adult": false,
-      "consensus": 5,
-      "sources": [
-        "hafrey1/LunaTV-config",
-        "heardic/shipinyuan",
-        "oooopera/moontv_config",
-        "qianqikun/LunaTV-config",
-        "vodtv/api"
-      ],
-      "observed_names": [
-        "TV-魔都资源",
-        "魔都资源",
-        "🎬魔都资源"
       ]
     },
     {
@@ -631,6 +594,23 @@
       ]
     },
     {
+      "name": "🎬速播资源",
+      "api": "https://subocaiji.com/api.php/provide/vod",
+      "detail": "https://www.subozy.com",
+      "adult": false,
+      "consensus": 4,
+      "sources": [
+        "hafrey1/LunaTV-config",
+        "heardic/shipinyuan",
+        "qianqikun/LunaTV-config",
+        "vodtv/api"
+      ],
+      "observed_names": [
+        "TV-速博资源",
+        "🎬速播资源"
+      ]
+    },
+    {
       "name": "🎬量子资源",
       "api": "https://cj.lzcaiji.com/api.php/provide/vod",
       "detail": "https://cj.lzcaiji.com",
@@ -695,6 +675,24 @@
       "observed_names": [
         "TV-飘零资源",
         "🎬飘零资源"
+      ]
+    },
+    {
+      "name": "🎬魔都资源",
+      "api": "https://www.mdzyapi.com/api.php/provide/vod",
+      "detail": "https://www.moduzy.net",
+      "adult": false,
+      "consensus": 4,
+      "sources": [
+        "hafrey1/LunaTV-config",
+        "heardic/shipinyuan",
+        "qianqikun/LunaTV-config",
+        "vodtv/api"
+      ],
+      "observed_names": [
+        "TV-魔都资源",
+        "魔都资源",
+        "🎬魔都资源"
       ]
     },
     {
@@ -784,16 +782,16 @@
   ],
   "errors": [],
   "health": {
-    "generated_at": "2026-10-02T09:43:00.136509+00:00",
+    "generated_at": "2026-10-03T09:07:07.560456+00:00",
     "target_file": "full-plus18.json",
-    "total_apis": 144,
-    "current_success": 92,
+    "total_apis": 142,
+    "current_success": 90,
     "current_failure": 52,
-    "enabled_apis": 96,
-    "healthy_apis": 84,
-    "subhealthy_apis": 12,
+    "enabled_apis": 94,
+    "healthy_apis": 83,
+    "subhealthy_apis": 11,
     "unhealthy_apis": 48,
-    "average_availability_rate": 0.648533950617284,
+    "average_availability_rate": 0.6488933601609659,
     "validation_mode": "moontvplus-search",
     "search_keywords": [
       "斗罗",
