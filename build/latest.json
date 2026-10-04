@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-03T09:07:08.102477+00:00",
+  "generated_at": "2026-10-04T09:43:51.052454+00:00",
   "summary": {
     "source_repositories": 5,
-    "unique_api_sites": 142,
-    "safe_api_sites": 91,
+    "unique_api_sites": 141,
+    "safe_api_sites": 90,
     "adult_api_sites": 51,
     "failed_sources": 0
   },
@@ -37,8 +37,8 @@
       "repo": "https://github.com/oooopera/moontv_config",
       "ref": null,
       "parser": "json",
-      "api_count": 93,
-      "score": 1067
+      "api_count": 90,
+      "score": 1055
     },
     {
       "name": "heardic/shipinyuan",
@@ -53,22 +53,22 @@
     "lite": {
       "json": "lite.json",
       "txt": "lite.txt",
-      "api_count": 38
+      "api_count": 37
     },
     "lite_plus18": {
       "json": "lite-plus18.json",
       "txt": "lite-plus18.txt",
-      "api_count": 61
+      "api_count": 60
     },
     "full": {
       "json": "full.json",
       "txt": "full.txt",
-      "api_count": 61
+      "api_count": 59
     },
     "full_plus18": {
       "json": "full-plus18.json",
       "txt": "full-plus18.txt",
-      "api_count": 94
+      "api_count": 92
     }
   },
   "top_sites": [
@@ -444,6 +444,25 @@
       ]
     },
     {
+      "name": "🎬魔都资源",
+      "api": "https://www.mdzyapi.com/api.php/provide/vod",
+      "detail": "https://www.moduzy.net",
+      "adult": false,
+      "consensus": 5,
+      "sources": [
+        "hafrey1/LunaTV-config",
+        "heardic/shipinyuan",
+        "oooopera/moontv_config",
+        "qianqikun/LunaTV-config",
+        "vodtv/api"
+      ],
+      "observed_names": [
+        "TV-魔都资源",
+        "魔都资源",
+        "🎬魔都资源"
+      ]
+    },
+    {
       "name": "🎬优质资源",
       "api": "https://api.yzzy-api.com/inc/apijson.php",
       "detail": "https://1080zyk4.com",
@@ -525,22 +544,6 @@
       "observed_names": [
         "🎬-爱奇艺-",
         "🎬爱奇艺"
-      ]
-    },
-    {
-      "name": "🎬猫眼资源",
-      "api": "https://api.maoyanapi.top/api.php/provide/vod",
-      "detail": "https://www.maoyanzy.com",
-      "adult": false,
-      "consensus": 4,
-      "sources": [
-        "hafrey1/LunaTV-config",
-        "oooopera/moontv_config",
-        "qianqikun/LunaTV-config",
-        "vodtv/api"
-      ],
-      "observed_names": [
-        "🎬猫眼资源"
       ]
     },
     {
@@ -678,24 +681,6 @@
       ]
     },
     {
-      "name": "🎬魔都资源",
-      "api": "https://www.mdzyapi.com/api.php/provide/vod",
-      "detail": "https://www.moduzy.net",
-      "adult": false,
-      "consensus": 4,
-      "sources": [
-        "hafrey1/LunaTV-config",
-        "heardic/shipinyuan",
-        "qianqikun/LunaTV-config",
-        "vodtv/api"
-      ],
-      "observed_names": [
-        "TV-魔都资源",
-        "魔都资源",
-        "🎬魔都资源"
-      ]
-    },
-    {
       "name": "🎬鸭鸭资源",
       "api": "https://cj.yayazy.net/api.php/provide/vod",
       "detail": "https://yayazy3.com",
@@ -778,20 +763,35 @@
         "天涯资源",
         "🎬天涯影视"
       ]
+    },
+    {
+      "name": "🎬猫眼资源",
+      "api": "https://api.maoyanapi.top/api.php/provide/vod",
+      "detail": "https://www.maoyanzy.com",
+      "adult": false,
+      "consensus": 3,
+      "sources": [
+        "hafrey1/LunaTV-config",
+        "qianqikun/LunaTV-config",
+        "vodtv/api"
+      ],
+      "observed_names": [
+        "🎬猫眼资源"
+      ]
     }
   ],
   "errors": [],
   "health": {
-    "generated_at": "2026-10-03T09:07:07.560456+00:00",
+    "generated_at": "2026-10-04T09:43:50.351074+00:00",
     "target_file": "full-plus18.json",
-    "total_apis": 142,
-    "current_success": 90,
-    "current_failure": 52,
-    "enabled_apis": 94,
+    "total_apis": 141,
+    "current_success": 91,
+    "current_failure": 50,
+    "enabled_apis": 92,
     "healthy_apis": 83,
-    "subhealthy_apis": 11,
-    "unhealthy_apis": 48,
-    "average_availability_rate": 0.6488933601609659,
+    "subhealthy_apis": 9,
+    "unhealthy_apis": 49,
+    "average_availability_rate": 0.645390070921986,
     "validation_mode": "moontvplus-search",
     "search_keywords": [
       "斗罗",
