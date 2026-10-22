@@ -206,11 +206,6 @@
       "api": "https://apilj.com/api.php/provide/vod",
       "detail": "https://apilj.com"
     },
-    "91md_me_provide_vod": {
-      "name": "🔞麻豆视频",
-      "api": "https://91md.me/api.php/provide/vod",
-      "detail": "https://91md.me"
-    },
     "www_pgxdy_com_api_json_php": {
       "name": "🔞黄AVZY",
       "api": "https://www.pgxdy.com/api/json.php",
@@ -275,6 +270,11 @@
       "name": "🔞鲨鱼资源",
       "api": "https://shayuapi.com/api.php/provide/vod",
       "detail": "https://shayuapi.com"
+    },
+    "91md_me_provide_vod": {
+      "name": "🔞麻豆视频",
+      "api": "https://91md.me/api.php/provide/vod",
+      "detail": "https://91md.me"
     },
     "apidanaizi_com_provide_vod": {
       "name": "🔞大奶子",
