@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T08:34:07.903335+00:00",
+  "generated_at": "2026-10-23T08:30:08.684612+00:00",
   "samples_kept": 14,
   "apis": {
     "https://api.ukuapi88.com/api.php/provide/art": {
@@ -8,19 +8,6 @@
       "adult": false,
       "config_type": "full",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": false,
-          "validation_status": "no_results",
-          "status_code": 200,
-          "latency_ms": 131,
-          "matched_keyword": "斗罗",
-          "result_count": 2,
-          "response_bytes": 1118,
-          "signature": "title-mismatch",
-          "error": "",
-          "checked_url": "https://api.ukuapi88.com/api.php/provide/art?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": false,
@@ -189,6 +176,19 @@
           "signature": "title-mismatch",
           "error": "",
           "checked_url": "https://api.ukuapi88.com/api.php/provide/art?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": false,
+          "validation_status": "no_results",
+          "status_code": 200,
+          "latency_ms": 281,
+          "matched_keyword": "斗罗",
+          "result_count": 2,
+          "response_bytes": 1118,
+          "signature": "title-mismatch",
+          "error": "",
+          "checked_url": "https://api.ukuapi88.com/api.php/provide/art?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -198,19 +198,6 @@
       "adult": false,
       "config_type": "full",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": false,
-          "validation_status": "invalid",
-          "status_code": null,
-          "latency_ms": 486,
-          "matched_keyword": "仙逆",
-          "result_count": 0,
-          "response_bytes": 0,
-          "signature": "network-error",
-          "error": "[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1016)",
-          "checked_url": "https://www.qiqidys.com/api.php/provide/vod?ac=videolist&wd=%E4%BB%99%E9%80%86"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": false,
@@ -379,6 +366,19 @@
           "signature": "network-error",
           "error": "[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1016)",
           "checked_url": "https://www.qiqidys.com/api.php/provide/vod?ac=videolist&wd=%E4%BB%99%E9%80%86"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": false,
+          "validation_status": "invalid",
+          "status_code": null,
+          "latency_ms": 504,
+          "matched_keyword": "仙逆",
+          "result_count": 0,
+          "response_bytes": 0,
+          "signature": "network-error",
+          "error": "[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1016)",
+          "checked_url": "https://www.qiqidys.com/api.php/provide/vod?ac=videolist&wd=%E4%BB%99%E9%80%86"
         }
       ]
     },
@@ -388,19 +388,6 @@
       "adult": false,
       "config_type": "full",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": false,
-          "validation_status": "invalid",
-          "status_code": 200,
-          "latency_ms": 360,
-          "matched_keyword": "仙逆",
-          "result_count": 0,
-          "response_bytes": 24148,
-          "signature": "invalid-json",
-          "error": "",
-          "checked_url": "https://api.yzzy-api.com/inc/ldg_api_all.php/provide/vod?ac=videolist&wd=%E4%BB%99%E9%80%86"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": false,
@@ -569,6 +556,19 @@
           "signature": "invalid-json",
           "error": "",
           "checked_url": "https://api.yzzy-api.com/inc/ldg_api_all.php/provide/vod?ac=videolist&wd=%E4%BB%99%E9%80%86"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": false,
+          "validation_status": "invalid",
+          "status_code": 200,
+          "latency_ms": 388,
+          "matched_keyword": "斗罗",
+          "result_count": 0,
+          "response_bytes": 24148,
+          "signature": "invalid-json",
+          "error": "",
+          "checked_url": "https://api.yzzy-api.com/inc/ldg_api_all.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -707,6 +707,19 @@
           "signature": "invalid-json",
           "error": "",
           "checked_url": "https://cjhwba.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": false,
+          "validation_status": "invalid",
+          "status_code": 200,
+          "latency_ms": 678,
+          "matched_keyword": "仙逆",
+          "result_count": 0,
+          "response_bytes": 4613,
+          "signature": "invalid-json",
+          "error": "",
+          "checked_url": "https://cjhwba.com/api.php/provide/vod?ac=videolist&wd=%E4%BB%99%E9%80%86"
         }
       ]
     },
@@ -716,19 +729,6 @@
       "adult": false,
       "config_type": "full",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": false,
-          "validation_status": "invalid",
-          "status_code": null,
-          "latency_ms": 6128,
-          "matched_keyword": "仙逆",
-          "result_count": 0,
-          "response_bytes": 0,
-          "signature": "network-error",
-          "error": "timed out",
-          "checked_url": "https://huawei8.live/api.php/provide/vod?ac=videolist&wd=%E4%BB%99%E9%80%86"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": false,
@@ -897,6 +897,19 @@
           "signature": "network-error",
           "error": "timed out",
           "checked_url": "https://huawei8.live/api.php/provide/vod?ac=videolist&wd=%E4%BB%99%E9%80%86"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": false,
+          "validation_status": "invalid",
+          "status_code": null,
+          "latency_ms": 6368,
+          "matched_keyword": "斗罗",
+          "result_count": 0,
+          "response_bytes": 0,
+          "signature": "network-error",
+          "error": "timed out",
+          "checked_url": "https://huawei8.live/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -906,19 +919,6 @@
       "adult": false,
       "config_type": "full",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": false,
-          "validation_status": "invalid",
-          "status_code": null,
-          "latency_ms": 66,
-          "matched_keyword": "仙逆",
-          "result_count": 0,
-          "response_bytes": 0,
-          "signature": "network-error",
-          "error": "[Errno -5] No address associated with hostname",
-          "checked_url": "https://collect.wolongzy.cc/api.php/provide/vod?ac=videolist&wd=%E4%BB%99%E9%80%86"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": false,
@@ -1087,6 +1087,19 @@
           "signature": "network-error",
           "error": "[Errno -5] No address associated with hostname",
           "checked_url": "https://collect.wolongzy.cc/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": false,
+          "validation_status": "invalid",
+          "status_code": null,
+          "latency_ms": 33,
+          "matched_keyword": "斗罗",
+          "result_count": 0,
+          "response_bytes": 0,
+          "signature": "network-error",
+          "error": "[Errno -5] No address associated with hostname",
+          "checked_url": "https://collect.wolongzy.cc/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -1096,19 +1109,6 @@
       "adult": false,
       "config_type": "lite",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": false,
-          "validation_status": "invalid",
-          "status_code": 200,
-          "latency_ms": 556,
-          "matched_keyword": "仙逆",
-          "result_count": 0,
-          "response_bytes": 6990,
-          "signature": "invalid-json",
-          "error": "",
-          "checked_url": "https://wolongzyw.com/api.php/provide/vod?ac=videolist&wd=%E4%BB%99%E9%80%86"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": false,
@@ -1277,6 +1277,19 @@
           "signature": "invalid-json",
           "error": "",
           "checked_url": "https://wolongzyw.com/api.php/provide/vod?ac=videolist&wd=%E4%BB%99%E9%80%86"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": false,
+          "validation_status": "invalid",
+          "status_code": 200,
+          "latency_ms": 548,
+          "matched_keyword": "斗罗",
+          "result_count": 0,
+          "response_bytes": 6990,
+          "signature": "invalid-json",
+          "error": "",
+          "checked_url": "https://wolongzyw.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -1286,19 +1299,6 @@
       "adult": false,
       "config_type": "full",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": false,
-          "validation_status": "invalid",
-          "status_code": 200,
-          "latency_ms": 406,
-          "matched_keyword": "仙逆",
-          "result_count": 0,
-          "response_bytes": 6990,
-          "signature": "invalid-json",
-          "error": "",
-          "checked_url": "https://collect.wolongzyw.com/api.php/provide/vod?ac=videolist&wd=%E4%BB%99%E9%80%86"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": false,
@@ -1467,6 +1467,19 @@
           "signature": "invalid-json",
           "error": "",
           "checked_url": "https://collect.wolongzyw.com/api.php/provide/vod?ac=videolist&wd=%E4%BB%99%E9%80%86"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": false,
+          "validation_status": "invalid",
+          "status_code": 200,
+          "latency_ms": 412,
+          "matched_keyword": "仙逆",
+          "result_count": 0,
+          "response_bytes": 6990,
+          "signature": "invalid-json",
+          "error": "",
+          "checked_url": "https://collect.wolongzyw.com/api.php/provide/vod?ac=videolist&wd=%E4%BB%99%E9%80%86"
         }
       ]
     },
@@ -1476,19 +1489,6 @@
       "adult": false,
       "config_type": "full",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": false,
-          "validation_status": "invalid",
-          "status_code": null,
-          "latency_ms": 52,
-          "matched_keyword": "斗罗",
-          "result_count": 0,
-          "response_bytes": 0,
-          "signature": "network-error",
-          "error": "[Errno -2] Name or service not known",
-          "checked_url": "https://zy.xmm.hk/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": false,
@@ -1657,6 +1657,19 @@
           "signature": "network-error",
           "error": "[Errno -2] Name or service not known",
           "checked_url": "https://zy.xmm.hk/api.php/provide/vod?ac=videolist&wd=%E4%BB%99%E9%80%86"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": false,
+          "validation_status": "invalid",
+          "status_code": null,
+          "latency_ms": 29,
+          "matched_keyword": "仙逆",
+          "result_count": 0,
+          "response_bytes": 0,
+          "signature": "network-error",
+          "error": "[Errno -2] Name or service not known",
+          "checked_url": "https://zy.xmm.hk/api.php/provide/vod?ac=videolist&wd=%E4%BB%99%E9%80%86"
         }
       ]
     },
@@ -1666,19 +1679,6 @@
       "adult": false,
       "config_type": "full",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": false,
-          "validation_status": "invalid",
-          "status_code": null,
-          "latency_ms": 7799,
-          "matched_keyword": "斗罗",
-          "result_count": 0,
-          "response_bytes": 0,
-          "signature": "network-error",
-          "error": "[Errno -3] Temporary failure in name resolution",
-          "checked_url": "https://zy.sh0o.cn/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": false,
@@ -1847,6 +1847,19 @@
           "signature": "network-error",
           "error": "[Errno -5] No address associated with hostname",
           "checked_url": "https://zy.sh0o.cn/api.php/provide/vod?ac=videolist&wd=%E4%BB%99%E9%80%86"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": false,
+          "validation_status": "invalid",
+          "status_code": null,
+          "latency_ms": 134,
+          "matched_keyword": "斗罗",
+          "result_count": 0,
+          "response_bytes": 0,
+          "signature": "network-error",
+          "error": "[Errno -5] No address associated with hostname",
+          "checked_url": "https://zy.sh0o.cn/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -1856,19 +1869,6 @@
       "adult": false,
       "config_type": "full",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": false,
-          "validation_status": "invalid",
-          "status_code": null,
-          "latency_ms": 45,
-          "matched_keyword": "斗罗",
-          "result_count": 0,
-          "response_bytes": 0,
-          "signature": "network-error",
-          "error": "[Errno -2] Name or service not known",
-          "checked_url": "https://gayapi.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": false,
@@ -2037,6 +2037,19 @@
           "signature": "network-error",
           "error": "[Errno -2] Name or service not known",
           "checked_url": "https://gayapi.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": false,
+          "validation_status": "invalid",
+          "status_code": null,
+          "latency_ms": 27,
+          "matched_keyword": "斗罗",
+          "result_count": 0,
+          "response_bytes": 0,
+          "signature": "network-error",
+          "error": "[Errno -2] Name or service not known",
+          "checked_url": "https://gayapi.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -2046,19 +2059,6 @@
       "adult": false,
       "config_type": "lite",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": false,
-          "validation_status": "invalid",
-          "status_code": 200,
-          "latency_ms": 501,
-          "matched_keyword": "仙逆",
-          "result_count": 0,
-          "response_bytes": 37582,
-          "signature": "invalid-json",
-          "error": "",
-          "checked_url": "https://wwzy.tv/api.php/provide/vod?ac=videolist&wd=%E4%BB%99%E9%80%86"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": false,
@@ -2227,6 +2227,19 @@
           "signature": "invalid-json",
           "error": "",
           "checked_url": "https://wwzy.tv/api.php/provide/vod?ac=videolist&wd=%E4%BB%99%E9%80%86"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": false,
+          "validation_status": "invalid",
+          "status_code": 200,
+          "latency_ms": 623,
+          "matched_keyword": "仙逆",
+          "result_count": 0,
+          "response_bytes": 38256,
+          "signature": "invalid-json",
+          "error": "",
+          "checked_url": "https://wwzy.tv/api.php/provide/vod?ac=videolist&wd=%E4%BB%99%E9%80%86"
         }
       ]
     },
@@ -2236,19 +2249,6 @@
       "adult": false,
       "config_type": "lite",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": false,
-          "validation_status": "invalid",
-          "status_code": 200,
-          "latency_ms": 489,
-          "matched_keyword": "仙逆",
-          "result_count": 0,
-          "response_bytes": 37582,
-          "signature": "invalid-json",
-          "error": "",
-          "checked_url": "https://api.wwzy.tv/api.php/provide/vod?ac=videolist&wd=%E4%BB%99%E9%80%86"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": false,
@@ -2417,6 +2417,19 @@
           "signature": "invalid-json",
           "error": "",
           "checked_url": "https://api.wwzy.tv/api.php/provide/vod?ac=videolist&wd=%E4%BB%99%E9%80%86"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": false,
+          "validation_status": "invalid",
+          "status_code": 200,
+          "latency_ms": 547,
+          "matched_keyword": "仙逆",
+          "result_count": 0,
+          "response_bytes": 38256,
+          "signature": "invalid-json",
+          "error": "",
+          "checked_url": "https://api.wwzy.tv/api.php/provide/vod?ac=videolist&wd=%E4%BB%99%E9%80%86"
         }
       ]
     },
@@ -2426,19 +2439,6 @@
       "adult": false,
       "config_type": "full",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": false,
-          "validation_status": "invalid",
-          "status_code": 403,
-          "latency_ms": 44,
-          "matched_keyword": "仙逆",
-          "result_count": 0,
-          "response_bytes": 4545,
-          "signature": "http-error",
-          "error": "HTTP 403",
-          "checked_url": "https://api.yparse.com/api/json?ac=videolist&wd=%E4%BB%99%E9%80%86"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": false,
@@ -2607,6 +2607,40 @@
           "signature": "http-error",
           "error": "HTTP 403",
           "checked_url": "https://api.yparse.com/api/json?ac=videolist&wd=%E4%BB%99%E9%80%86"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": false,
+          "validation_status": "invalid",
+          "status_code": 403,
+          "latency_ms": 40,
+          "matched_keyword": "斗罗",
+          "result_count": 0,
+          "response_bytes": 4545,
+          "signature": "http-error",
+          "error": "HTTP 403",
+          "checked_url": "https://api.yparse.com/api/json?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        }
+      ]
+    },
+    "https://taopianapi.com/cjapi/mc10/vod/json.html": {
+      "name": "🎬淘片资源",
+      "detail": "https://www.taopianzy.com/help.html",
+      "adult": false,
+      "config_type": "full",
+      "history": [
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": false,
+          "validation_status": "invalid",
+          "status_code": null,
+          "latency_ms": 239,
+          "matched_keyword": "斗罗",
+          "result_count": 0,
+          "response_bytes": 0,
+          "signature": "network-error",
+          "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)",
+          "checked_url": "https://taopianapi.com/cjapi/mc10/vod/json.html?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -2616,19 +2650,6 @@
       "adult": false,
       "config_type": "full",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": false,
-          "validation_status": "invalid",
-          "status_code": null,
-          "latency_ms": 218,
-          "matched_keyword": "仙逆",
-          "result_count": 0,
-          "response_bytes": 0,
-          "signature": "network-error",
-          "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)",
-          "checked_url": "https://taopianapi.com/cjapi/sda/vod?ac=videolist&wd=%E4%BB%99%E9%80%86"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": false,
@@ -2797,6 +2818,19 @@
           "signature": "network-error",
           "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)",
           "checked_url": "https://taopianapi.com/cjapi/sda/vod?ac=videolist&wd=%E4%BB%99%E9%80%86"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": false,
+          "validation_status": "invalid",
+          "status_code": null,
+          "latency_ms": 261,
+          "matched_keyword": "斗罗",
+          "result_count": 0,
+          "response_bytes": 0,
+          "signature": "network-error",
+          "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)",
+          "checked_url": "https://taopianapi.com/cjapi/sda/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -2806,19 +2840,6 @@
       "adult": false,
       "config_type": "full",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": false,
-          "validation_status": "invalid",
-          "status_code": null,
-          "latency_ms": 483,
-          "matched_keyword": "斗罗",
-          "result_count": 0,
-          "response_bytes": 0,
-          "signature": "network-error",
-          "error": "[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1016)",
-          "checked_url": "https://www.aiduanju.cc/?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": false,
@@ -2987,6 +3008,19 @@
           "signature": "network-error",
           "error": "[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1016)",
           "checked_url": "https://www.aiduanju.cc/?ac=videolist&wd=%E4%BB%99%E9%80%86"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": false,
+          "validation_status": "invalid",
+          "status_code": null,
+          "latency_ms": 502,
+          "matched_keyword": "仙逆",
+          "result_count": 0,
+          "response_bytes": 0,
+          "signature": "network-error",
+          "error": "[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1016)",
+          "checked_url": "https://www.aiduanju.cc/?ac=videolist&wd=%E4%BB%99%E9%80%86"
         }
       ]
     },
@@ -2996,19 +3030,6 @@
       "adult": false,
       "config_type": "full",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": false,
-          "validation_status": "no_results",
-          "status_code": 200,
-          "latency_ms": 190,
-          "matched_keyword": "仙逆",
-          "result_count": 0,
-          "response_bytes": 37,
-          "signature": "empty-list",
-          "error": "",
-          "checked_url": "http://caihy.zone.id/%E8%8C%B6%E6%9D%AF%E7%8B%90.php?filter=true&ac=videolist&wd=%E4%BB%99%E9%80%86"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": false,
@@ -3177,6 +3198,19 @@
           "signature": "empty-list",
           "error": "",
           "checked_url": "http://caihy.zone.id/%E8%8C%B6%E6%9D%AF%E7%8B%90.php?filter=true&ac=videolist&wd=%E4%BB%99%E9%80%86"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": false,
+          "validation_status": "no_results",
+          "status_code": 200,
+          "latency_ms": 212,
+          "matched_keyword": "斗罗",
+          "result_count": 0,
+          "response_bytes": 37,
+          "signature": "empty-list",
+          "error": "",
+          "checked_url": "http://caihy.zone.id/%E8%8C%B6%E6%9D%AF%E7%8B%90.php?filter=true&ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -3186,19 +3220,6 @@
       "adult": false,
       "config_type": "full",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": false,
-          "validation_status": "invalid",
-          "status_code": null,
-          "latency_ms": 42,
-          "matched_keyword": "仙逆",
-          "result_count": 0,
-          "response_bytes": 0,
-          "signature": "network-error",
-          "error": "[Errno -2] Name or service not known",
-          "checked_url": "https://api.fczy888.me/api.php/provide/vod?ac=videolist&wd=%E4%BB%99%E9%80%86"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": false,
@@ -3367,6 +3388,19 @@
           "signature": "network-error",
           "error": "[Errno -2] Name or service not known",
           "checked_url": "https://api.fczy888.me/api.php/provide/vod?ac=videolist&wd=%E4%BB%99%E9%80%86"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": false,
+          "validation_status": "invalid",
+          "status_code": null,
+          "latency_ms": 27,
+          "matched_keyword": "仙逆",
+          "result_count": 0,
+          "response_bytes": 0,
+          "signature": "network-error",
+          "error": "[Errno -2] Name or service not known",
+          "checked_url": "https://api.fczy888.me/api.php/provide/vod?ac=videolist&wd=%E4%BB%99%E9%80%86"
         }
       ]
     },
@@ -3376,19 +3410,6 @@
       "adult": false,
       "config_type": "full",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": false,
-          "validation_status": "invalid",
-          "status_code": null,
-          "latency_ms": 102,
-          "matched_keyword": "仙逆",
-          "result_count": 0,
-          "response_bytes": 0,
-          "signature": "network-error",
-          "error": "[Errno -5] No address associated with hostname",
-          "checked_url": "https://caiji.dbzy.tv/api.php/provide/vod?ac=videolist&wd=%E4%BB%99%E9%80%86"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": false,
@@ -3557,6 +3578,19 @@
           "signature": "network-error",
           "error": "[Errno -5] No address associated with hostname",
           "checked_url": "https://caiji.dbzy.tv/api.php/provide/vod?ac=videolist&wd=%E4%BB%99%E9%80%86"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": false,
+          "validation_status": "invalid",
+          "status_code": null,
+          "latency_ms": 97,
+          "matched_keyword": "仙逆",
+          "result_count": 0,
+          "response_bytes": 0,
+          "signature": "network-error",
+          "error": "[Errno -5] No address associated with hostname",
+          "checked_url": "https://caiji.dbzy.tv/api.php/provide/vod?ac=videolist&wd=%E4%BB%99%E9%80%86"
         }
       ]
     },
@@ -3566,19 +3600,6 @@
       "adult": false,
       "config_type": "full",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": false,
-          "validation_status": "invalid",
-          "status_code": null,
-          "latency_ms": 68,
-          "matched_keyword": "斗罗",
-          "result_count": 0,
-          "response_bytes": 0,
-          "signature": "network-error",
-          "error": "[Errno -2] Name or service not known",
-          "checked_url": "https://zy.jinchancaiji.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": false,
@@ -3747,6 +3768,19 @@
           "signature": "network-error",
           "error": "[Errno -2] Name or service not known",
           "checked_url": "https://zy.jinchancaiji.com/api.php/provide/vod?ac=videolist&wd=%E4%BB%99%E9%80%86"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": false,
+          "validation_status": "invalid",
+          "status_code": null,
+          "latency_ms": 36,
+          "matched_keyword": "斗罗",
+          "result_count": 0,
+          "response_bytes": 0,
+          "signature": "network-error",
+          "error": "[Errno -2] Name or service not known",
+          "checked_url": "https://zy.jinchancaiji.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -3756,19 +3790,6 @@
       "adult": false,
       "config_type": "full",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": false,
-          "validation_status": "invalid",
-          "status_code": null,
-          "latency_ms": 6155,
-          "matched_keyword": "斗罗",
-          "result_count": 0,
-          "response_bytes": 0,
-          "signature": "network-error",
-          "error": "timed out",
-          "checked_url": "https://api.jmzy.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": false,
@@ -3937,6 +3958,19 @@
           "signature": "network-error",
           "error": "_ssl.c:999: The handshake operation timed out",
           "checked_url": "https://api.jmzy.com/api.php/provide/vod?ac=videolist&wd=%E4%BB%99%E9%80%86"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": false,
+          "validation_status": "invalid",
+          "status_code": null,
+          "latency_ms": 6211,
+          "matched_keyword": "仙逆",
+          "result_count": 0,
+          "response_bytes": 0,
+          "signature": "network-error",
+          "error": "_ssl.c:999: The handshake operation timed out",
+          "checked_url": "https://api.jmzy.com/api.php/provide/vod?ac=videolist&wd=%E4%BB%99%E9%80%86"
         }
       ]
     },
@@ -3946,19 +3980,6 @@
       "adult": false,
       "config_type": "lite",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": false,
-          "validation_status": "invalid",
-          "status_code": 403,
-          "latency_ms": 47,
-          "matched_keyword": "斗罗",
-          "result_count": 0,
-          "response_bytes": 5826,
-          "signature": "http-error",
-          "error": "HTTP 403",
-          "checked_url": "https://p2100.net/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": false,
@@ -4127,6 +4148,19 @@
           "signature": "http-error",
           "error": "HTTP 403",
           "checked_url": "https://p2100.net/api.php/provide/vod?ac=videolist&wd=%E4%BB%99%E9%80%86"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": false,
+          "validation_status": "invalid",
+          "status_code": 403,
+          "latency_ms": 42,
+          "matched_keyword": "斗罗",
+          "result_count": 0,
+          "response_bytes": 5815,
+          "signature": "http-error",
+          "error": "HTTP 403",
+          "checked_url": "https://p2100.net/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -4136,19 +4170,6 @@
       "adult": false,
       "config_type": "full",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": false,
-          "validation_status": "invalid",
-          "status_code": null,
-          "latency_ms": 29,
-          "matched_keyword": "仙逆",
-          "result_count": 0,
-          "response_bytes": 0,
-          "signature": "network-error",
-          "error": "[Errno -2] Name or service not known",
-          "checked_url": "https://www.fantuan.tv/api.php/provide/vod?ac=videolist&wd=%E4%BB%99%E9%80%86"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": false,
@@ -4317,6 +4338,19 @@
           "signature": "network-error",
           "error": "[Errno -2] Name or service not known",
           "checked_url": "https://www.fantuan.tv/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": false,
+          "validation_status": "invalid",
+          "status_code": null,
+          "latency_ms": 24,
+          "matched_keyword": "仙逆",
+          "result_count": 0,
+          "response_bytes": 0,
+          "signature": "network-error",
+          "error": "[Errno -2] Name or service not known",
+          "checked_url": "https://www.fantuan.tv/api.php/provide/vod?ac=videolist&wd=%E4%BB%99%E9%80%86"
         }
       ]
     },
@@ -4326,19 +4360,6 @@
       "adult": false,
       "config_type": "full",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": false,
-          "validation_status": "invalid",
-          "status_code": null,
-          "latency_ms": 1078,
-          "matched_keyword": "斗罗",
-          "result_count": 0,
-          "response_bytes": 0,
-          "signature": "network-error",
-          "error": "[Errno 111] Connection refused",
-          "checked_url": "https://mozhuazy.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": false,
@@ -4507,6 +4528,19 @@
           "signature": "network-error",
           "error": "[Errno 111] Connection refused",
           "checked_url": "https://mozhuazy.com/api.php/provide/vod?ac=videolist&wd=%E4%BB%99%E9%80%86"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": false,
+          "validation_status": "invalid",
+          "status_code": null,
+          "latency_ms": 808,
+          "matched_keyword": "仙逆",
+          "result_count": 0,
+          "response_bytes": 0,
+          "signature": "network-error",
+          "error": "[Errno 111] Connection refused",
+          "checked_url": "https://mozhuazy.com/api.php/provide/vod?ac=videolist&wd=%E4%BB%99%E9%80%86"
         }
       ]
     },
@@ -4516,19 +4550,6 @@
       "adult": false,
       "config_type": "full",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": false,
-          "validation_status": "invalid",
-          "status_code": 200,
-          "latency_ms": 307,
-          "matched_keyword": "仙逆",
-          "result_count": 0,
-          "response_bytes": 57,
-          "signature": "invalid-json",
-          "error": "",
-          "checked_url": "https://www.qilinzyz.com/api.php/provide/vod?ac=videolist&wd=%E4%BB%99%E9%80%86"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": false,
@@ -4697,6 +4718,19 @@
           "signature": "invalid-json",
           "error": "",
           "checked_url": "https://www.qilinzyz.com/api.php/provide/vod?ac=videolist&wd=%E4%BB%99%E9%80%86"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": false,
+          "validation_status": "invalid",
+          "status_code": 200,
+          "latency_ms": 163,
+          "matched_keyword": "仙逆",
+          "result_count": 0,
+          "response_bytes": 57,
+          "signature": "invalid-json",
+          "error": "",
+          "checked_url": "https://www.qilinzyz.com/api.php/provide/vod?ac=videolist&wd=%E4%BB%99%E9%80%86"
         }
       ]
     },
@@ -4706,19 +4740,6 @@
       "adult": false,
       "config_type": "full",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": false,
-          "validation_status": "invalid",
-          "status_code": 200,
-          "latency_ms": 184,
-          "matched_keyword": "仙逆",
-          "result_count": 0,
-          "response_bytes": 2000,
-          "signature": "invalid-json",
-          "error": "",
-          "checked_url": "https://json.heimuer.xyz/api.php/provide/vod?ac=videolist&wd=%E4%BB%99%E9%80%86"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": false,
@@ -4887,6 +4908,19 @@
           "signature": "invalid-json",
           "error": "",
           "checked_url": "https://json.heimuer.xyz/api.php/provide/vod?ac=videolist&wd=%E4%BB%99%E9%80%86"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": false,
+          "validation_status": "invalid",
+          "status_code": 200,
+          "latency_ms": 176,
+          "matched_keyword": "仙逆",
+          "result_count": 0,
+          "response_bytes": 13514,
+          "signature": "invalid-json",
+          "error": "",
+          "checked_url": "https://json.heimuer.xyz/api.php/provide/vod?ac=videolist&wd=%E4%BB%99%E9%80%86"
         }
       ]
     },
@@ -4896,19 +4930,6 @@
       "adult": false,
       "config_type": "full",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": false,
-          "validation_status": "invalid",
-          "status_code": 200,
-          "latency_ms": 187,
-          "matched_keyword": "仙逆",
-          "result_count": 0,
-          "response_bytes": 2000,
-          "signature": "invalid-json",
-          "error": "",
-          "checked_url": "https://json02.heimuer.xyz/api.php/provide/vod?ac=videolist&wd=%E4%BB%99%E9%80%86"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": false,
@@ -5077,6 +5098,19 @@
           "signature": "invalid-json",
           "error": "",
           "checked_url": "https://json02.heimuer.xyz/api.php/provide/vod?ac=videolist&wd=%E4%BB%99%E9%80%86"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": false,
+          "validation_status": "invalid",
+          "status_code": 200,
+          "latency_ms": 171,
+          "matched_keyword": "仙逆",
+          "result_count": 0,
+          "response_bytes": 13514,
+          "signature": "invalid-json",
+          "error": "",
+          "checked_url": "https://json02.heimuer.xyz/api.php/provide/vod?ac=videolist&wd=%E4%BB%99%E9%80%86"
         }
       ]
     },
@@ -5086,19 +5120,6 @@
       "adult": false,
       "config_type": "full",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": false,
-          "validation_status": "invalid",
-          "status_code": 200,
-          "latency_ms": 53,
-          "matched_keyword": "仙逆",
-          "result_count": 0,
-          "response_bytes": 27435,
-          "signature": "invalid-json",
-          "error": "",
-          "checked_url": "https://jyzyapi.com/provide/vod/at/xmlsea?ac=videolist&wd=%E4%BB%99%E9%80%86"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": false,
@@ -5267,6 +5288,19 @@
           "signature": "invalid-json",
           "error": "",
           "checked_url": "https://jyzyapi.com/provide/vod/at/xmlsea?ac=videolist&wd=%E4%BB%99%E9%80%86"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": false,
+          "validation_status": "invalid",
+          "status_code": 200,
+          "latency_ms": 61,
+          "matched_keyword": "斗罗",
+          "result_count": 0,
+          "response_bytes": 182795,
+          "signature": "invalid-json",
+          "error": "",
+          "checked_url": "https://jyzyapi.com/provide/vod/at/xmlsea?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -5276,19 +5310,6 @@
       "adult": true,
       "config_type": "plus18",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": false,
-          "validation_status": "invalid",
-          "status_code": 404,
-          "latency_ms": 122,
-          "matched_keyword": "无码",
-          "result_count": 0,
-          "response_bytes": 43,
-          "signature": "http-error",
-          "error": "HTTP 404",
-          "checked_url": "https://91jpzyw.com/api.php/provide/vod?ac=videolist&wd=%E6%97%A0%E7%A0%81"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": false,
@@ -5457,6 +5478,19 @@
           "signature": "http-error",
           "error": "HTTP 404",
           "checked_url": "https://91jpzyw.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": false,
+          "validation_status": "invalid",
+          "status_code": 404,
+          "latency_ms": 116,
+          "matched_keyword": "无码",
+          "result_count": 0,
+          "response_bytes": 43,
+          "signature": "http-error",
+          "error": "HTTP 404",
+          "checked_url": "https://91jpzyw.com/api.php/provide/vod?ac=videolist&wd=%E6%97%A0%E7%A0%81"
         }
       ]
     },
@@ -5466,19 +5500,6 @@
       "adult": true,
       "config_type": "plus18",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": false,
-          "validation_status": "invalid",
-          "status_code": 502,
-          "latency_ms": 416,
-          "matched_keyword": "斗罗",
-          "result_count": 0,
-          "response_bytes": 556,
-          "signature": "http-error",
-          "error": "HTTP 502",
-          "checked_url": "http://lbapiby.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": false,
@@ -5647,6 +5668,19 @@
           "signature": "http-error",
           "error": "HTTP 502",
           "checked_url": "http://lbapiby.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": false,
+          "validation_status": "invalid",
+          "status_code": 502,
+          "latency_ms": 405,
+          "matched_keyword": "斗罗",
+          "result_count": 0,
+          "response_bytes": 556,
+          "signature": "http-error",
+          "error": "HTTP 502",
+          "checked_url": "http://lbapiby.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -5656,19 +5690,6 @@
       "adult": true,
       "config_type": "plus18",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": false,
-          "validation_status": "invalid",
-          "status_code": null,
-          "latency_ms": 100,
-          "matched_keyword": "无码",
-          "result_count": 0,
-          "response_bytes": 0,
-          "signature": "network-error",
-          "error": "[Errno 111] Connection refused",
-          "checked_url": "https://siwazyw.tv/api.php/provide/vod?ac=videolist&wd=%E6%97%A0%E7%A0%81"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": false,
@@ -5837,6 +5858,19 @@
           "signature": "network-error",
           "error": "[Errno 111] Connection refused",
           "checked_url": "https://siwazyw.tv/api.php/provide/vod?ac=videolist&wd=%E6%97%A0%E7%A0%81"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": false,
+          "validation_status": "invalid",
+          "status_code": null,
+          "latency_ms": 78,
+          "matched_keyword": "无码",
+          "result_count": 0,
+          "response_bytes": 0,
+          "signature": "network-error",
+          "error": "[Errno 111] Connection refused",
+          "checked_url": "https://siwazyw.tv/api.php/provide/vod?ac=videolist&wd=%E6%97%A0%E7%A0%81"
         }
       ]
     },
@@ -5846,19 +5880,6 @@
       "adult": true,
       "config_type": "plus18",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": false,
-          "validation_status": "invalid",
-          "status_code": null,
-          "latency_ms": 89,
-          "matched_keyword": "无码",
-          "result_count": 0,
-          "response_bytes": 0,
-          "signature": "network-error",
-          "error": "[Errno 111] Connection refused",
-          "checked_url": "https://siwazyw.tv/api.php/provide/vod/at/json?ac=videolist&wd=%E6%97%A0%E7%A0%81"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": false,
@@ -6027,6 +6048,19 @@
           "signature": "network-error",
           "error": "[Errno 111] Connection refused",
           "checked_url": "https://siwazyw.tv/api.php/provide/vod/at/json?ac=videolist&wd=%E6%97%A0%E7%A0%81"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": false,
+          "validation_status": "invalid",
+          "status_code": null,
+          "latency_ms": 95,
+          "matched_keyword": "斗罗",
+          "result_count": 0,
+          "response_bytes": 0,
+          "signature": "network-error",
+          "error": "[Errno 111] Connection refused",
+          "checked_url": "https://siwazyw.tv/api.php/provide/vod/at/json?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -6036,19 +6070,6 @@
       "adult": true,
       "config_type": "plus18",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": false,
-          "validation_status": "invalid",
-          "status_code": null,
-          "latency_ms": 74,
-          "matched_keyword": "无码",
-          "result_count": 0,
-          "response_bytes": 0,
-          "signature": "network-error",
-          "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)",
-          "checked_url": "https://www.yyzywcj.com/api.php/provide/vod?ac=videolist&wd=%E6%97%A0%E7%A0%81"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": false,
@@ -6217,6 +6238,19 @@
           "signature": "network-error",
           "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)",
           "checked_url": "https://www.yyzywcj.com/api.php/provide/vod?ac=videolist&wd=%E6%97%A0%E7%A0%81"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": false,
+          "validation_status": "invalid",
+          "status_code": null,
+          "latency_ms": 46,
+          "matched_keyword": "无码",
+          "result_count": 0,
+          "response_bytes": 0,
+          "signature": "network-error",
+          "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)",
+          "checked_url": "https://www.yyzywcj.com/api.php/provide/vod?ac=videolist&wd=%E6%97%A0%E7%A0%81"
         }
       ]
     },
@@ -6226,19 +6260,6 @@
       "adult": true,
       "config_type": "plus18",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": false,
-          "validation_status": "no_results",
-          "status_code": 200,
-          "latency_ms": 903,
-          "matched_keyword": "无码",
-          "result_count": 35,
-          "response_bytes": 49456,
-          "signature": "title-mismatch",
-          "error": "",
-          "checked_url": "https://dadiapi.com/feifei?ac=videolist&wd=%E6%97%A0%E7%A0%81"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": false,
@@ -6407,6 +6428,19 @@
           "signature": "http-error",
           "error": "HTTP 404",
           "checked_url": "https://dadiapi.com/feifei?ac=videolist&wd=%E6%97%A0%E7%A0%81"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": false,
+          "validation_status": "invalid",
+          "status_code": 404,
+          "latency_ms": 838,
+          "matched_keyword": "无码",
+          "result_count": 0,
+          "response_bytes": 582,
+          "signature": "http-error",
+          "error": "HTTP 404",
+          "checked_url": "https://dadiapi.com/feifei?ac=videolist&wd=%E6%97%A0%E7%A0%81"
         }
       ]
     },
@@ -6416,19 +6450,6 @@
       "adult": true,
       "config_type": "plus18",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": false,
-          "validation_status": "no_results",
-          "status_code": 200,
-          "latency_ms": 948,
-          "matched_keyword": "无码",
-          "result_count": 35,
-          "response_bytes": 49456,
-          "signature": "title-mismatch",
-          "error": "",
-          "checked_url": "https://dadiapi.com/feifei2?ac=videolist&wd=%E6%97%A0%E7%A0%81"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": false,
@@ -6597,6 +6618,19 @@
           "signature": "http-error",
           "error": "HTTP 404",
           "checked_url": "https://dadiapi.com/feifei2?ac=videolist&wd=%E6%97%A0%E7%A0%81"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": false,
+          "validation_status": "invalid",
+          "status_code": 404,
+          "latency_ms": 846,
+          "matched_keyword": "斗罗",
+          "result_count": 0,
+          "response_bytes": 582,
+          "signature": "http-error",
+          "error": "HTTP 404",
+          "checked_url": "https://dadiapi.com/feifei2?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -6606,19 +6640,6 @@
       "adult": true,
       "config_type": "plus18",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": false,
-          "validation_status": "invalid",
-          "status_code": null,
-          "latency_ms": 46,
-          "matched_keyword": "无码",
-          "result_count": 0,
-          "response_bytes": 0,
-          "signature": "network-error",
-          "error": "[Errno -2] Name or service not known",
-          "checked_url": "https://xzybb2.com/api.php/provide/vod?ac=videolist&wd=%E6%97%A0%E7%A0%81"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": false,
@@ -6787,6 +6808,19 @@
           "signature": "network-error",
           "error": "[Errno -2] Name or service not known",
           "checked_url": "https://xzybb2.com/api.php/provide/vod?ac=videolist&wd=%E6%97%A0%E7%A0%81"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": false,
+          "validation_status": "invalid",
+          "status_code": null,
+          "latency_ms": 26,
+          "matched_keyword": "斗罗",
+          "result_count": 0,
+          "response_bytes": 0,
+          "signature": "network-error",
+          "error": "[Errno -2] Name or service not known",
+          "checked_url": "https://xzybb2.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -6796,19 +6830,6 @@
       "adult": true,
       "config_type": "plus18",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": false,
-          "validation_status": "invalid",
-          "status_code": null,
-          "latency_ms": 1322,
-          "matched_keyword": "斗罗",
-          "result_count": 0,
-          "response_bytes": 0,
-          "signature": "network-error",
-          "error": "[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1016)",
-          "checked_url": "http://wmcj8.com/inc/sapi.php?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": false,
@@ -6977,6 +6998,19 @@
           "signature": "network-error",
           "error": "[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1016)",
           "checked_url": "http://wmcj8.com/inc/sapi.php?ac=videolist&wd=%E6%97%A0%E7%A0%81"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": false,
+          "validation_status": "invalid",
+          "status_code": 200,
+          "latency_ms": 619,
+          "matched_keyword": "斗罗",
+          "result_count": 0,
+          "response_bytes": 27723,
+          "signature": "invalid-json",
+          "error": "",
+          "checked_url": "http://wmcj8.com/inc/sapi.php?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -6998,27 +7032,19 @@
           "signature": "invalid-json",
           "error": "",
           "checked_url": "http://dadiapi.com/api.php?ac=videolist&wd=%E6%97%A0%E7%A0%81"
-        }
-      ]
-    },
-    "http://www.feifei67.com/api.php/provide/vod": {
-      "name": "🔞成人22",
-      "detail": "http://www.feifei67.com",
-      "adult": true,
-      "config_type": "plus18",
-      "history": [
+        },
         {
-          "timestamp": "2026-10-22T08:34:07.903335+00:00",
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
           "ok": false,
           "validation_status": "invalid",
-          "status_code": 200,
-          "latency_ms": 179,
+          "status_code": 204,
+          "latency_ms": 452,
           "matched_keyword": "无码",
           "result_count": 0,
-          "response_bytes": 531,
+          "response_bytes": 0,
           "signature": "invalid-json",
           "error": "",
-          "checked_url": "http://www.feifei67.com/api.php/provide/vod?ac=videolist&wd=%E6%97%A0%E7%A0%81"
+          "checked_url": "http://dadiapi.com/api.php?ac=videolist&wd=%E6%97%A0%E7%A0%81"
         }
       ]
     },
@@ -7028,19 +7054,6 @@
       "adult": true,
       "config_type": "plus18",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": false,
-          "validation_status": "invalid",
-          "status_code": 200,
-          "latency_ms": 179,
-          "matched_keyword": "无码",
-          "result_count": 0,
-          "response_bytes": 6,
-          "signature": "invalid-json",
-          "error": "",
-          "checked_url": "http://cj.xinlangzy.com/api.php/provide/vod?ac=videolist&wd=%E6%97%A0%E7%A0%81"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": false,
@@ -7209,6 +7222,19 @@
           "signature": "invalid-json",
           "error": "",
           "checked_url": "http://cj.xinlangzy.com/api.php/provide/vod?ac=videolist&wd=%E6%97%A0%E7%A0%81"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": false,
+          "validation_status": "invalid",
+          "status_code": 200,
+          "latency_ms": 161,
+          "matched_keyword": "斗罗",
+          "result_count": 0,
+          "response_bytes": 6,
+          "signature": "invalid-json",
+          "error": "",
+          "checked_url": "http://cj.xinlangzy.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -7218,19 +7244,6 @@
       "adult": true,
       "config_type": "plus18",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": false,
-          "validation_status": "invalid",
-          "status_code": null,
-          "latency_ms": 23,
-          "matched_keyword": "无码",
-          "result_count": 0,
-          "response_bytes": 0,
-          "signature": "network-error",
-          "error": "[Errno -2] Name or service not known",
-          "checked_url": "https://api.zuiseapi.com/api.php/provide/vod?ac=videolist&wd=%E6%97%A0%E7%A0%81"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": false,
@@ -7399,6 +7412,19 @@
           "signature": "network-error",
           "error": "[Errno -2] Name or service not known",
           "checked_url": "https://api.zuiseapi.com/api.php/provide/vod?ac=videolist&wd=%E6%97%A0%E7%A0%81"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": false,
+          "validation_status": "invalid",
+          "status_code": null,
+          "latency_ms": 31,
+          "matched_keyword": "斗罗",
+          "result_count": 0,
+          "response_bytes": 0,
+          "signature": "network-error",
+          "error": "[Errno -2] Name or service not known",
+          "checked_url": "https://api.zuiseapi.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -7408,19 +7434,6 @@
       "adult": true,
       "config_type": "plus18",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": false,
-          "validation_status": "invalid",
-          "status_code": null,
-          "latency_ms": 756,
-          "matched_keyword": "无码",
-          "result_count": 0,
-          "response_bytes": 0,
-          "signature": "network-error",
-          "error": "[Errno 111] Connection refused",
-          "checked_url": "https://api.bwzyz.com/api.php/provide/vod?ac=videolist&wd=%E6%97%A0%E7%A0%81"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": false,
@@ -7589,6 +7602,19 @@
           "signature": "network-error",
           "error": "[Errno 111] Connection refused",
           "checked_url": "https://api.bwzyz.com/api.php/provide/vod?ac=videolist&wd=%E6%97%A0%E7%A0%81"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": false,
+          "validation_status": "invalid",
+          "status_code": null,
+          "latency_ms": 723,
+          "matched_keyword": "无码",
+          "result_count": 0,
+          "response_bytes": 0,
+          "signature": "network-error",
+          "error": "[Errno 111] Connection refused",
+          "checked_url": "https://api.bwzyz.com/api.php/provide/vod?ac=videolist&wd=%E6%97%A0%E7%A0%81"
         }
       ]
     },
@@ -7598,19 +7624,6 @@
       "adult": true,
       "config_type": "plus18",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": false,
-          "validation_status": "invalid",
-          "status_code": null,
-          "latency_ms": 160,
-          "matched_keyword": "无码",
-          "result_count": 0,
-          "response_bytes": 0,
-          "signature": "network-error",
-          "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.xxibaozyw.com'. (_ssl.c:1016)",
-          "checked_url": "https://www.xxibaozyw.com/api.php/provide/vod?ac=videolist&wd=%E6%97%A0%E7%A0%81"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": false,
@@ -7779,6 +7792,19 @@
           "signature": "network-error",
           "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.xxibaozyw.com'. (_ssl.c:1016)",
           "checked_url": "https://www.xxibaozyw.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": false,
+          "validation_status": "invalid",
+          "status_code": null,
+          "latency_ms": 260,
+          "matched_keyword": "斗罗",
+          "result_count": 0,
+          "response_bytes": 0,
+          "signature": "network-error",
+          "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.xxibaozyw.com'. (_ssl.c:1016)",
+          "checked_url": "https://www.xxibaozyw.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -7788,19 +7814,6 @@
       "adult": true,
       "config_type": "plus18",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": false,
-          "validation_status": "invalid",
-          "status_code": null,
-          "latency_ms": 91,
-          "matched_keyword": "斗罗",
-          "result_count": 0,
-          "response_bytes": 0,
-          "signature": "network-error",
-          "error": "[Errno 111] Connection refused",
-          "checked_url": "https://api.sexnguon.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": false,
@@ -7969,6 +7982,19 @@
           "signature": "network-error",
           "error": "[Errno 111] Connection refused",
           "checked_url": "https://api.sexnguon.com/api.php/provide/vod?ac=videolist&wd=%E6%97%A0%E7%A0%81"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": false,
+          "validation_status": "invalid",
+          "status_code": null,
+          "latency_ms": 95,
+          "matched_keyword": "无码",
+          "result_count": 0,
+          "response_bytes": 0,
+          "signature": "network-error",
+          "error": "[Errno 111] Connection refused",
+          "checked_url": "https://api.sexnguon.com/api.php/provide/vod?ac=videolist&wd=%E6%97%A0%E7%A0%81"
         }
       ]
     },
@@ -7978,19 +8004,6 @@
       "adult": true,
       "config_type": "plus18",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": false,
-          "validation_status": "invalid",
-          "status_code": 521,
-          "latency_ms": 102,
-          "matched_keyword": "无码",
-          "result_count": 0,
-          "response_bytes": 955,
-          "signature": "http-error",
-          "error": "HTTP 521",
-          "checked_url": "https://api.maozyapi.com/inc/apijson_vod.php?ac=videolist&wd=%E6%97%A0%E7%A0%81"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": false,
@@ -8159,6 +8172,19 @@
           "signature": "http-error",
           "error": "HTTP 523",
           "checked_url": "https://api.maozyapi.com/inc/apijson_vod.php?ac=videolist&wd=%E6%97%A0%E7%A0%81"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": false,
+          "validation_status": "invalid",
+          "status_code": 523,
+          "latency_ms": 103,
+          "matched_keyword": "无码",
+          "result_count": 0,
+          "response_bytes": 920,
+          "signature": "http-error",
+          "error": "HTTP 523",
+          "checked_url": "https://api.maozyapi.com/inc/apijson_vod.php?ac=videolist&wd=%E6%97%A0%E7%A0%81"
         }
       ]
     },
@@ -8168,19 +8194,6 @@
       "adult": true,
       "config_type": "plus18",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": false,
-          "validation_status": "no_results",
-          "status_code": 200,
-          "latency_ms": 138,
-          "matched_keyword": "斗罗",
-          "result_count": 0,
-          "response_bytes": 97,
-          "signature": "empty-list",
-          "error": "",
-          "checked_url": "https://caiji.semaozy.net/inc/apijson_vod.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": false,
@@ -8349,6 +8362,19 @@
           "signature": "empty-list",
           "error": "",
           "checked_url": "https://caiji.semaozy.net/inc/apijson_vod.php/provide/vod?ac=videolist&wd=%E6%97%A0%E7%A0%81"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": false,
+          "validation_status": "no_results",
+          "status_code": 200,
+          "latency_ms": 129,
+          "matched_keyword": "斗罗",
+          "result_count": 0,
+          "response_bytes": 97,
+          "signature": "empty-list",
+          "error": "",
+          "checked_url": "https://caiji.semaozy.net/inc/apijson_vod.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -8358,19 +8384,6 @@
       "adult": true,
       "config_type": "plus18",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": false,
-          "validation_status": "invalid",
-          "status_code": null,
-          "latency_ms": 18249,
-          "matched_keyword": "斗罗",
-          "result_count": 0,
-          "response_bytes": 0,
-          "signature": "network-error",
-          "error": "timed out",
-          "checked_url": "https://www.xiangjiaozyw.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": false,
@@ -8539,6 +8552,19 @@
           "signature": "network-error",
           "error": "timed out",
           "checked_url": "https://www.xiangjiaozyw.com/api.php/provide/vod?ac=videolist&wd=%E6%97%A0%E7%A0%81"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": false,
+          "validation_status": "invalid",
+          "status_code": null,
+          "latency_ms": 18256,
+          "matched_keyword": "斗罗",
+          "result_count": 0,
+          "response_bytes": 0,
+          "signature": "network-error",
+          "error": "timed out",
+          "checked_url": "https://www.xiangjiaozyw.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -8548,19 +8574,6 @@
       "adult": false,
       "config_type": "full",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 395,
-          "matched_keyword": "",
-          "result_count": 1,
-          "response_bytes": 43085,
-          "signature": "playable-fallback-list",
-          "error": "",
-          "checked_url": "https://api.1080zyku.com/inc/api_mac10.php?ac=videolist&pg=1"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -8729,6 +8742,19 @@
           "signature": "playable-fallback-list",
           "error": "",
           "checked_url": "https://api.1080zyku.com/inc/api_mac10.php?ac=videolist&pg=1"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 835,
+          "matched_keyword": "",
+          "result_count": 1,
+          "response_bytes": 43366,
+          "signature": "playable-fallback-list",
+          "error": "",
+          "checked_url": "https://api.1080zyku.com/inc/api_mac10.php?ac=videolist&pg=1"
         }
       ]
     },
@@ -8738,19 +8764,6 @@
       "adult": false,
       "config_type": "lite",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 826,
-          "matched_keyword": "斗罗",
-          "result_count": 20,
-          "response_bytes": 132332,
-          "signature": "search-hit",
-          "error": "",
-          "checked_url": "https://360zyzz.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -8919,6 +8932,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://360zyzz.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 829,
+          "matched_keyword": "斗罗",
+          "result_count": 20,
+          "response_bytes": 132679,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://360zyzz.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -8928,19 +8954,6 @@
       "adult": false,
       "config_type": "lite",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 2579,
-          "matched_keyword": "斗罗",
-          "result_count": 20,
-          "response_bytes": 133728,
-          "signature": "search-hit",
-          "error": "",
-          "checked_url": "https://360zy.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -9109,6 +9122,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://360zy.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 4261,
+          "matched_keyword": "斗罗",
+          "result_count": 20,
+          "response_bytes": 134075,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://360zy.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -9118,19 +9144,6 @@
       "adult": false,
       "config_type": "full",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 734,
-          "matched_keyword": "斗罗",
-          "result_count": 17,
-          "response_bytes": 95925,
-          "signature": "search-hit",
-          "error": "",
-          "checked_url": "https://ikunzyapi.com/api.php/provide/vod/from/ikm3u8?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -9299,6 +9312,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://ikunzyapi.com/api.php/provide/vod/from/ikm3u8?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 1246,
+          "matched_keyword": "斗罗",
+          "result_count": 17,
+          "response_bytes": 96252,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://ikunzyapi.com/api.php/provide/vod/from/ikm3u8?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -9308,19 +9334,6 @@
       "adult": false,
       "config_type": "lite",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 840,
-          "matched_keyword": "斗罗",
-          "result_count": 17,
-          "response_bytes": 95925,
-          "signature": "search-hit",
-          "error": "",
-          "checked_url": "https://ikunzyapi.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -9489,6 +9502,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://ikunzyapi.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 866,
+          "matched_keyword": "斗罗",
+          "result_count": 17,
+          "response_bytes": 96252,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://ikunzyapi.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -9498,19 +9524,6 @@
       "adult": false,
       "config_type": "full",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 3251,
-          "matched_keyword": "斗罗",
-          "result_count": 20,
-          "response_bytes": 146574,
-          "signature": "search-hit",
-          "error": "",
-          "checked_url": "https://www.iqiyizyapi.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -9679,6 +9692,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://www.iqiyizyapi.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 3497,
+          "matched_keyword": "斗罗",
+          "result_count": 20,
+          "response_bytes": 147081,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://www.iqiyizyapi.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -9817,6 +9843,19 @@
           "signature": "playable-fallback-list",
           "error": "",
           "checked_url": "https://api.okzyw.net/api.php/provide/vod?ac=videolist&pg=1"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 335,
+          "matched_keyword": "",
+          "result_count": 2,
+          "response_bytes": 160574,
+          "signature": "playable-fallback-list",
+          "error": "",
+          "checked_url": "https://api.okzyw.net/api.php/provide/vod?ac=videolist&pg=1"
         }
       ]
     },
@@ -9826,19 +9865,6 @@
       "adult": false,
       "config_type": "lite",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 2108,
-          "matched_keyword": "斗罗",
-          "result_count": 10,
-          "response_bytes": 180201,
-          "signature": "search-hit",
-          "error": "",
-          "checked_url": "https://api.ukuapi88.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -10007,6 +10033,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://api.ukuapi88.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 575,
+          "matched_keyword": "斗罗",
+          "result_count": 10,
+          "response_bytes": 181058,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://api.ukuapi88.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -10016,19 +10055,6 @@
       "adult": false,
       "config_type": "lite",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 548,
-          "matched_keyword": "斗罗",
-          "result_count": 10,
-          "response_bytes": 180201,
-          "signature": "search-hit",
-          "error": "",
-          "checked_url": "https://api.ukuapi.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -10197,6 +10223,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://api.ukuapi.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 526,
+          "matched_keyword": "斗罗",
+          "result_count": 10,
+          "response_bytes": 181058,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://api.ukuapi.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -10206,19 +10245,6 @@
       "adult": false,
       "config_type": "full",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 448,
-          "matched_keyword": "斗罗",
-          "result_count": 20,
-          "response_bytes": 91731,
-          "signature": "search-hit",
-          "error": "",
-          "checked_url": "https://api.wujinapi.cc/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -10387,6 +10413,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://api.wujinapi.cc/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 336,
+          "matched_keyword": "斗罗",
+          "result_count": 20,
+          "response_bytes": 91901,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://api.wujinapi.cc/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -10396,19 +10435,6 @@
       "adult": false,
       "config_type": "lite",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 1099,
-          "matched_keyword": "斗罗",
-          "result_count": 20,
-          "response_bytes": 159201,
-          "signature": "search-hit",
-          "error": "",
-          "checked_url": "https://api.yzzy-api.com/inc/apijson.php?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -10577,6 +10603,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://api.yzzy-api.com/inc/apijson.php?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 570,
+          "matched_keyword": "斗罗",
+          "result_count": 20,
+          "response_bytes": 160072,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://api.yzzy-api.com/inc/apijson.php?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -10586,19 +10625,6 @@
       "adult": false,
       "config_type": "lite",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 483,
-          "matched_keyword": "斗罗",
-          "result_count": 20,
-          "response_bytes": 190562,
-          "signature": "search-hit",
-          "error": "",
-          "checked_url": "https://api.guangsuapi.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -10761,6 +10787,19 @@
           "validation_status": "valid",
           "status_code": 200,
           "latency_ms": 549,
+          "matched_keyword": "斗罗",
+          "result_count": 20,
+          "response_bytes": 186050,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://api.guangsuapi.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 396,
           "matched_keyword": "斗罗",
           "result_count": 20,
           "response_bytes": 186050,
@@ -10944,6 +10983,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://cdn.dzzyapi.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 856,
+          "matched_keyword": "斗罗",
+          "result_count": 20,
+          "response_bytes": 160362,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://cdn.dzzyapi.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -10953,19 +11005,6 @@
       "adult": false,
       "config_type": "full",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": false,
-          "validation_status": "invalid",
-          "status_code": 200,
-          "latency_ms": 923,
-          "matched_keyword": "斗罗",
-          "result_count": 0,
-          "response_bytes": 13219,
-          "signature": "invalid-json",
-          "error": "",
-          "checked_url": "https://dadiapi.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": false,
@@ -11134,6 +11173,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://dadiapi.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 1221,
+          "matched_keyword": "斗罗",
+          "result_count": 20,
+          "response_bytes": 35769,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://dadiapi.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -11143,19 +11195,6 @@
       "adult": false,
       "config_type": "full",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 310,
-          "matched_keyword": "",
-          "result_count": 1,
-          "response_bytes": 146638,
-          "signature": "playable-fallback-list",
-          "error": "",
-          "checked_url": "https://tyyszyapi.com/api.php/provide/vod?ac=videolist&pg=1"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -11324,6 +11363,19 @@
           "signature": "playable-fallback-list",
           "error": "",
           "checked_url": "https://tyyszyapi.com/api.php/provide/vod?ac=videolist&pg=1"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 191,
+          "matched_keyword": "",
+          "result_count": 1,
+          "response_bytes": 38585,
+          "signature": "playable-fallback-list",
+          "error": "",
+          "checked_url": "https://tyyszyapi.com/api.php/provide/vod?ac=videolist&pg=1"
         }
       ]
     },
@@ -11333,19 +11385,6 @@
       "adult": false,
       "config_type": "lite",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 253,
-          "matched_keyword": "",
-          "result_count": 1,
-          "response_bytes": 146638,
-          "signature": "playable-fallback-list",
-          "error": "",
-          "checked_url": "https://tyyszy.com/api.php/provide/vod?ac=videolist&pg=1"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -11514,6 +11553,19 @@
           "signature": "playable-fallback-list",
           "error": "",
           "checked_url": "https://tyyszy.com/api.php/provide/vod?ac=videolist&pg=1"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 209,
+          "matched_keyword": "",
+          "result_count": 1,
+          "response_bytes": 38585,
+          "signature": "playable-fallback-list",
+          "error": "",
+          "checked_url": "https://tyyszy.com/api.php/provide/vod?ac=videolist&pg=1"
         }
       ]
     },
@@ -11523,19 +11575,6 @@
       "adult": false,
       "config_type": "lite",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 2592,
-          "matched_keyword": "斗罗",
-          "result_count": 11,
-          "response_bytes": 129280,
-          "signature": "search-hit",
-          "error": "",
-          "checked_url": "https://cj.rycjapi.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -11704,6 +11743,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://cj.rycjapi.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 2343,
+          "matched_keyword": "斗罗",
+          "result_count": 11,
+          "response_bytes": 129852,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://cj.rycjapi.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -11713,19 +11765,6 @@
       "adult": false,
       "config_type": "full",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 1767,
-          "matched_keyword": "",
-          "result_count": 48,
-          "response_bytes": 318270,
-          "signature": "playable-fallback-list",
-          "error": "",
-          "checked_url": "http://154.219.117.232:9981/jacloudapi.php/provide/vod?ac=videolist&pg=1"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -11894,6 +11933,19 @@
           "signature": "playable-fallback-list",
           "error": "",
           "checked_url": "http://154.219.117.232:9981/jacloudapi.php/provide/vod?ac=videolist&pg=1"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 2761,
+          "matched_keyword": "",
+          "result_count": 4877,
+          "response_bytes": 614538,
+          "signature": "playable-fallback-list",
+          "error": "",
+          "checked_url": "http://154.219.117.232:9981/jacloudapi.php/provide/vod?ac=videolist&pg=1"
         }
       ]
     },
@@ -11903,19 +11955,6 @@
       "adult": false,
       "config_type": "lite",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 310,
-          "matched_keyword": "",
-          "result_count": 1,
-          "response_bytes": 95264,
-          "signature": "playable-fallback-list",
-          "error": "",
-          "checked_url": "https://caiji.kuaichezy.org/api.php/provide/vod?ac=videolist&pg=1"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -12084,6 +12123,19 @@
           "signature": "playable-fallback-list",
           "error": "",
           "checked_url": "https://caiji.kuaichezy.org/api.php/provide/vod?ac=videolist&pg=1"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 249,
+          "matched_keyword": "",
+          "result_count": 2,
+          "response_bytes": 167746,
+          "signature": "playable-fallback-list",
+          "error": "",
+          "checked_url": "https://caiji.kuaichezy.org/api.php/provide/vod?ac=videolist&pg=1"
         }
       ]
     },
@@ -12093,19 +12145,6 @@
       "adult": false,
       "config_type": "lite",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 696,
-          "matched_keyword": "斗罗",
-          "result_count": 20,
-          "response_bytes": 205813,
-          "signature": "search-hit",
-          "error": "",
-          "checked_url": "https://api.xinlangapi.com/xinlangapi.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -12274,6 +12313,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://api.xinlangapi.com/xinlangapi.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 618,
+          "matched_keyword": "斗罗",
+          "result_count": 20,
+          "response_bytes": 203969,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://api.xinlangapi.com/xinlangapi.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -12283,19 +12335,6 @@
       "adult": false,
       "config_type": "lite",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 1606,
-          "matched_keyword": "斗罗",
-          "result_count": 20,
-          "response_bytes": 91731,
-          "signature": "search-hit",
-          "error": "",
-          "checked_url": "https://api.wujinapi.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -12464,6 +12503,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://api.wujinapi.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 1672,
+          "matched_keyword": "斗罗",
+          "result_count": 20,
+          "response_bytes": 91901,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://api.wujinapi.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -12473,19 +12525,6 @@
       "adult": false,
       "config_type": "lite",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 1356,
-          "matched_keyword": "斗罗",
-          "result_count": 20,
-          "response_bytes": 91731,
-          "signature": "search-hit",
-          "error": "",
-          "checked_url": "https://api.wujinapi.me/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -12654,6 +12693,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://api.wujinapi.me/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 1580,
+          "matched_keyword": "斗罗",
+          "result_count": 20,
+          "response_bytes": 91901,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://api.wujinapi.me/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -12663,19 +12715,6 @@
       "adult": false,
       "config_type": "full",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 345,
-          "matched_keyword": "斗罗",
-          "result_count": 20,
-          "response_bytes": 91731,
-          "signature": "search-hit",
-          "error": "",
-          "checked_url": "https://api.wujinapi.net/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -12844,6 +12883,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://api.wujinapi.net/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 303,
+          "matched_keyword": "斗罗",
+          "result_count": 20,
+          "response_bytes": 91901,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://api.wujinapi.net/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -12853,19 +12905,6 @@
       "adult": false,
       "config_type": "full",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 1675,
-          "matched_keyword": "斗罗",
-          "result_count": 20,
-          "response_bytes": 120004,
-          "signature": "search-hit",
-          "error": "",
-          "checked_url": "https://yonghu.ffzyapi8.com/api.php/provide/vod/from/ffm3u8/at/json?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -13028,6 +13067,19 @@
           "validation_status": "valid",
           "status_code": 200,
           "latency_ms": 1889,
+          "matched_keyword": "斗罗",
+          "result_count": 20,
+          "response_bytes": 120158,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://yonghu.ffzyapi8.com/api.php/provide/vod/from/ffm3u8/at/json?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 1742,
           "matched_keyword": "斗罗",
           "result_count": 20,
           "response_bytes": 120158,
@@ -13211,6 +13263,19 @@
           "signature": "playable-fallback-list",
           "error": "",
           "checked_url": "https://api.wsyzy.net/api.php/provide/vod?ac=videolist&pg=1"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 325,
+          "matched_keyword": "",
+          "result_count": 2,
+          "response_bytes": 124237,
+          "signature": "playable-fallback-list",
+          "error": "",
+          "checked_url": "https://api.wsyzy.net/api.php/provide/vod?ac=videolist&pg=1"
         }
       ]
     },
@@ -13220,19 +13285,6 @@
       "adult": false,
       "config_type": "lite",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 762,
-          "matched_keyword": "斗罗",
-          "result_count": 20,
-          "response_bytes": 157718,
-          "signature": "search-hit",
-          "error": "",
-          "checked_url": "https://bfzyapi.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -13401,6 +13453,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://bfzyapi.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 874,
+          "matched_keyword": "斗罗",
+          "result_count": 20,
+          "response_bytes": 157902,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://bfzyapi.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -13410,19 +13475,6 @@
       "adult": false,
       "config_type": "lite",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 1121,
-          "matched_keyword": "斗罗",
-          "result_count": 20,
-          "response_bytes": 59199,
-          "signature": "search-hit",
-          "error": "",
-          "checked_url": "https://zuidazy.me/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -13591,6 +13643,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://zuidazy.me/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 1065,
+          "matched_keyword": "斗罗",
+          "result_count": 20,
+          "response_bytes": 59383,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://zuidazy.me/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -13600,19 +13665,6 @@
       "adult": false,
       "config_type": "lite",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 1198,
-          "matched_keyword": "斗罗",
-          "result_count": 20,
-          "response_bytes": 59199,
-          "signature": "search-hit",
-          "error": "",
-          "checked_url": "https://api.zuidapi.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -13781,6 +13833,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://api.zuidapi.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 1225,
+          "matched_keyword": "斗罗",
+          "result_count": 20,
+          "response_bytes": 59383,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://api.zuidapi.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -13790,19 +13855,6 @@
       "adult": false,
       "config_type": "lite",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 373,
-          "matched_keyword": "斗罗",
-          "result_count": 20,
-          "response_bytes": 196325,
-          "signature": "search-hit",
-          "error": "",
-          "checked_url": "https://jszyapi.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -13971,6 +14023,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://jszyapi.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 210,
+          "matched_keyword": "斗罗",
+          "result_count": 20,
+          "response_bytes": 197160,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://jszyapi.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -13980,19 +14045,6 @@
       "adult": false,
       "config_type": "lite",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 303,
-          "matched_keyword": "",
-          "result_count": 1,
-          "response_bytes": 36262,
-          "signature": "playable-fallback-list",
-          "error": "",
-          "checked_url": "https://m3u8.apiyhzy.com/api.php/provide/vod?ac=videolist&pg=1"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -14161,6 +14213,19 @@
           "signature": "playable-fallback-list",
           "error": "",
           "checked_url": "https://m3u8.apiyhzy.com/api.php/provide/vod?ac=videolist&pg=1"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 315,
+          "matched_keyword": "",
+          "result_count": 1,
+          "response_bytes": 36499,
+          "signature": "playable-fallback-list",
+          "error": "",
+          "checked_url": "https://m3u8.apiyhzy.com/api.php/provide/vod?ac=videolist&pg=1"
         }
       ]
     },
@@ -14170,19 +14235,6 @@
       "adult": false,
       "config_type": "lite",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 2928,
-          "matched_keyword": "斗罗",
-          "result_count": 20,
-          "response_bytes": 146574,
-          "signature": "search-hit",
-          "error": "",
-          "checked_url": "https://iqiyizyapi.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -14351,6 +14403,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://iqiyizyapi.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 2895,
+          "matched_keyword": "斗罗",
+          "result_count": 20,
+          "response_bytes": 147081,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://iqiyizyapi.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -14360,19 +14425,6 @@
       "adult": false,
       "config_type": "full",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 227,
-          "matched_keyword": "",
-          "result_count": 1,
-          "response_bytes": 57412,
-          "signature": "playable-fallback-list",
-          "error": "",
-          "checked_url": "https://api.niuniuzy.me/api.php/provide/vod?ac=videolist&pg=1"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -14541,6 +14593,19 @@
           "signature": "playable-fallback-list",
           "error": "",
           "checked_url": "https://api.niuniuzy.me/api.php/provide/vod?ac=videolist&pg=1"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 281,
+          "matched_keyword": "",
+          "result_count": 2,
+          "response_bytes": 159862,
+          "signature": "playable-fallback-list",
+          "error": "",
+          "checked_url": "https://api.niuniuzy.me/api.php/provide/vod?ac=videolist&pg=1"
         }
       ]
     },
@@ -14550,19 +14615,6 @@
       "adult": false,
       "config_type": "lite",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 1720,
-          "matched_keyword": "斗罗",
-          "result_count": 15,
-          "response_bytes": 102275,
-          "signature": "search-hit",
-          "error": "",
-          "checked_url": "https://api.maoyanapi.top/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -14725,6 +14777,19 @@
           "validation_status": "valid",
           "status_code": 200,
           "latency_ms": 1310,
+          "matched_keyword": "斗罗",
+          "result_count": 15,
+          "response_bytes": 102705,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://api.maoyanapi.top/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 1686,
           "matched_keyword": "斗罗",
           "result_count": 15,
           "response_bytes": 102705,
@@ -14908,6 +14973,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://maoyanzy.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 961,
+          "matched_keyword": "斗罗",
+          "result_count": 15,
+          "response_bytes": 102720,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://maoyanzy.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -14917,19 +14995,6 @@
       "adult": false,
       "config_type": "lite",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 716,
-          "matched_keyword": "斗罗",
-          "result_count": 13,
-          "response_bytes": 159643,
-          "signature": "search-hit",
-          "error": "",
-          "checked_url": "http://caiji.dyttzyapi.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -15098,6 +15163,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "http://caiji.dyttzyapi.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 683,
+          "matched_keyword": "斗罗",
+          "result_count": 13,
+          "response_bytes": 160251,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "http://caiji.dyttzyapi.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -15107,19 +15185,6 @@
       "adult": false,
       "config_type": "lite",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 941,
-          "matched_keyword": "斗罗",
-          "result_count": 13,
-          "response_bytes": 71489,
-          "signature": "search-hit",
-          "error": "",
-          "checked_url": "https://api.apibdzy.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -15288,6 +15353,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://api.apibdzy.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 1149,
+          "matched_keyword": "斗罗",
+          "result_count": 13,
+          "response_bytes": 71693,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://api.apibdzy.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -15297,19 +15375,6 @@
       "adult": false,
       "config_type": "full",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 505,
-          "matched_keyword": "斗罗",
-          "result_count": 20,
-          "response_bytes": 159201,
-          "signature": "search-hit",
-          "error": "",
-          "checked_url": "https://api.1080zyku.com/inc/apijson.php?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -15478,6 +15543,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://api.1080zyku.com/inc/apijson.php?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 570,
+          "matched_keyword": "斗罗",
+          "result_count": 20,
+          "response_bytes": 160072,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://api.1080zyku.com/inc/apijson.php?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -15487,19 +15565,6 @@
       "adult": false,
       "config_type": "lite",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 376,
-          "matched_keyword": "",
-          "result_count": 7,
-          "response_bytes": 205066,
-          "signature": "playable-fallback-list",
-          "error": "",
-          "checked_url": "https://suoniapi.com/api.php/provide/vod?ac=videolist&pg=1"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -15668,6 +15733,19 @@
           "signature": "playable-fallback-list",
           "error": "",
           "checked_url": "https://suoniapi.com/api.php/provide/vod?ac=videolist&pg=1"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 100,
+          "matched_keyword": "",
+          "result_count": 1,
+          "response_bytes": 34707,
+          "signature": "playable-fallback-list",
+          "error": "",
+          "checked_url": "https://suoniapi.com/api.php/provide/vod?ac=videolist&pg=1"
         }
       ]
     },
@@ -15677,19 +15755,6 @@
       "adult": false,
       "config_type": "lite",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 628,
-          "matched_keyword": "斗罗",
-          "result_count": 20,
-          "response_bytes": 195301,
-          "signature": "search-hit",
-          "error": "",
-          "checked_url": "https://www.hongniuzy2.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -15858,6 +15923,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://www.hongniuzy2.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 545,
+          "matched_keyword": "斗罗",
+          "result_count": 20,
+          "response_bytes": 196646,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://www.hongniuzy2.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -15867,19 +15945,6 @@
       "adult": false,
       "config_type": "full",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 596,
-          "matched_keyword": "斗罗",
-          "result_count": 20,
-          "response_bytes": 195301,
-          "signature": "search-hit",
-          "error": "",
-          "checked_url": "https://www.hongniuzy3.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -16048,6 +16113,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://www.hongniuzy3.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 518,
+          "matched_keyword": "斗罗",
+          "result_count": 20,
+          "response_bytes": 196646,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://www.hongniuzy3.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -16057,19 +16135,6 @@
       "adult": false,
       "config_type": "full",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 2033,
-          "matched_keyword": "斗罗",
-          "result_count": 20,
-          "response_bytes": 303712,
-          "signature": "search-hit",
-          "error": "",
-          "checked_url": "https://lovedan.net/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -16238,6 +16303,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://lovedan.net/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 1721,
+          "matched_keyword": "斗罗",
+          "result_count": 20,
+          "response_bytes": 305811,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://lovedan.net/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -16247,19 +16325,6 @@
       "adult": false,
       "config_type": "lite",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 1254,
-          "matched_keyword": "",
-          "result_count": 2,
-          "response_bytes": 55850,
-          "signature": "playable-fallback-list",
-          "error": "",
-          "checked_url": "https://caiji.maotaizy.cc/api.php/provide/vod?ac=videolist&pg=1"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -16428,6 +16493,19 @@
           "signature": "playable-fallback-list",
           "error": "",
           "checked_url": "https://caiji.maotaizy.cc/api.php/provide/vod?ac=videolist&pg=1"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 3614,
+          "matched_keyword": "",
+          "result_count": 210,
+          "response_bytes": 534331,
+          "signature": "playable-fallback-list",
+          "error": "",
+          "checked_url": "https://caiji.maotaizy.cc/api.php/provide/vod?ac=videolist&pg=1"
         }
       ]
     },
@@ -16437,19 +16515,6 @@
       "adult": false,
       "config_type": "lite",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 545,
-          "matched_keyword": "斗罗",
-          "result_count": 20,
-          "response_bytes": 199146,
-          "signature": "search-hit",
-          "error": "",
-          "checked_url": "https://www.huyaapi.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -16618,6 +16683,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://www.huyaapi.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 491,
+          "matched_keyword": "斗罗",
+          "result_count": 20,
+          "response_bytes": 199918,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://www.huyaapi.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -16627,19 +16705,6 @@
       "adult": false,
       "config_type": "full",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 387,
-          "matched_keyword": "斗罗",
-          "result_count": 20,
-          "response_bytes": 199146,
-          "signature": "search-hit",
-          "error": "",
-          "checked_url": "https://www.huyaapi.com/api.php/provide/vod/at/json?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -16808,6 +16873,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://www.huyaapi.com/api.php/provide/vod/at/json?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 364,
+          "matched_keyword": "斗罗",
+          "result_count": 20,
+          "response_bytes": 199918,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://www.huyaapi.com/api.php/provide/vod/at/json?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -16817,19 +16895,6 @@
       "adult": false,
       "config_type": "lite",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 837,
-          "matched_keyword": "",
-          "result_count": 176,
-          "response_bytes": 283472,
-          "signature": "playable-fallback-list",
-          "error": "",
-          "checked_url": "https://caiji.dbzy5.com/api.php/provide/vod?ac=videolist&pg=1"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -16998,6 +17063,19 @@
           "signature": "playable-fallback-list",
           "error": "",
           "checked_url": "https://caiji.dbzy5.com/api.php/provide/vod?ac=videolist&pg=1"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 548,
+          "matched_keyword": "",
+          "result_count": 2,
+          "response_bytes": 105964,
+          "signature": "playable-fallback-list",
+          "error": "",
+          "checked_url": "https://caiji.dbzy5.com/api.php/provide/vod?ac=videolist&pg=1"
         }
       ]
     },
@@ -17007,19 +17085,6 @@
       "adult": false,
       "config_type": "full",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 651,
-          "matched_keyword": "",
-          "result_count": 176,
-          "response_bytes": 283472,
-          "signature": "playable-fallback-list",
-          "error": "",
-          "checked_url": "https://dbzy.tv/api.php/provide/vod?ac=videolist&pg=1"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -17188,6 +17253,19 @@
           "signature": "playable-fallback-list",
           "error": "",
           "checked_url": "https://dbzy.tv/api.php/provide/vod?ac=videolist&pg=1"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 581,
+          "matched_keyword": "",
+          "result_count": 2,
+          "response_bytes": 105964,
+          "signature": "playable-fallback-list",
+          "error": "",
+          "checked_url": "https://dbzy.tv/api.php/provide/vod?ac=videolist&pg=1"
         }
       ]
     },
@@ -17197,19 +17275,6 @@
       "adult": false,
       "config_type": "lite",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 410,
-          "matched_keyword": "斗罗",
-          "result_count": 20,
-          "response_bytes": 201122,
-          "signature": "search-hit",
-          "error": "",
-          "checked_url": "https://hhzyapi.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -17378,6 +17443,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://hhzyapi.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 384,
+          "matched_keyword": "斗罗",
+          "result_count": 20,
+          "response_bytes": 198316,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://hhzyapi.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -17387,19 +17465,6 @@
       "adult": false,
       "config_type": "lite",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 964,
-          "matched_keyword": "斗罗",
-          "result_count": 20,
-          "response_bytes": 205889,
-          "signature": "search-hit",
-          "error": "",
-          "checked_url": "https://subocaiji.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -17568,6 +17633,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://subocaiji.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 924,
+          "matched_keyword": "斗罗",
+          "result_count": 20,
+          "response_bytes": 206581,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://subocaiji.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -17667,6 +17745,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://subocj.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 1124,
+          "matched_keyword": "斗罗",
+          "result_count": 20,
+          "response_bytes": 206581,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://subocj.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -17676,19 +17767,6 @@
       "adult": false,
       "config_type": "lite",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 435,
-          "matched_keyword": "斗罗",
-          "result_count": 20,
-          "response_bytes": 215667,
-          "signature": "search-hit",
-          "error": "",
-          "checked_url": "https://cj.lziapi.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -17857,6 +17935,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://cj.lziapi.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 410,
+          "matched_keyword": "斗罗",
+          "result_count": 20,
+          "response_bytes": 216323,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://cj.lziapi.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -17866,19 +17957,6 @@
       "adult": false,
       "config_type": "lite",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 289,
-          "matched_keyword": "斗罗",
-          "result_count": 20,
-          "response_bytes": 215667,
-          "signature": "search-hit",
-          "error": "",
-          "checked_url": "https://cj.lzcaiji.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -18047,6 +18125,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://cj.lzcaiji.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 357,
+          "matched_keyword": "斗罗",
+          "result_count": 20,
+          "response_bytes": 216323,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://cj.lzcaiji.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -18056,19 +18147,6 @@
       "adult": false,
       "config_type": "lite",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 524,
-          "matched_keyword": "斗罗",
-          "result_count": 20,
-          "response_bytes": 194314,
-          "signature": "search-hit",
-          "error": "",
-          "checked_url": "https://jinyingzy.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -18237,6 +18315,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://jinyingzy.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 545,
+          "matched_keyword": "斗罗",
+          "result_count": 20,
+          "response_bytes": 192381,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://jinyingzy.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -18246,19 +18337,6 @@
       "adult": false,
       "config_type": "lite",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 428,
-          "matched_keyword": "斗罗",
-          "result_count": 20,
-          "response_bytes": 111753,
-          "signature": "search-hit",
-          "error": "",
-          "checked_url": "https://jyzyapi.com/provide/vod/from/jinyingyun/at/json?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -18427,6 +18505,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://jyzyapi.com/provide/vod/from/jinyingyun/at/json?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 402,
+          "matched_keyword": "斗罗",
+          "result_count": 20,
+          "response_bytes": 111098,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://jyzyapi.com/provide/vod/from/jinyingyun/at/json?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -18436,19 +18527,6 @@
       "adult": false,
       "config_type": "full",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 243,
-          "matched_keyword": "斗罗",
-          "result_count": 20,
-          "response_bytes": 194314,
-          "signature": "search-hit",
-          "error": "",
-          "checked_url": "https://jyzyapi.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -18617,6 +18695,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://jyzyapi.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 203,
+          "matched_keyword": "斗罗",
+          "result_count": 20,
+          "response_bytes": 192381,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://jyzyapi.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -18626,19 +18717,6 @@
       "adult": false,
       "config_type": "full",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 257,
-          "matched_keyword": "斗罗",
-          "result_count": 20,
-          "response_bytes": 194314,
-          "signature": "search-hit",
-          "error": "",
-          "checked_url": "https://jyzyapi.com/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -18807,6 +18885,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://jyzyapi.com/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 200,
+          "matched_keyword": "斗罗",
+          "result_count": 20,
+          "response_bytes": 192381,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://jyzyapi.com/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -18816,19 +18907,6 @@
       "adult": false,
       "config_type": "full",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 262,
-          "matched_keyword": "",
-          "result_count": 1,
-          "response_bytes": 57372,
-          "signature": "playable-fallback-list",
-          "error": "",
-          "checked_url": "https://sdzyapi.com/api.php/provide/vod?ac=videolist&pg=1"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -18997,6 +19075,19 @@
           "signature": "playable-fallback-list",
           "error": "",
           "checked_url": "https://sdzyapi.com/api.php/provide/vod?ac=videolist&pg=1"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 291,
+          "matched_keyword": "",
+          "result_count": 2,
+          "response_bytes": 125906,
+          "signature": "playable-fallback-list",
+          "error": "",
+          "checked_url": "https://sdzyapi.com/api.php/provide/vod?ac=videolist&pg=1"
         }
       ]
     },
@@ -19006,19 +19097,6 @@
       "adult": false,
       "config_type": "lite",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 223,
-          "matched_keyword": "",
-          "result_count": 1,
-          "response_bytes": 57372,
-          "signature": "playable-fallback-list",
-          "error": "",
-          "checked_url": "https://xsd.sdzyapi.com/api.php/provide/vod?ac=videolist&pg=1"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -19187,6 +19265,19 @@
           "signature": "playable-fallback-list",
           "error": "",
           "checked_url": "https://xsd.sdzyapi.com/api.php/provide/vod?ac=videolist&pg=1"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 364,
+          "matched_keyword": "",
+          "result_count": 2,
+          "response_bytes": 125906,
+          "signature": "playable-fallback-list",
+          "error": "",
+          "checked_url": "https://xsd.sdzyapi.com/api.php/provide/vod?ac=videolist&pg=1"
         }
       ]
     },
@@ -19196,19 +19287,6 @@
       "adult": false,
       "config_type": "lite",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 1863,
-          "matched_keyword": "斗罗",
-          "result_count": 17,
-          "response_bytes": 181323,
-          "signature": "search-hit",
-          "error": "",
-          "checked_url": "https://api.ffzyapi.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -19377,6 +19455,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://api.ffzyapi.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 1552,
+          "matched_keyword": "斗罗",
+          "result_count": 17,
+          "response_bytes": 181637,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://api.ffzyapi.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -19386,19 +19477,6 @@
       "adult": false,
       "config_type": "full",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 1560,
-          "matched_keyword": "斗罗",
-          "result_count": 17,
-          "response_bytes": 181323,
-          "signature": "search-hit",
-          "error": "",
-          "checked_url": "https://cj.ffzyapi.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -19567,6 +19645,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://cj.ffzyapi.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 1406,
+          "matched_keyword": "斗罗",
+          "result_count": 17,
+          "response_bytes": 181637,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://cj.ffzyapi.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -19576,19 +19667,6 @@
       "adult": false,
       "config_type": "full",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 1647,
-          "matched_keyword": "斗罗",
-          "result_count": 17,
-          "response_bytes": 181323,
-          "signature": "search-hit",
-          "error": "",
-          "checked_url": "https://ffzy5.tv/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -19757,6 +19835,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://ffzy5.tv/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 478,
+          "matched_keyword": "斗罗",
+          "result_count": 17,
+          "response_bytes": 181637,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://ffzy5.tv/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -19766,19 +19857,6 @@
       "adult": false,
       "config_type": "lite",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 531,
-          "matched_keyword": "斗罗",
-          "result_count": 19,
-          "response_bytes": 113841,
-          "signature": "search-hit",
-          "error": "",
-          "checked_url": "https://caiji.moduapi.cc/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -19947,6 +20025,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://caiji.moduapi.cc/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 551,
+          "matched_keyword": "斗罗",
+          "result_count": 19,
+          "response_bytes": 114188,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://caiji.moduapi.cc/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -19956,19 +20047,6 @@
       "adult": false,
       "config_type": "lite",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 462,
-          "matched_keyword": "斗罗",
-          "result_count": 19,
-          "response_bytes": 113841,
-          "signature": "search-hit",
-          "error": "",
-          "checked_url": "https://www.mdzyapi.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -20137,6 +20215,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://www.mdzyapi.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 554,
+          "matched_keyword": "斗罗",
+          "result_count": 19,
+          "response_bytes": 114188,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://www.mdzyapi.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -20146,19 +20237,6 @@
       "adult": false,
       "config_type": "lite",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 331,
-          "matched_keyword": "",
-          "result_count": 1,
-          "response_bytes": 183492,
-          "signature": "playable-fallback-list",
-          "error": "",
-          "checked_url": "https://cj.yayazy.net/api.php/provide/vod?ac=videolist&pg=1"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -20327,6 +20405,19 @@
           "signature": "playable-fallback-list",
           "error": "",
           "checked_url": "https://cj.yayazy.net/api.php/provide/vod?ac=videolist&pg=1"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 337,
+          "matched_keyword": "",
+          "result_count": 2,
+          "response_bytes": 124702,
+          "signature": "playable-fallback-list",
+          "error": "",
+          "checked_url": "https://cj.yayazy.net/api.php/provide/vod?ac=videolist&pg=1"
         }
       ]
     },
@@ -20336,19 +20427,6 @@
       "adult": false,
       "config_type": "full",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 2078,
-          "matched_keyword": "斗罗",
-          "result_count": 6,
-          "response_bytes": 12097,
-          "signature": "search-hit",
-          "error": "",
-          "checked_url": "https://hsckzy888.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -20517,6 +20595,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://hsckzy888.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 2327,
+          "matched_keyword": "斗罗",
+          "result_count": 6,
+          "response_bytes": 12097,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://hsckzy888.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -20526,19 +20617,6 @@
       "adult": false,
       "config_type": "full",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 992,
-          "matched_keyword": "斗罗",
-          "result_count": 20,
-          "response_bytes": 101183,
-          "signature": "search-hit",
-          "error": "",
-          "checked_url": "https://yhzy.cc/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -20707,6 +20785,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://yhzy.cc/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 829,
+          "matched_keyword": "斗罗",
+          "result_count": 20,
+          "response_bytes": 101548,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://yhzy.cc/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -20716,19 +20807,6 @@
       "adult": true,
       "config_type": "plus18",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 314,
-          "matched_keyword": "斗罗",
-          "result_count": 18,
-          "response_bytes": 34614,
-          "signature": "search-hit",
-          "error": "",
-          "checked_url": "https://155api.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -20897,6 +20975,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://155api.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 277,
+          "matched_keyword": "斗罗",
+          "result_count": 18,
+          "response_bytes": 34650,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://155api.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -20906,19 +20997,6 @@
       "adult": true,
       "config_type": "plus18",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 196,
-          "matched_keyword": "无码",
-          "result_count": 1,
-          "response_bytes": 2666,
-          "signature": "search-hit",
-          "error": "",
-          "checked_url": "https://ckzy.me/api.php/provide/vod?ac=videolist&wd=%E6%97%A0%E7%A0%81"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -21087,6 +21165,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://ckzy.me/api.php/provide/vod?ac=videolist&wd=%E6%97%A0%E7%A0%81"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 506,
+          "matched_keyword": "无码",
+          "result_count": 1,
+          "response_bytes": 2666,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://ckzy.me/api.php/provide/vod?ac=videolist&wd=%E6%97%A0%E7%A0%81"
         }
       ]
     },
@@ -21096,19 +21187,6 @@
       "adult": true,
       "config_type": "plus18",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 514,
-          "matched_keyword": "斗罗",
-          "result_count": 20,
-          "response_bytes": 37161,
-          "signature": "search-hit",
-          "error": "",
-          "checked_url": "https://jkunzyapi.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -21277,6 +21355,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://jkunzyapi.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 566,
+          "matched_keyword": "斗罗",
+          "result_count": 20,
+          "response_bytes": 37161,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://jkunzyapi.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -21286,19 +21377,6 @@
       "adult": true,
       "config_type": "plus18",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 927,
-          "matched_keyword": "斗罗",
-          "result_count": 20,
-          "response_bytes": 34809,
-          "signature": "search-hit",
-          "error": "",
-          "checked_url": "https://api.souavzyw.net/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -21467,6 +21545,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://api.souavzyw.net/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 867,
+          "matched_keyword": "斗罗",
+          "result_count": 20,
+          "response_bytes": 34809,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://api.souavzyw.net/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -21476,19 +21567,6 @@
       "adult": true,
       "config_type": "plus18",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 1252,
-          "matched_keyword": "斗罗",
-          "result_count": 20,
-          "response_bytes": 34793,
-          "signature": "search-hit",
-          "error": "",
-          "checked_url": "https://api.souavzy.vip/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -21657,6 +21735,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://api.souavzy.vip/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 1895,
+          "matched_keyword": "斗罗",
+          "result_count": 20,
+          "response_bytes": 34793,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://api.souavzy.vip/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -21666,19 +21757,6 @@
       "adult": true,
       "config_type": "plus18",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 428,
-          "matched_keyword": "斗罗",
-          "result_count": 20,
-          "response_bytes": 37959,
-          "signature": "search-hit",
-          "error": "",
-          "checked_url": "https://lbapi9.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -21847,6 +21925,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://lbapi9.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 373,
+          "matched_keyword": "斗罗",
+          "result_count": 20,
+          "response_bytes": 38085,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://lbapi9.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -21856,19 +21947,6 @@
       "adult": true,
       "config_type": "plus18",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 1083,
-          "matched_keyword": "斗罗",
-          "result_count": 1,
-          "response_bytes": 1862,
-          "signature": "search-hit",
-          "error": "",
-          "checked_url": "https://apidanaizi.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -22037,6 +22115,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://apidanaizi.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 1542,
+          "matched_keyword": "斗罗",
+          "result_count": 1,
+          "response_bytes": 1862,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://apidanaizi.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -22046,19 +22137,6 @@
       "adult": true,
       "config_type": "plus18",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": false,
-          "validation_status": "invalid",
-          "status_code": 200,
-          "latency_ms": 279,
-          "matched_keyword": "斗罗",
-          "result_count": 0,
-          "response_bytes": 15,
-          "signature": "invalid-json",
-          "error": "",
-          "checked_url": "https://aosikazy.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": false,
@@ -22227,6 +22305,19 @@
           "signature": "playable-fallback-list",
           "error": "",
           "checked_url": "https://aosikazy.com/api.php/provide/vod?ac=videolist&pg=1"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 1864,
+          "matched_keyword": "",
+          "result_count": 1,
+          "response_bytes": 104429,
+          "signature": "playable-fallback-list",
+          "error": "",
+          "checked_url": "https://aosikazy.com/api.php/provide/vod?ac=videolist&pg=1"
         }
       ]
     },
@@ -22236,19 +22327,6 @@
       "adult": true,
       "config_type": "plus18",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 2219,
-          "matched_keyword": "斗罗",
-          "result_count": 5,
-          "response_bytes": 9622,
-          "signature": "search-hit",
-          "error": "",
-          "checked_url": "https://naixxzy.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -22417,6 +22495,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://naixxzy.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 2382,
+          "matched_keyword": "斗罗",
+          "result_count": 5,
+          "response_bytes": 9622,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://naixxzy.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -22426,19 +22517,6 @@
       "adult": true,
       "config_type": "plus18",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 706,
-          "matched_keyword": "斗罗",
-          "result_count": 20,
-          "response_bytes": 21109,
-          "signature": "search-hit",
-          "error": "",
-          "checked_url": "https://api.xiaojizy.live/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -22607,6 +22685,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://api.xiaojizy.live/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 675,
+          "matched_keyword": "斗罗",
+          "result_count": 20,
+          "response_bytes": 21109,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://api.xiaojizy.live/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -22616,19 +22707,6 @@
       "adult": true,
       "config_type": "plus18",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 367,
-          "matched_keyword": "斗罗",
-          "result_count": 6,
-          "response_bytes": 11426,
-          "signature": "search-hit",
-          "error": "",
-          "checked_url": "https://xingba111.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -22797,6 +22875,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://xingba111.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 383,
+          "matched_keyword": "斗罗",
+          "result_count": 9,
+          "response_bytes": 17154,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://xingba111.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -22806,19 +22897,6 @@
       "adult": true,
       "config_type": "plus18",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 685,
-          "matched_keyword": "斗罗",
-          "result_count": 6,
-          "response_bytes": 11426,
-          "signature": "search-hit",
-          "error": "",
-          "checked_url": "https://xingba222.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -22987,6 +23065,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://xingba222.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 429,
+          "matched_keyword": "斗罗",
+          "result_count": 9,
+          "response_bytes": 17154,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://xingba222.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -22996,19 +23087,6 @@
       "adult": true,
       "config_type": "plus18",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 1845,
-          "matched_keyword": "斗罗",
-          "result_count": 16,
-          "response_bytes": 29169,
-          "signature": "search-hit",
-          "error": "",
-          "checked_url": "https://thzy1.me/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -23177,6 +23255,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://thzy1.me/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 1776,
+          "matched_keyword": "斗罗",
+          "result_count": 17,
+          "response_bytes": 30872,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://thzy1.me/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -23186,19 +23277,6 @@
       "adult": true,
       "config_type": "plus18",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 255,
-          "matched_keyword": "斗罗",
-          "result_count": 19,
-          "response_bytes": 34190,
-          "signature": "search-hit",
-          "error": "",
-          "checked_url": "https://beiyong.slapibf.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -23367,6 +23445,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://beiyong.slapibf.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 166,
+          "matched_keyword": "斗罗",
+          "result_count": 19,
+          "response_bytes": 34304,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://beiyong.slapibf.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -23376,19 +23467,6 @@
       "adult": true,
       "config_type": "plus18",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 318,
-          "matched_keyword": "斗罗",
-          "result_count": 19,
-          "response_bytes": 34190,
-          "signature": "search-hit",
-          "error": "",
-          "checked_url": "https://slapibf.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -23557,6 +23635,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://slapibf.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 203,
+          "matched_keyword": "斗罗",
+          "result_count": 19,
+          "response_bytes": 34304,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://slapibf.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -23566,19 +23657,6 @@
       "adult": true,
       "config_type": "plus18",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 657,
-          "matched_keyword": "斗罗",
-          "result_count": 1,
-          "response_bytes": 2262,
-          "signature": "search-hit",
-          "error": "",
-          "checked_url": "https://api.ddapi.cc/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -23747,6 +23825,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://api.ddapi.cc/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 704,
+          "matched_keyword": "斗罗",
+          "result_count": 1,
+          "response_bytes": 2262,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://api.ddapi.cc/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -23756,19 +23847,6 @@
       "adult": true,
       "config_type": "plus18",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": false,
-          "validation_status": "invalid",
-          "status_code": 500,
-          "latency_ms": 137,
-          "matched_keyword": "无码",
-          "result_count": 0,
-          "response_bytes": 7136,
-          "signature": "http-error",
-          "error": "HTTP 500",
-          "checked_url": "https://apiyutu.com/api.php/provide/vod?ac=videolist&wd=%E6%97%A0%E7%A0%81"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -23937,6 +24015,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://apiyutu.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 2214,
+          "matched_keyword": "斗罗",
+          "result_count": 10,
+          "response_bytes": 17848,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://apiyutu.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -23946,19 +24037,6 @@
       "adult": true,
       "config_type": "plus18",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 803,
-          "matched_keyword": "斗罗",
-          "result_count": 20,
-          "response_bytes": 34791,
-          "signature": "search-hit",
-          "error": "",
-          "checked_url": "http://fhapi9.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -24127,6 +24205,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "http://fhapi9.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 792,
+          "matched_keyword": "斗罗",
+          "result_count": 20,
+          "response_bytes": 34911,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "http://fhapi9.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -24136,19 +24227,6 @@
       "adult": true,
       "config_type": "plus18",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 501,
-          "matched_keyword": "无码",
-          "result_count": 20,
-          "response_bytes": 34995,
-          "signature": "search-hit",
-          "error": "",
-          "checked_url": "https://www.kxgav.com/api/json.php?ac=videolist&wd=%E6%97%A0%E7%A0%81"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -24317,6 +24395,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://www.kxgav.com/api/json.php?ac=videolist&wd=%E6%97%A0%E7%A0%81"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 502,
+          "matched_keyword": "无码",
+          "result_count": 20,
+          "response_bytes": 34832,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://www.kxgav.com/api/json.php?ac=videolist&wd=%E6%97%A0%E7%A0%81"
         }
       ]
     },
@@ -24326,19 +24417,6 @@
       "adult": true,
       "config_type": "plus18",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 1057,
-          "matched_keyword": "斗罗",
-          "result_count": 8,
-          "response_bytes": 14870,
-          "signature": "search-hit",
-          "error": "",
-          "checked_url": "https://www.jingpinx.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -24507,6 +24585,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://www.jingpinx.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 1404,
+          "matched_keyword": "斗罗",
+          "result_count": 9,
+          "response_bytes": 16586,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://www.jingpinx.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -24516,19 +24607,6 @@
       "adult": true,
       "config_type": "plus18",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 470,
-          "matched_keyword": "无码",
-          "result_count": 20,
-          "response_bytes": 36022,
-          "signature": "search-hit",
-          "error": "",
-          "checked_url": "https://www.msnii.com/api/json.php?ac=videolist&wd=%E6%97%A0%E7%A0%81"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -24697,6 +24775,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://www.msnii.com/api/json.php?ac=videolist&wd=%E6%97%A0%E7%A0%81"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 483,
+          "matched_keyword": "无码",
+          "result_count": 20,
+          "response_bytes": 35720,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://www.msnii.com/api/json.php?ac=videolist&wd=%E6%97%A0%E7%A0%81"
         }
       ]
     },
@@ -24706,19 +24797,6 @@
       "adult": true,
       "config_type": "plus18",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": false,
-          "validation_status": "invalid",
-          "status_code": 500,
-          "latency_ms": 132,
-          "matched_keyword": "无码",
-          "result_count": 0,
-          "response_bytes": 7136,
-          "signature": "http-error",
-          "error": "HTTP 500",
-          "checked_url": "https://apilsbzy1.com/api.php/provide/vod?ac=videolist&wd=%E6%97%A0%E7%A0%81"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -24887,6 +24965,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://apilsbzy1.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 2353,
+          "matched_keyword": "斗罗",
+          "result_count": 10,
+          "response_bytes": 17848,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://apilsbzy1.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -24896,19 +24987,6 @@
       "adult": true,
       "config_type": "plus18",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 579,
-          "matched_keyword": "斗罗",
-          "result_count": 2,
-          "response_bytes": 4418,
-          "signature": "search-hit",
-          "error": "",
-          "checked_url": "https://api.douapi.cc/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -25077,6 +25155,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://api.douapi.cc/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 694,
+          "matched_keyword": "斗罗",
+          "result_count": 2,
+          "response_bytes": 4418,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://api.douapi.cc/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -25176,6 +25267,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://hhzyapi.com/api.php/provide/vod/from/hhm3u8/at/json?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 321,
+          "matched_keyword": "斗罗",
+          "result_count": 20,
+          "response_bytes": 130707,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://hhzyapi.com/api.php/provide/vod/from/hhm3u8/at/json?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -25185,19 +25289,6 @@
       "adult": true,
       "config_type": "plus18",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 1884,
-          "matched_keyword": "斗罗",
-          "result_count": 20,
-          "response_bytes": 38888,
-          "signature": "search-hit",
-          "error": "",
-          "checked_url": "https://apilj.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -25366,6 +25457,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://apilj.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 2271,
+          "matched_keyword": "斗罗",
+          "result_count": 20,
+          "response_bytes": 38888,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://apilj.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -25465,6 +25569,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://jyzyapi.com/provide/vod/from/jinyingm3u8/at/json?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 330,
+          "matched_keyword": "斗罗",
+          "result_count": 20,
+          "response_bytes": 126934,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://jyzyapi.com/provide/vod/from/jinyingm3u8/at/json?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -25474,19 +25591,6 @@
       "adult": true,
       "config_type": "plus18",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 434,
-          "matched_keyword": "无码",
-          "result_count": 20,
-          "response_bytes": 35518,
-          "signature": "search-hit",
-          "error": "",
-          "checked_url": "https://www.xrbsp.com/api/json.php?ac=videolist&wd=%E6%97%A0%E7%A0%81"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -25655,6 +25759,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://www.xrbsp.com/api/json.php?ac=videolist&wd=%E6%97%A0%E7%A0%81"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 439,
+          "matched_keyword": "无码",
+          "result_count": 20,
+          "response_bytes": 35525,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://www.xrbsp.com/api/json.php?ac=videolist&wd=%E6%97%A0%E7%A0%81"
         }
       ]
     },
@@ -25664,19 +25781,6 @@
       "adult": true,
       "config_type": "plus18",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 589,
-          "matched_keyword": "斗罗",
-          "result_count": 2,
-          "response_bytes": 3507,
-          "signature": "search-hit",
-          "error": "",
-          "checked_url": "https://www.gdlsp.com/api/json.php?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -25845,6 +25949,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://www.gdlsp.com/api/json.php?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 501,
+          "matched_keyword": "斗罗",
+          "result_count": 2,
+          "response_bytes": 3507,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://www.gdlsp.com/api/json.php?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -25854,19 +25971,6 @@
       "adult": true,
       "config_type": "plus18",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 4087,
-          "matched_keyword": "斗罗",
-          "result_count": 20,
-          "response_bytes": 41262,
-          "signature": "search-hit",
-          "error": "",
-          "checked_url": "https://shayuapi.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -26035,6 +26139,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://shayuapi.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 1191,
+          "matched_keyword": "斗罗",
+          "result_count": 20,
+          "response_bytes": 35699,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://shayuapi.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -26044,19 +26161,6 @@
       "adult": true,
       "config_type": "plus18",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 1479,
-          "matched_keyword": "斗罗",
-          "result_count": 2,
-          "response_bytes": 3467,
-          "signature": "search-hit",
-          "error": "",
-          "checked_url": "https://91md.me/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -26225,6 +26329,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://91md.me/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 944,
+          "matched_keyword": "斗罗",
+          "result_count": 2,
+          "response_bytes": 3468,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://91md.me/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -26234,19 +26351,6 @@
       "adult": true,
       "config_type": "plus18",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 789,
-          "matched_keyword": "斗罗",
-          "result_count": 1,
-          "response_bytes": 2086,
-          "signature": "search-hit",
-          "error": "",
-          "checked_url": "https://www.pgxdy.com/api/json.php?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -26415,6 +26519,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://www.pgxdy.com/api/json.php?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 464,
+          "matched_keyword": "斗罗",
+          "result_count": 1,
+          "response_bytes": 2086,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://www.pgxdy.com/api/json.php?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -26424,19 +26541,6 @@
       "adult": true,
       "config_type": "plus18",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 168,
-          "matched_keyword": "斗罗",
-          "result_count": 6,
-          "response_bytes": 12097,
-          "signature": "search-hit",
-          "error": "",
-          "checked_url": "https://hsckzy.xyz/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -26605,6 +26709,19 @@
           "signature": "search-hit",
           "error": "",
           "checked_url": "https://hsckzy.xyz/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 101,
+          "matched_keyword": "斗罗",
+          "result_count": 6,
+          "response_bytes": 12097,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://hsckzy.xyz/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
         }
       ]
     },
@@ -26614,19 +26731,6 @@
       "adult": true,
       "config_type": "plus18",
       "history": [
-        {
-          "timestamp": "2026-10-09T10:29:28.965773+00:00",
-          "ok": true,
-          "validation_status": "valid",
-          "status_code": 200,
-          "latency_ms": 2172,
-          "matched_keyword": "斗罗",
-          "result_count": 23,
-          "response_bytes": 42194,
-          "signature": "search-hit",
-          "error": "",
-          "checked_url": "https://www.heiliaozyapi.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
-        },
         {
           "timestamp": "2026-10-10T09:47:12.109033+00:00",
           "ok": true,
@@ -26789,6 +26893,19 @@
           "validation_status": "valid",
           "status_code": 200,
           "latency_ms": 2317,
+          "matched_keyword": "斗罗",
+          "result_count": 27,
+          "response_bytes": 49529,
+          "signature": "search-hit",
+          "error": "",
+          "checked_url": "https://www.heiliaozyapi.com/api.php/provide/vod?ac=videolist&wd=%E6%96%97%E7%BD%97"
+        },
+        {
+          "timestamp": "2026-10-23T08:30:08.684612+00:00",
+          "ok": true,
+          "validation_status": "valid",
+          "status_code": 200,
+          "latency_ms": 2240,
           "matched_keyword": "斗罗",
           "result_count": 27,
           "response_bytes": 49529,
