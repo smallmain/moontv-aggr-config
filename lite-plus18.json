@@ -26,16 +26,6 @@
       "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod",
       "detail": "https://xinlangapi.com"
     },
-    "api_wujinapi_com_provide_vod": {
-      "name": "🎬无尽影视",
-      "api": "https://api.wujinapi.com/api.php/provide/vod",
-      "detail": "https://wujinzy.com"
-    },
-    "api_wujinapi_me_provide_vod": {
-      "name": "🎬无尽资源",
-      "api": "https://api.wujinapi.me/api.php/provide/vod",
-      "detail": "https://wujinzy.com"
-    },
     "bfzyapi_com_provide_vod": {
       "name": "🎬暴风资源",
       "api": "https://bfzyapi.com/api.php/provide/vod",
@@ -84,7 +74,7 @@
     "cj_lziapi_com_provide_vod": {
       "name": "🎬量子影视",
       "api": "https://cj.lziapi.com/api.php/provide/vod",
-      "detail": "https://cj.lziapi.com"
+      "detail": "https://lzizy.net"
     },
     "xsd_sdzyapi_com_provide_vod": {
       "name": "🎬闪电资源",
@@ -110,6 +100,16 @@
       "name": "🎬光速资源",
       "api": "https://api.guangsuapi.com/api.php/provide/vod",
       "detail": "https://api.guangsuapi.com"
+    },
+    "api_wujinapi_com_provide_vod": {
+      "name": "🎬无尽影视",
+      "api": "https://api.wujinapi.com/api.php/provide/vod",
+      "detail": "https://wujinzy.com"
+    },
+    "api_wujinapi_me_provide_vod": {
+      "name": "🎬无尽资源",
+      "api": "https://api.wujinapi.me/api.php/provide/vod",
+      "detail": "https://wujinzy.com"
     },
     "jszyapi_com_provide_vod": {
       "name": "🎬极速资源",
@@ -140,6 +140,11 @@
       "name": "🎬豆瓣资源",
       "api": "https://caiji.dbzy5.com/api.php/provide/vod",
       "detail": "https://dbzy.tv"
+    },
+    "cj_lzcaiji_com_provide_vod": {
+      "name": "🎬量子资源",
+      "api": "https://cj.lzcaiji.com/api.php/provide/vod",
+      "detail": "https://cj.lzcaiji.com"
     },
     "jinyingzy_com_provide_vod": {
       "name": "🎬金鹰点播",
@@ -180,11 +185,6 @@
       "name": "🎬百度云zy",
       "api": "https://api.apibdzy.com/api.php/provide/vod",
       "detail": "https://bdzy1.com"
-    },
-    "cj_lzcaiji_com_provide_vod": {
-      "name": "🎬量子资源",
-      "api": "https://cj.lzcaiji.com/api.php/provide/vod",
-      "detail": "https://cj.lzcaiji.com"
     },
     "jyzyapi_com_at_json": {
       "name": "🎬金鹰点播",
