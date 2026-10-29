@@ -11,11 +11,6 @@
       "api": "https://ikunzyapi.com/api.php/provide/vod",
       "detail": "https://ikunzy.com"
     },
-    "cj_rycjapi_com_provide_vod": {
-      "name": "🎬如意资源",
-      "api": "https://cj.rycjapi.com/api.php/provide/vod",
-      "detail": "https://www.ryzyw.com"
-    },
     "caiji_kuaichezy_org_provide_vod": {
       "name": "🎬快车资源",
       "api": "https://caiji.kuaichezy.org/api.php/provide/vod",
@@ -110,6 +105,11 @@
       "name": "🎬光速资源",
       "api": "https://api.guangsuapi.com/api.php/provide/vod",
       "detail": "https://api.guangsuapi.com"
+    },
+    "cj_rycjapi_com_provide_vod": {
+      "name": "🎬如意资源",
+      "api": "https://cj.rycjapi.com/api.php/provide/vod",
+      "detail": "https://www.ryzyw.com"
     },
     "jszyapi_com_provide_vod": {
       "name": "🎬极速资源",
@@ -271,6 +271,11 @@
       "api": "https://api.okzyw.net/api.php/provide/vod",
       "detail": "https://okzyw.cc/index.php/label/help.html"
     },
+    "cjhwba_com_provide_vod": {
+      "name": "🎬华为吧资源",
+      "api": "https://cjhwba.com/api.php/provide/vod",
+      "detail": "https://cjhwba.com"
+    },
     "cdn_dzzyapi_com_provide_vod": {
       "name": "🎬大众资源采集接口",
       "api": "https://cdn.dzzyapi.com/api.php/provide/vod",
@@ -355,6 +360,11 @@
       "name": "🔞乐播资源",
       "api": "https://lbapi9.com/api.php/provide/vod",
       "detail": "https://lbapi9.com"
+    },
+    "aosikazy_com_provide_vod": {
+      "name": "🔞奥斯卡",
+      "api": "https://aosikazy.com/api.php/provide/vod",
+      "detail": "https://aosikazy.com"
     },
     "naixxzy_com_provide_vod": {
       "name": "🔞奶香资源",
@@ -456,11 +466,6 @@
       "api": "https://www.xrbsp.com/api/json.php",
       "detail": "https://www.xrbsp.com"
     },
-    "www_gdlsp_com_api_json_php": {
-      "name": "🔞香奶儿资源",
-      "api": "https://www.gdlsp.com/api/json.php",
-      "detail": "https://www.gdlsp.com"
-    },
     "www_heiliaozyapi_com_provide_vod": {
       "name": "🔞黑料资源",
       "api": "https://www.heiliaozyapi.com/api.php/provide/vod",
@@ -476,11 +481,6 @@
       "api": "https://slapibf.com/api.php/provide/vod",
       "detail": "https://slapibf.com"
     },
-    "jcspcj8_com_api": {
-      "name": "🔞熊猫资源",
-      "api": "http://jcspcj8.com/api",
-      "detail": "http://jcspcj8.com"
-    },
     "hhzyapi_com_at_json": {
       "name": "🔞豪华资源",
       "api": "https://hhzyapi.com/api.php/provide/vod/from/hhm3u8/at/json",
@@ -490,6 +490,11 @@
       "name": "🔞金鹰资源3",
       "api": "https://jyzyapi.com/provide/vod/from/jinyingm3u8/at/json",
       "detail": "https://jyzyapi.com"
+    },
+    "www_gdlsp_com_api_json_php": {
+      "name": "🔞香奶儿资源",
+      "api": "https://www.gdlsp.com/api/json.php",
+      "detail": "https://www.gdlsp.com"
     }
   }
 }
