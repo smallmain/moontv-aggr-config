@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-07T09:59:35.667334+00:00",
+  "generated_at": "2026-11-08T10:12:31.858640+00:00",
   "summary": {
     "source_repositories": 5,
-    "unique_api_sites": 145,
+    "unique_api_sites": 144,
     "safe_api_sites": 93,
-    "adult_api_sites": 52,
+    "adult_api_sites": 51,
     "failed_sources": 0
   },
   "sources": [
@@ -37,8 +37,8 @@
       "repo": "https://github.com/oooopera/moontv_config",
       "ref": null,
       "parser": "json",
-      "api_count": 94,
-      "score": 1071
+      "api_count": 88,
+      "score": 1047
     },
     {
       "name": "heardic/shipinyuan",
@@ -63,12 +63,12 @@
     "full": {
       "json": "full.json",
       "txt": "full.txt",
-      "api_count": 64
+      "api_count": 63
     },
     "full_plus18": {
       "json": "full-plus18.json",
       "txt": "full-plus18.txt",
-      "api_count": 98
+      "api_count": 96
     }
   },
   "top_sites": [
@@ -164,25 +164,6 @@
         "TV-新浪资源",
         "新浪资源阿",
         "🎬新浪资源"
-      ]
-    },
-    {
-      "name": "🎬无尽影视",
-      "api": "https://api.wujinapi.com/api.php/provide/vod",
-      "detail": "https://wujinzy.com",
-      "adult": false,
-      "consensus": 5,
-      "sources": [
-        "hafrey1/LunaTV-config",
-        "heardic/shipinyuan",
-        "oooopera/moontv_config",
-        "qianqikun/LunaTV-config",
-        "vodtv/api"
-      ],
-      "observed_names": [
-        "TV-无尽资源",
-        "🎬无尽影视",
-        "🎬无尽资源1"
       ]
     },
     {
@@ -351,24 +332,6 @@
       ]
     },
     {
-      "name": "🎬茅台资源",
-      "api": "https://caiji.maotaizy.cc/api.php/provide/vod",
-      "detail": "https://mtzy.me",
-      "adult": false,
-      "consensus": 5,
-      "sources": [
-        "hafrey1/LunaTV-config",
-        "heardic/shipinyuan",
-        "oooopera/moontv_config",
-        "qianqikun/LunaTV-config",
-        "vodtv/api"
-      ],
-      "observed_names": [
-        "TV-茅台资源",
-        "🎬茅台资源"
-      ]
-    },
-    {
       "name": "🎬豪华资源",
       "api": "https://hhzyapi.com/api.php/provide/vod",
       "detail": "https://www.haohuazy.com",
@@ -531,6 +494,24 @@
       ]
     },
     {
+      "name": "🎬无尽影视",
+      "api": "https://api.wujinapi.com/api.php/provide/vod",
+      "detail": "https://wujinzy.com",
+      "adult": false,
+      "consensus": 4,
+      "sources": [
+        "hafrey1/LunaTV-config",
+        "heardic/shipinyuan",
+        "qianqikun/LunaTV-config",
+        "vodtv/api"
+      ],
+      "observed_names": [
+        "TV-无尽资源",
+        "🎬无尽影视",
+        "🎬无尽资源1"
+      ]
+    },
+    {
       "name": "🎬极速资源",
       "api": "https://jszyapi.com/api.php/provide/vod",
       "detail": "https://jszyapi.com",
@@ -595,6 +576,23 @@
       "observed_names": [
         "TV-电影天堂资源",
         "🎬电影天堂"
+      ]
+    },
+    {
+      "name": "🎬茅台资源",
+      "api": "https://caiji.maotaizy.cc/api.php/provide/vod",
+      "detail": "https://mtzy.me",
+      "adult": false,
+      "consensus": 4,
+      "sources": [
+        "hafrey1/LunaTV-config",
+        "heardic/shipinyuan",
+        "qianqikun/LunaTV-config",
+        "vodtv/api"
+      ],
+      "observed_names": [
+        "TV-茅台资源",
+        "🎬茅台资源"
       ]
     },
     {
@@ -784,16 +782,16 @@
   ],
   "errors": [],
   "health": {
-    "generated_at": "2026-11-07T09:59:35.002366+00:00",
+    "generated_at": "2026-11-08T10:12:31.367924+00:00",
     "target_file": "full-plus18.json",
-    "total_apis": 145,
+    "total_apis": 144,
     "current_success": 95,
-    "current_failure": 50,
-    "enabled_apis": 98,
+    "current_failure": 49,
+    "enabled_apis": 96,
     "healthy_apis": 92,
-    "subhealthy_apis": 6,
-    "unhealthy_apis": 47,
-    "average_availability_rate": 0.6714285714285715,
+    "subhealthy_apis": 4,
+    "unhealthy_apis": 48,
+    "average_availability_rate": 0.6741071428571428,
     "validation_mode": "moontvplus-search",
     "search_keywords": [
       "斗罗",
