@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T11:44:50.037269+00:00",
+  "generated_at": "2026-11-18T11:32:51.892498+00:00",
   "summary": {
     "source_repositories": 5,
     "unique_api_sites": 143,
@@ -58,7 +58,7 @@
     "lite_plus18": {
       "json": "lite-plus18.json",
       "txt": "lite-plus18.txt",
-      "api_count": 59
+      "api_count": 60
     },
     "full": {
       "json": "full.json",
@@ -68,7 +68,7 @@
     "full_plus18": {
       "json": "full-plus18.json",
       "txt": "full-plus18.txt",
-      "api_count": 95
+      "api_count": 96
     }
   },
   "top_sites": [
@@ -508,22 +508,6 @@
       ]
     },
     {
-      "name": "🎬猫眼资源",
-      "api": "https://api.maoyanapi.top/api.php/provide/vod",
-      "detail": "https://www.maoyanzy.com",
-      "adult": false,
-      "consensus": 4,
-      "sources": [
-        "hafrey1/LunaTV-config",
-        "oooopera/moontv_config",
-        "qianqikun/LunaTV-config",
-        "vodtv/api"
-      ],
-      "observed_names": [
-        "🎬猫眼资源"
-      ]
-    },
-    {
       "name": "🎬电影天堂",
       "api": "http://caiji.dyttzyapi.com/api.php/provide/vod",
       "detail": "http://caiji.dyttzyapi.com",
@@ -726,6 +710,21 @@
       ]
     },
     {
+      "name": "🎬猫眼资源",
+      "api": "https://api.maoyanapi.top/api.php/provide/vod",
+      "detail": "https://www.maoyanzy.com",
+      "adult": false,
+      "consensus": 3,
+      "sources": [
+        "hafrey1/LunaTV-config",
+        "qianqikun/LunaTV-config",
+        "vodtv/api"
+      ],
+      "observed_names": [
+        "🎬猫眼资源"
+      ]
+    },
+    {
       "name": "🎬百度云zy",
       "api": "https://api.apibdzy.com/api.php/provide/vod",
       "detail": "https://bdzy1.com",
@@ -775,15 +774,15 @@
   ],
   "errors": [],
   "health": {
-    "generated_at": "2026-11-17T11:44:49.643897+00:00",
+    "generated_at": "2026-11-18T11:32:51.419376+00:00",
     "target_file": "full-plus18.json",
     "total_apis": 143,
-    "current_success": 93,
-    "current_failure": 50,
-    "enabled_apis": 95,
+    "current_success": 94,
+    "current_failure": 49,
+    "enabled_apis": 96,
     "healthy_apis": 81,
-    "subhealthy_apis": 14,
-    "unhealthy_apis": 48,
+    "subhealthy_apis": 15,
+    "unhealthy_apis": 47,
     "average_availability_rate": 0.642857142857143,
     "validation_mode": "moontvplus-search",
     "search_keywords": [
