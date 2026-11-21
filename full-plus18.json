@@ -21,11 +21,6 @@
       "api": "https://caiji.kuaichezy.org/api.php/provide/vod",
       "detail": "https://kuaichezy.com"
     },
-    "api_xinlangapi_com_provide_vod": {
-      "name": "🎬新浪资源",
-      "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod",
-      "detail": "https://xinlangapi.com"
-    },
     "api_wujinapi_com_provide_vod": {
       "name": "🎬无尽影视",
       "api": "https://api.wujinapi.com/api.php/provide/vod",
@@ -105,6 +100,11 @@
       "name": "🎬光速资源",
       "api": "https://api.guangsuapi.com/api.php/provide/vod",
       "detail": "https://api.guangsuapi.com"
+    },
+    "api_xinlangapi_com_provide_vod": {
+      "name": "🎬新浪资源",
+      "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod",
+      "detail": "https://xinlangapi.com"
     },
     "api_zuidapi_com_provide_vod": {
       "name": "🎬最大资源",
@@ -475,11 +475,6 @@
       "name": "🔞淫水机资源",
       "api": "https://www.xrbsp.com/api/json.php",
       "detail": "https://www.xrbsp.com"
-    },
-    "jcspcj8_com_api": {
-      "name": "🔞熊猫资源",
-      "api": "http://jcspcj8.com/api",
-      "detail": "http://jcspcj8.com"
     },
     "hhzyapi_com_at_json": {
       "name": "🔞豪华资源",
