@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T12:44:27.057470+00:00",
+  "generated_at": "2026-11-26T12:18:45.585983+00:00",
   "summary": {
     "source_repositories": 5,
     "unique_api_sites": 144,
@@ -37,8 +37,8 @@
       "repo": "https://github.com/oooopera/moontv_config",
       "ref": null,
       "parser": "json",
-      "api_count": 81,
-      "score": 1019
+      "api_count": 88,
+      "score": 1047
     },
     {
       "name": "heardic/shipinyuan",
@@ -277,6 +277,24 @@
       ]
     },
     {
+      "name": "🎬最大资源",
+      "api": "https://api.zuidapi.com/api.php/provide/vod",
+      "detail": "https://zuida.xyz",
+      "adult": false,
+      "consensus": 5,
+      "sources": [
+        "hafrey1/LunaTV-config",
+        "heardic/shipinyuan",
+        "oooopera/moontv_config",
+        "qianqikun/LunaTV-config",
+        "vodtv/api"
+      ],
+      "observed_names": [
+        "TV-最大资源",
+        "🎬最大资源"
+      ]
+    },
+    {
       "name": "🎬樱花资源",
       "api": "https://m3u8.apiyhzy.com/api.php/provide/vod",
       "detail": "https://yhzy.cc",
@@ -386,6 +404,45 @@
       ]
     },
     {
+      "name": "🎬量子影视",
+      "api": "https://cj.lziapi.com/api.php/provide/vod",
+      "detail": "https://lzizy.net",
+      "adult": false,
+      "consensus": 5,
+      "sources": [
+        "hafrey1/LunaTV-config",
+        "heardic/shipinyuan",
+        "oooopera/moontv_config",
+        "qianqikun/LunaTV-config",
+        "vodtv/api"
+      ],
+      "observed_names": [
+        "TV-影视工厂",
+        "TV-量子资源",
+        "影视工厂",
+        "量子资源",
+        "🎬量子影视"
+      ]
+    },
+    {
+      "name": "🎬闪电资源",
+      "api": "https://xsd.sdzyapi.com/api.php/provide/vod",
+      "detail": "https://shandianzy.com",
+      "adult": false,
+      "consensus": 5,
+      "sources": [
+        "hafrey1/LunaTV-config",
+        "heardic/shipinyuan",
+        "oooopera/moontv_config",
+        "qianqikun/LunaTV-config",
+        "vodtv/api"
+      ],
+      "observed_names": [
+        "索尼-闪电资源",
+        "🎬闪电资源"
+      ]
+    },
+    {
       "name": "🎬魔都动漫",
       "api": "https://caiji.moduapi.cc/api.php/provide/vod",
       "detail": "https://caiji.moduapi.cc",
@@ -473,23 +530,6 @@
       ]
     },
     {
-      "name": "🎬最大资源",
-      "api": "https://api.zuidapi.com/api.php/provide/vod",
-      "detail": "https://zuida.xyz",
-      "adult": false,
-      "consensus": 4,
-      "sources": [
-        "hafrey1/LunaTV-config",
-        "heardic/shipinyuan",
-        "qianqikun/LunaTV-config",
-        "vodtv/api"
-      ],
-      "observed_names": [
-        "TV-最大资源",
-        "🎬最大资源"
-      ]
-    },
-    {
       "name": "🎬极速资源",
       "api": "https://jszyapi.com/api.php/provide/vod",
       "detail": "https://jszyapi.com",
@@ -574,22 +614,19 @@
       ]
     },
     {
-      "name": "🎬量子影视",
-      "api": "https://cj.lziapi.com/api.php/provide/vod",
-      "detail": "https://lzizy.net",
+      "name": "🎬量子资源",
+      "api": "https://cj.lzcaiji.com/api.php/provide/vod",
+      "detail": "https://cj.lzcaiji.com",
       "adult": false,
       "consensus": 4,
       "sources": [
         "hafrey1/LunaTV-config",
-        "heardic/shipinyuan",
+        "oooopera/moontv_config",
         "qianqikun/LunaTV-config",
         "vodtv/api"
       ],
       "observed_names": [
-        "TV-量子资源",
-        "影视工厂",
-        "量子资源",
-        "🎬量子影视"
+        "🎬量子资源"
       ]
     },
     {
@@ -607,23 +644,6 @@
       "observed_names": [
         "TV-金鹰点播",
         "🎬金鹰点播"
-      ]
-    },
-    {
-      "name": "🎬闪电资源",
-      "api": "https://xsd.sdzyapi.com/api.php/provide/vod",
-      "detail": "https://shandianzy.com",
-      "adult": false,
-      "consensus": 4,
-      "sources": [
-        "hafrey1/LunaTV-config",
-        "heardic/shipinyuan",
-        "qianqikun/LunaTV-config",
-        "vodtv/api"
-      ],
-      "observed_names": [
-        "索尼-闪电资源",
-        "🎬闪电资源"
       ]
     },
     {
@@ -759,35 +779,20 @@
         "TV-百度云资源",
         "🎬百度云zy"
       ]
-    },
-    {
-      "name": "🎬豆瓣资源",
-      "api": "https://caiji.dbzy5.com/api.php/provide/vod",
-      "detail": "https://dbzy.tv",
-      "adult": false,
-      "consensus": 3,
-      "sources": [
-        "hafrey1/LunaTV-config",
-        "qianqikun/LunaTV-config",
-        "vodtv/api"
-      ],
-      "observed_names": [
-        "🎬豆瓣资源"
-      ]
     }
   ],
   "errors": [],
   "health": {
-    "generated_at": "2026-11-25T12:44:26.449756+00:00",
+    "generated_at": "2026-11-26T12:18:45.019910+00:00",
     "target_file": "full-plus18.json",
     "total_apis": 144,
-    "current_success": 96,
-    "current_failure": 48,
+    "current_success": 95,
+    "current_failure": 49,
     "enabled_apis": 97,
     "healthy_apis": 84,
     "subhealthy_apis": 13,
     "unhealthy_apis": 47,
-    "average_availability_rate": 0.6626984126984128,
+    "average_availability_rate": 0.6617063492063493,
     "validation_mode": "moontvplus-search",
     "search_keywords": [
       "斗罗",
